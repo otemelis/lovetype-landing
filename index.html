@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LoveType — Discover How You Love | Attachment, Love Style &amp; Conflict Test</title>
+<meta name="description" content="Three short tests reveal your attachment style, love language, and conflict pattern — then weave them into one LoveType. Free to start. Your answers never leave your device.">
+<link rel="canonical" href="https://love-type.app/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0E0910">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://love-type.app/">
+<meta property="og:title" content="LoveType — Discover How You Love">
+<meta property="og:description" content="Three short tests reveal your attachment style, love language, and conflict pattern — then weave them into one LoveType.">
+<meta property="og:image" content="https://love-type.app/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="LoveType">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LoveType — Discover How You Love">
+<meta name="twitter:description" content="Three short tests reveal your attachment style, love language, and conflict pattern — then weave them into one LoveType.">
+<meta name="twitter:image" content="https://love-type.app/assets/og-image.png">
+
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "LoveType",
+  "operatingSystem": "iOS",
+  "applicationCategory": "LifestyleApplication",
+  "url": "https://love-type.app/",
+  "description": "LoveType is a relationship self-reflection app offering an Attachment Style test, a Love Style test, and a Conflict Style test that combine into one personal LoveType profile.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free to take all three tests. A one-time in-app purchase unlocks the full LoveType Guide."
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is LoveType?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LoveType is a relationship self-reflection app with three short tests — Attachment Style, Love Style, and Conflict Style — that combine into one LoveType profile. It's built for personal insight, not clinical diagnosis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is LoveType free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All three tests are free to take. A one-time purchase unlocks the full LoveType Guide — deeper breakdowns, your combined archetype, and personalized scripts. There's no subscription."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does LoveType store my quiz answers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Your answers and results are stored only on your device, in the app's private local storage. They are never transmitted to our servers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is an attachment style test the same as a love language quiz?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, they measure different things. Attachment style describes how you seek closeness, trust, and security in relationships. Love style (love language) describes how you give and receive affection. LoveType measures both, plus how you handle conflict, for a fuller picture than either test alone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is LoveType a substitute for therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. LoveType is a self-reflection tool, not a medical device, and does not provide therapy, counselling, or diagnosis. If you're experiencing emotional distress, please consult a qualified professional."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0E0910;
+    --bg2:       #160E1E;
+    --bg3:       #1F1529;
+    --text:      #F5EEF2;
+    --text2:     #A08898;
+    --text3:     #6B5060;
+    --rose:      #C07090;
+    --rose-lt:   #DDA0B8;
+    --violet:    #A080C0;
+    --blue-vlt:  #7080C0;
+    --champagne: #C9A96E;
+    --champagne-lt: #E0C080;
+    --blush:     #E8C8D8;
+    --plum:      #8B5E80;
+    --surf:      rgba(255,240,250,0.055);
+    --surf-el:   rgba(255,240,250,0.085);
+    --bord:      rgba(255,220,240,0.09);
+    --bord-s:    rgba(255,220,240,0.16);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .serif { font-family: 'DM Serif Display', Georgia, serif; }
+  .serif em { font-style: italic; color: var(--blush); }
+
+  a { color: inherit; }
+  img, svg { display: block; max-width: 100%; }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
+  .eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: 2.2px; text-transform: uppercase;
+    color: var(--champagne);
+  }
+  .section-label {
+    font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--text3);
+  }
+
+  /* ── Ambient background auras (used per-section) ───────────────── */
+  .aura { position: absolute; border-radius: 50%; filter: blur(70px); pointer-events: none; }
+
+  /* ── Nav ────────────────────────────────────────────────────────── */
+  .site-nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 32px;
+    background: linear-gradient(to bottom, rgba(14,9,16,0.92) 55%, transparent);
+    backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  }
+  .nav-brand { display: flex; align-items: center; gap: 9px; text-decoration: none; }
+  .nav-mark { width: 26px; height: 26px; flex-shrink: 0; }
+  .nav-logo { font-size: 20px; letter-spacing: -0.2px; color: var(--blush); }
+  .nav-links { display: flex; align-items: center; gap: 28px; }
+  .nav-links a:not(.nav-btn) {
+    font-size: 14px; color: var(--text2); text-decoration: none; transition: color .2s;
+  }
+  .nav-links a:not(.nav-btn):hover { color: var(--text); }
+  .nav-btn {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 9px 20px; border-radius: 100px;
+    background: var(--champagne); color: #0E0910;
+    font-size: 13px; font-weight: 600; letter-spacing: 0.2px; text-decoration: none;
+    transition: background .2s, transform .15s;
+  }
+  .nav-btn:hover { background: var(--champagne-lt); transform: translateY(-1px); }
+  .nav-links-collapsed { display: none; }
+
+  /* ── Hero ───────────────────────────────────────────────────────── */
+  .hero {
+    position: relative; overflow: hidden;
+    min-height: 100vh;
+    display: flex; align-items: center;
+    padding: 128px 0 80px;
+  }
+  .hero .wrap {
+    display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 40px; align-items: center;
+  }
+  .hero-copy { position: relative; z-index: 2; }
+  .hero-copy .eyebrow { display: block; margin-bottom: 20px; }
+  .hero-title {
+    font-size: clamp(40px, 5.6vw, 66px);
+    line-height: 1.06;
+    letter-spacing: -1px;
+    color: var(--text);
+    margin-bottom: 22px;
+  }
+  .hero-sub {
+    font-size: 18px; color: var(--text2); line-height: 1.65;
+    max-width: 460px; margin-bottom: 34px;
+  }
+  .hero-ctas { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-bottom: 26px; }
+  .btn-gold {
+    display: inline-flex; align-items: center; gap: 9px;
+    padding: 15px 26px; border-radius: 14px;
+    background: linear-gradient(135deg, var(--champagne-lt), var(--champagne));
+    color: #14100A; font-size: 15px; font-weight: 700; letter-spacing: 0.2px;
+    text-decoration: none;
+    box-shadow: 0 10px 30px -8px rgba(201,169,110,0.45);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 14px 36px -8px rgba(201,169,110,0.55); }
+  .btn-ghost {
+    font-size: 14px; color: var(--text2); text-decoration: none;
+    border-bottom: 1px solid var(--bord-s); padding-bottom: 2px;
+    transition: color .2s, border-color .2s;
+  }
+  .btn-ghost:hover { color: var(--text); border-color: var(--text2); }
+  .hero-trust {
+    font-size: 13px; color: var(--text3); display: flex; align-items: center; gap: 8px;
+  }
+  .hero-trust svg { flex-shrink: 0; }
+
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 30px;
+    font-size: 12.5px; color: var(--text3); letter-spacing: 0.2px;
+  }
+  .hero-stats span b { color: var(--text2); font-weight: 600; }
+
+  /* ── Concentric orbs (signature element) ───────────────────────── */
+  .orbs-stage { position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; }
+  .orbs { position: relative; width: 380px; height: 380px; max-width: 88vw; max-height: 88vw; }
+  .ring {
+    position: absolute; top: 50%; left: 50%; border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid; border-color: currentColor;
+    animation-timing-function: ease-in-out; animation-iteration-count: infinite;
+  }
+  .ring--attachment { color: var(--rose);    width: 88%; height: 88%; border-width: 1.6px; box-shadow: 0 0 0 8px color-mix(in srgb, var(--rose) 10%, transparent), 0 0 34px 4px color-mix(in srgb, var(--rose) 28%, transparent); animation-name: pulseA; animation-duration: 5.6s; }
+  .ring--lovestyle   { color: var(--violet);  width: 60%; height: 60%; border-width: 1.6px; box-shadow: 0 0 0 6px color-mix(in srgb, var(--violet) 10%, transparent), 0 0 28px 3px color-mix(in srgb, var(--violet) 28%, transparent); animation-name: pulseB; animation-duration: 4.6s; animation-delay: .7s; }
+  .ring--conflict    { color: var(--blue-vlt);width: 34%; height: 34%; border-width: 1.6px; box-shadow: 0 0 0 5px color-mix(in srgb, var(--blue-vlt) 10%, transparent), 0 0 22px 3px color-mix(in srgb, var(--blue-vlt) 26%, transparent); animation-name: pulseC; animation-duration: 3.6s; animation-delay: 1.4s; }
+  .orb-core {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 15%; height: 15%; border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, var(--champagne-lt), var(--champagne) 70%);
+    box-shadow: 0 0 0 14px rgba(201,169,110,0.10), 0 0 40px 8px rgba(201,169,110,0.35);
+    animation: breathe 3.2s ease-in-out infinite;
+  }
+  @keyframes pulseA { 0%,100% { transform: translate(-50%,-50%) scale(0.975); opacity: .78; } 50% { transform: translate(-50%,-50%) scale(1.03); opacity: 1; } }
+  @keyframes pulseB { 0%,100% { transform: translate(-50%,-50%) scale(0.97); opacity: .74; } 50% { transform: translate(-50%,-50%) scale(1.035); opacity: 1; } }
+  @keyframes pulseC { 0%,100% { transform: translate(-50%,-50%) scale(0.965); opacity: .72; } 50% { transform: translate(-50%,-50%) scale(1.04); opacity: 1; } }
+  @keyframes breathe { 0%,100% { transform: translate(-50%,-50%) scale(0.92); } 50% { transform: translate(-50%,-50%) scale(1.06); } }
+
+  .orbs-legend {
+    display: flex; justify-content: center; gap: 16px; margin-top: 22px;
+    font-size: 12px; color: var(--text3); letter-spacing: 0.3px;
+  }
+  .orbs-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .orbs-legend i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
+
+  /* ── Sections shared ────────────────────────────────────────────── */
+  section { position: relative; padding: 110px 0; }
+  .section-head { max-width: 620px; margin-bottom: 56px; }
+  .section-head .section-label { display: block; margin-bottom: 14px; }
+  .section-head h2 { font-size: clamp(30px, 3.6vw, 42px); letter-spacing: -0.6px; line-height: 1.15; color: var(--text); }
+  .section-head p { margin-top: 16px; font-size: 16.5px; color: var(--text2); line-height: 1.65; }
+
+  /* ── Dimensions ─────────────────────────────────────────────────── */
+  .dims { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .dim-card {
+    position: relative; overflow: hidden;
+    border: 1px solid var(--bord); border-radius: 20px;
+    background: var(--surf);
+    padding: 30px 26px 26px;
+  }
+  .dim-card::before {
+    content: ''; position: absolute; inset: 0; opacity: .5; pointer-events: none;
+    background: radial-gradient(120% 90% at 14% 0%, var(--dim-tint) 0%, transparent 60%);
+  }
+  .dim-dot { width: 11px; height: 11px; border-radius: 50%; background: var(--dim-color); margin-bottom: 20px; box-shadow: 0 0 16px 2px var(--dim-color); }
+  .dim-card h3 { font-size: 22px; letter-spacing: -0.3px; margin-bottom: 6px; position: relative; }
+  .dim-sub { font-size: 12.5px; letter-spacing: 0.8px; text-transform: uppercase; color: var(--dim-color); font-weight: 600; margin-bottom: 16px; position: relative; }
+  .dim-card p { font-size: 15px; color: var(--text2); line-height: 1.65; position: relative; margin-bottom: 20px; }
+  .dim-meta { font-size: 12.5px; color: var(--text3); border-top: 1px solid var(--bord); padding-top: 16px; position: relative; }
+
+  .dim-card--attachment { --dim-color: var(--rose);    --dim-tint: rgba(192,112,144,0.14); }
+  .dim-card--lovestyle  { --dim-color: var(--violet);  --dim-tint: rgba(160,128,192,0.14); }
+  .dim-card--conflict   { --dim-color: var(--blue-vlt);--dim-tint: rgba(112,128,192,0.14); }
+
+  /* ── How it works ───────────────────────────────────────────────── */
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .step { position: relative; padding-left: 0; }
+  .step-num {
+    font-family: 'DM Serif Display', serif; font-size: 40px; color: var(--champagne);
+    opacity: .55; margin-bottom: 14px; line-height: 1;
+  }
+  .step h3 { font-size: 19px; margin-bottom: 10px; letter-spacing: -0.2px; }
+  .step p { font-size: 15px; color: var(--text2); line-height: 1.65; }
+  .step-rule { height: 1px; background: linear-gradient(90deg, var(--bord-s), transparent); margin: 0 0 22px; }
+
+  /* ── Types grid ─────────────────────────────────────────────────── */
+  .types-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .type-card {
+    border: 1px solid var(--bord); border-radius: 18px; background: var(--surf);
+    padding: 24px 20px; transition: border-color .2s, background .2s;
+  }
+  .type-card:hover { border-color: var(--bord-s); background: var(--surf-el); }
+  .type-tag { font-size: 10.5px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--text3); margin-bottom: 12px; }
+  .type-card h3 { font-family: 'DM Serif Display', serif; font-size: 19px; color: var(--blush); margin-bottom: 8px; letter-spacing: -0.2px; }
+  .type-card p { font-size: 13.5px; color: var(--text2); line-height: 1.6; }
+  .types-note { margin-top: 28px; font-size: 14px; color: var(--text3); }
+
+  /* ── Trust band ─────────────────────────────────────────────────── */
+  .trust-band {
+    border-top: 1px solid var(--bord); border-bottom: 1px solid var(--bord);
+    background: var(--bg2);
+  }
+  .trust-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .trust-item { display: flex; gap: 16px; }
+  .trust-icon {
+    width: 42px; height: 42px; border-radius: 12px; flex-shrink: 0;
+    background: var(--surf); border: 1px solid var(--bord);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .trust-item h3 { font-size: 16.5px; margin-bottom: 6px; letter-spacing: -0.1px; }
+  .trust-item p { font-size: 14.5px; color: var(--text2); line-height: 1.6; }
+  .trust-item a { color: var(--rose-lt); text-decoration: underline; text-underline-offset: 2px; }
+
+  /* ── FAQ ────────────────────────────────────────────────────────── */
+  .faq { max-width: 760px; }
+  .faq-item { border-bottom: 1px solid var(--bord); padding: 22px 0; }
+  .faq-item summary {
+    cursor: pointer; list-style: none; font-size: 17px; font-weight: 500;
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    color: var(--text);
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 20px; color: var(--champagne); flex-shrink: 0;
+    transition: transform .2s;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { margin-top: 14px; font-size: 15px; color: var(--text2); line-height: 1.7; max-width: 640px; }
+
+  /* ── Final CTA ──────────────────────────────────────────────────── */
+  .final-cta { text-align: center; padding: 130px 0 140px; }
+  .final-cta .orbs { width: 220px; height: 220px; margin: 0 auto 36px; }
+  .final-cta h2 { font-size: clamp(32px, 4.4vw, 50px); letter-spacing: -0.7px; margin-bottom: 18px; }
+  .final-cta p { font-size: 17px; color: var(--text2); margin-bottom: 34px; }
+
+  /* ── Footer ─────────────────────────────────────────────────────── */
+  footer { border-top: 1px solid var(--bord); padding: 56px 0 40px; }
+  .foot-top { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 32px; margin-bottom: 40px; }
+  .foot-brand { display: flex; align-items: center; gap: 10px; }
+  .foot-logo { font-size: 19px; color: var(--blush); }
+  .foot-tag { font-size: 13.5px; color: var(--text3); margin-top: 8px; }
+  .foot-links { display: flex; gap: 28px; flex-wrap: wrap; }
+  .foot-links a { font-size: 14px; color: var(--text2); text-decoration: none; }
+  .foot-links a:hover { color: var(--text); }
+  .foot-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12.5px; color: var(--text3); border-top: 1px solid var(--bord); padding-top: 24px; }
+
+  /* ── Motion & mobile ────────────────────────────────────────────── */
+  @media (prefers-reduced-motion: reduce) {
+    .ring, .orb-core { animation: none !important; }
+  }
+
+  @media (max-width: 900px) {
+    .nav-links-full { display: none; }
+    .hero .wrap { grid-template-columns: 1fr; text-align: left; }
+    .orbs-stage { order: -1; margin-bottom: 20px; }
+    .orbs { width: 260px; height: 260px; }
+    .dims { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr; gap: 40px; }
+    .types-grid { grid-template-columns: 1fr 1fr; }
+    .trust-grid { grid-template-columns: 1fr; }
+    section { padding: 80px 0; }
+    .wrap { padding: 0 22px; }
+  }
+  @media (max-width: 560px) {
+    .types-grid { grid-template-columns: 1fr; }
+    .hero { padding-top: 108px; }
+    .hero-ctas { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="/" class="nav-brand" aria-label="LoveType home">
+    <svg class="nav-mark" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+      <circle cx="13" cy="13" r="11.5" stroke="#C07090" stroke-width="1.1" opacity="0.85"/>
+      <circle cx="13" cy="13" r="7.6" stroke="#A080C0" stroke-width="1.1" opacity="0.85"/>
+      <circle cx="13" cy="13" r="4" stroke="#7080C0" stroke-width="1.1" opacity="0.85"/>
+      <circle cx="13" cy="13" r="1.8" fill="#C9A96E"/>
+    </svg>
+    <span class="serif nav-logo">LoveType</span>
+  </a>
+  <div class="nav-links">
+    <div class="nav-links nav-links-full">
+      <a href="#dimensions">Tests</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="#" class="nav-btn" aria-label="Download LoveType on the App Store">
+      <svg width="13" height="13" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      App Store
+    </a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="top">
+    <div class="aura" style="width:640px;height:640px;top:-220px;right:-160px;background:var(--rose);opacity:.16;"></div>
+    <div class="aura" style="width:480px;height:480px;bottom:-160px;left:-140px;background:var(--plum);opacity:.14;"></div>
+
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="eyebrow">A relationship self-reflection app</span>
+        <h1 class="serif hero-title">Understand<br>how you <em>love.</em></h1>
+        <p class="hero-sub">
+          Three short tests reveal your attachment style, love style, and conflict pattern — then LoveType weaves them into one profile that's entirely yours.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#" class="btn-gold" aria-label="Download LoveType on the App Store">
+            <svg width="16" height="16" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            Download on the App Store
+          </a>
+          <a href="#dimensions" class="btn-ghost">See the three tests ↓</a>
+        </div>
+
+        <p class="hero-trust">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.2 8 11 4.6-1.8 8-6 8-11V5l-8-3Z"/></svg>
+          Free to start. No account. Your answers stay on your device.
+        </p>
+
+        <div class="hero-stats" aria-hidden="true">
+          <span><b>4</b> attachment styles</span>
+          <span><b>6</b> love styles</span>
+          <span><b>6</b> conflict styles</span>
+          <span><b>10</b> LoveType profiles</span>
+        </div>
+      </div>
+
+      <div class="orbs-stage">
+        <div>
+          <div class="orbs" role="img" aria-label="Three concentric rings — attachment, love style, and conflict — pulsing around a glowing gold core, representing a completed LoveType profile.">
+            <div class="ring ring--attachment"></div>
+            <div class="ring ring--lovestyle"></div>
+            <div class="ring ring--conflict"></div>
+            <div class="orb-core"></div>
+          </div>
+          <div class="orbs-legend">
+            <span><i style="background:var(--rose)"></i>Attachment</span>
+            <span><i style="background:var(--violet)"></i>Love Style</span>
+            <span><i style="background:var(--blue-vlt)"></i>Conflict</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ DIMENSIONS ══════════════ -->
+  <section id="dimensions">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">Your three dimensions</span>
+        <h2 class="serif">Three tests. One pattern.</h2>
+        <p>Each test lights up one ring of your LoveType. Take them in any order — together they show how you bond, how you love, and how you handle tension.</p>
+      </div>
+
+      <div class="dims">
+        <article class="dim-card dim-card--attachment">
+          <div class="dim-dot"></div>
+          <div class="dim-sub">Closeness, trust &amp; security</div>
+          <h3 class="serif">Attachment Style</h3>
+          <p>Understand how you seek closeness, space, and safety in love. Reveals how you bond, protect yourself, and build trust in relationships.</p>
+          <div class="dim-meta">24 questions · about 4 minutes</div>
+        </article>
+
+        <article class="dim-card dim-card--lovestyle">
+          <div class="dim-dot"></div>
+          <div class="dim-sub">Giving, receiving &amp; affection</div>
+          <h3 class="serif">Love Style</h3>
+          <p>Learn how you give love — and what makes you feel truly loved in return. Reveals how you express and experience love most deeply.</p>
+          <div class="dim-meta">18 questions · about 3 minutes</div>
+        </article>
+
+        <article class="dim-card dim-card--conflict">
+          <div class="dim-dot"></div>
+          <div class="dim-sub">Tension, repair &amp; communication</div>
+          <h3 class="serif">Conflict Style</h3>
+          <p>See what you do when things feel tense, unclear, or unresolved. Maps how you protect yourself and reconnect when tension arises.</p>
+          <div class="dim-meta">24 questions · about 4 minutes</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ HOW IT WORKS ══════════════ -->
+  <section id="how-it-works" style="background:var(--bg2);">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">How LoveType works</span>
+        <h2 class="serif">A pattern, not a personality quiz.</h2>
+        <p>No right answers — just honest ones. Your three results combine into a single relationship identity, built entirely from what you actually chose.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-rule"></div>
+          <div class="step-num serif">01</div>
+          <h3>Answer honestly</h3>
+          <p>Three short tests, about eleven minutes total. Instinctive answers work better than overthought ones.</p>
+        </div>
+        <div class="step">
+          <div class="step-rule"></div>
+          <div class="step-num serif">02</div>
+          <h3>Watch your rings light up</h3>
+          <p>Each completed test lights one ring of your LoveType — attachment, love style, conflict — building toward the center.</p>
+        </div>
+        <div class="step">
+          <div class="step-rule"></div>
+          <div class="step-num serif">03</div>
+          <h3>Meet your LoveType</h3>
+          <p>All three rings complete, and your full relationship pattern comes into focus — one identity, built from your own answers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ TYPES ══════════════ -->
+  <section id="types">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">A few LoveTypes</span>
+        <h2 class="serif">Every pattern has a name.</h2>
+        <p>A glimpse of the archetypes LoveType maps to — grounded in attachment theory, love language research, and communication psychology.</p>
+      </div>
+
+      <div class="types-grid">
+        <article class="type-card">
+          <div class="type-tag">Attachment · Secure</div>
+          <h3>The Steady Partner</h3>
+          <p>Grounded, open, and consistently there. Love feels like a safe place, not a threat.</p>
+        </article>
+        <article class="type-card">
+          <div class="type-tag">Attachment · Anxious</div>
+          <h3>The Attuned Connector</h3>
+          <p>Deeply present, deeply feeling. Notices every shift in tone that others miss.</p>
+        </article>
+        <article class="type-card">
+          <div class="type-tag">Love Style · Words</div>
+          <h3>The Word Lover</h3>
+          <p>Language is your love currency. Silence where words should be can feel like absence.</p>
+        </article>
+        <article class="type-card">
+          <div class="type-tag">Attachment · Fearful-Avoidant</div>
+          <h3>The Guarded Romantic</h3>
+          <p>Longing for love, learning to let it in. Protective patterns built for good reason.</p>
+        </article>
+      </div>
+
+      <p class="types-note">Combine all three tests and LoveType maps you to one of <strong style="color:var(--text2)">10 full relationship archetypes</strong> — your complete LoveType.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════ TRUST BAND ══════════════ -->
+  <section class="trust-band">
+    <div class="wrap">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#DDA0B8" stroke-width="1.6" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.2 8 11 4.6-1.8 8-6 8-11V5l-8-3Z"/></svg>
+          </div>
+          <div>
+            <h3>Your answers stay on your device</h3>
+            <p>We track anonymous usage to improve the app — never your name, email, or quiz answers. Full details in our <a href="/privacy">Privacy Policy</a>.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#C9A96E" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          </div>
+          <div>
+            <h3>One purchase. No subscription.</h3>
+            <p>The full LoveType Guide unlocks with a single payment through your Apple ID. Pay once, keep it forever.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FAQ ══════════════ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="section-label">Questions</span>
+        <h2 class="serif">Before you start</h2>
+      </div>
+
+      <div class="faq">
+        <details class="faq-item">
+          <summary>What is LoveType?</summary>
+          <p>LoveType is a relationship self-reflection app with three short tests — Attachment Style, Love Style, and Conflict Style — that combine into one LoveType profile. It's built for personal insight, not clinical diagnosis.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is LoveType free?</summary>
+          <p>Yes. All three tests are free to take. A one-time purchase unlocks the full LoveType Guide — deeper breakdowns, your combined archetype, and personalized scripts. There's no subscription.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Does LoveType store my quiz answers?</summary>
+          <p>No. Your answers and results are stored only on your device, in the app's private local storage. They are never transmitted to our servers. Read the full <a href="/privacy" style="color:var(--rose-lt); text-decoration:underline;">Privacy Policy</a>.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is an attachment style test the same as a love language quiz?</summary>
+          <p>No — they measure different things. Attachment style describes how you seek closeness, trust, and security in relationships. Love style (love language) describes how you give and receive affection. LoveType measures both, plus how you handle conflict, so you get a fuller picture than either test alone.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is LoveType a substitute for therapy?</summary>
+          <p>No. LoveType is a self-reflection tool, not a medical device, and doesn't provide therapy, counselling, or diagnosis. If you're going through a difficult time, please reach out to a qualified professional.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FINAL CTA ══════════════ -->
+  <section class="final-cta" style="background:var(--bg2);">
+    <div class="aura" style="width:520px;height:520px;top:20%;left:50%;transform:translateX(-50%);background:var(--rose);opacity:.10;"></div>
+    <div class="wrap" style="position:relative;">
+      <div class="orbs" aria-hidden="true">
+        <div class="ring ring--attachment"></div>
+        <div class="ring ring--lovestyle"></div>
+        <div class="ring ring--conflict"></div>
+        <div class="orb-core"></div>
+      </div>
+      <h2 class="serif">Understand how you <em style="color:var(--blush)">love.</em></h2>
+      <p>Three tests. Eleven minutes. One pattern that's entirely yours.</p>
+      <a href="#" class="btn-gold" aria-label="Download LoveType on the App Store">
+        <svg width="16" height="16" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        Download on the App Store
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <a href="/" class="foot-brand" aria-label="LoveType home">
+          <svg width="22" height="22" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+            <circle cx="13" cy="13" r="11.5" stroke="#C07090" stroke-width="1.1" opacity="0.85"/>
+            <circle cx="13" cy="13" r="7.6" stroke="#A080C0" stroke-width="1.1" opacity="0.85"/>
+            <circle cx="13" cy="13" r="4" stroke="#7080C0" stroke-width="1.1" opacity="0.85"/>
+            <circle cx="13" cy="13" r="1.8" fill="#C9A96E"/>
+          </svg>
+          <span class="serif foot-logo">LoveType</span>
+        </a>
+        <p class="foot-tag">A relationship self-reflection app.</p>
+      </div>
+      <nav class="foot-links" aria-label="Footer">
+        <a href="#dimensions">Tests</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="mailto:privacy@love-type.app">Contact</a>
+      </nav>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 LoveType. All rights reserved.</span>
+      <span>Not a substitute for professional or medical advice.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
