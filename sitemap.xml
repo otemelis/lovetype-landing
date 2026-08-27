@@ -6,6 +6,61 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://love-type.app/compatibility</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/secure-and-anxious</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/anxious-and-avoidant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/secure-and-avoidant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/secure-and-fearful-avoidant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/anxious-and-fearful-avoidant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/avoidant-and-fearful-avoidant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/avoidant-and-avoidant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/anxious-and-anxious</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/secure-and-secure</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://love-type.app/compatibility/fearful-avoidant-and-fearful-avoidant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://love-type.app/journal/attachment-style-vs-personality-type</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

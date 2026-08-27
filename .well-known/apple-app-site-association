@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["5LHNBV2UTB.com.love-type.app"],
+        "components": [
+          {
+            "/": "/compare/*",
+            "comment": "Personal LoveType comparison codes open the app when installed."
+          }
+        ]
+      }
+    ]
+  }
+}
