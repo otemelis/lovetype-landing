@@ -11,7 +11,7 @@ export const APP_ID = '6786477464';
 export const UPDATED = '2026-10-24';
 export const UPDATED_HUMAN = 'October 2026';
 export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../..');
-export const ASSET_V = '20261024d';
+export const ASSET_V = '20261024e';
 
 // Localized pages. Only home, compare and legal exist in every language; everything else is English.
 export const LANGS = {

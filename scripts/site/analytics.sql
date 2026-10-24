@@ -1,5 +1,5 @@
 -- love-type.app analytics (Supabase project dsjgbxkerucutrjltgws, table events, app_id 'lovetype-web').
--- Cookieless: each page view has its own random id, so "visitors" can't be counted, only views and taps.
+-- Cookieless. session_id = one visit (sessionStorage, ends with the tab or 30 min idle); no cross-visit ids.
 -- Run in the Supabase SQL editor. Production only (localhost traffic is environment = 'dev').
 
 -- 1. Daily page views and App Store taps, last 30 days
@@ -46,3 +46,28 @@ where app_id = 'lovetype-web' and environment = 'prod'
   and event_name in ('compare_code_decoded', 'pair_picked', 'starter_line_copied', 'language_switched')
   and received_at > now() - interval '30 days'
 group by 1 order by 2 desc;
+
+-- 7. Visits: landing page → did the visit reach an App Store tap?
+with v as (
+  select session_id,
+         min(client_event_time) as started,
+         (array_agg(properties->>'path' order by client_event_time) filter (where event_name = 'page_view'))[1] as landing,
+         (array_agg(properties->>'referrer' order by client_event_time) filter (where event_name = 'page_view'))[1] as referrer,
+         count(*) filter (where event_name = 'page_view') as pages,
+         bool_or(event_name = 'app_store_tap') as tapped
+  from events
+  where app_id = 'lovetype-web' and environment = 'prod' and received_at > now() - interval '30 days'
+  group by 1)
+select landing, count(*) as visits, round(avg(pages), 1) as avg_pages,
+       count(*) filter (where tapped) as visits_with_tap,
+       round(100.0 * count(*) filter (where tapped) / count(*), 1) as visit_tap_rate_pct
+from v group by 1 having count(*) >= 10 order by visits desc;
+
+-- 8. Page paths of single visits (most common sequences, up to 4 pages)
+with p as (
+  select session_id, string_agg(properties->>'path', ' → ' order by client_event_time) as path_seq
+  from (select * from events
+        where app_id = 'lovetype-web' and environment = 'prod' and event_name = 'page_view'
+          and (properties->>'page_index')::int <= 4 and received_at > now() - interval '30 days') e
+  group by 1)
+select path_seq, count(*) as visits from p group by 1 order by 2 desc limit 30;

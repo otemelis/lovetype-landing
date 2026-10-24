@@ -13,7 +13,7 @@ For whoever connects the data to dashboards. Website only; the iOS app has its o
 
 | Column | Value |
 |---|---|
-| `anonymous_id` = `session_id` | Random UUID **per page load** (see "Journeys" below) |
+| `anonymous_id` = `session_id` | Random **visit ID** (see "Journeys" below) |
 | `country` | From the browser language (`en-US` → `US`), not geolocation. Often empty |
 | `os_version` | Coarse device family: `ios`, `android` or `desktop` |
 | `client_event_time` | Browser time of the event |
@@ -23,7 +23,7 @@ For whoever connects the data to dashboards. Website only; the iOS app has its o
 
 | Event | When | Properties |
 |---|---|---|
-| `page_view` | Every page load | `path`, `referrer` (`direct`, `internal` or the referring host), `width` (`phone`/`tablet`/`desktop`), any `utm_*` and `ref` query parameters |
+| `page_view` | Every page load | `page_index` (1 = landing page of the visit), `path`, `referrer` (`direct`, `internal` or the referring host), `width` (`phone`/`tablet`/`desktop`), any `utm_*` and `ref` query parameters |
 | `app_store_tap` | Any App Store link or button clicked | `cta` (`hero`, `header`, `closing`, `footer`, `compare-page`, `type-<slug>`, …), `path` |
 | `compare_code_decoded` | A valid partner code is decoded on `/compare/` or a shared `/compare/<code>` link (once per page) | `source` (`link` or `typed`), `with_own_code` (bool). The code itself is never sent |
 | `pair_picked` | Both styles chosen in the compatibility picker | `dimension`, `pair` (e.g. `Anxious+Avoidant`) |
@@ -32,15 +32,17 @@ For whoever connects the data to dashboards. Website only; the iOS app has its o
 
 Ready-made SQL: `scripts/site/analytics.sql` (daily views and tap rate, converting pages, referrers, CTAs, languages, engagement).
 
-## Journeys: not possible by design
+## Journeys (within one visit)
 
-There is **no identifier that links one page view to the next**. Every page load creates a new random `anonymous_id`, and nothing is stored on the device (no cookies, no localStorage, no sessionStorage). This keeps the site free of consent banners, and the privacy policy says so.
+`session_id` (= `anonymous_id`) is a random visit ID kept in the browser's `sessionStorage`:
 
-What this means for dashboards:
+- Same ID for every page and event in one tab while the visitor keeps browsing.
+- New ID when the tab closes, or after 30 minutes without a page load.
+- If storage is blocked, the ID falls back to one per page load.
+- Nothing persists across visits: no cookies, no localStorage. Unique or returning visitors can't be counted.
 
-- You can count page views, App Store taps and tap rate **per page, per CTA, per referrer, per language**.
-- You cannot follow a visitor from landing page → other pages → App Store tap, count unique visitors, or count returning visitors.
-- A `page_view` and the `app_store_tap` on that **same page** share an `anonymous_id`, so "this landing page view ended in a tap" is measurable.
-- The website can't be joined to app installs or app events: Apple doesn't pass anything from the website to the app. Website → install is only visible in aggregate (App Store Connect web referrer / campaign data, if campaign links are added later).
+To rebuild a journey: group by `session_id`, order by `client_event_time` (or `properties->>'page_index'` for page views). The first `page_view` (`page_index = 1`) is the landing page; its `referrer` and `utm_*` describe where the visit came from.
 
-If journeys within a visit are needed, the option is a session ID in `sessionStorage` (dropped when the tab closes). That's device storage, so the privacy page would need updating, and in the EU it's a grey area without consent.
+The website still can't be joined to app installs or app events: Apple passes nothing from the website to the app. Website → install is only visible in aggregate in App Store Connect.
+
+Journey and funnel queries: sections 7–8 of `scripts/site/analytics.sql`.
