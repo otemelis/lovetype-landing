@@ -1,8 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import { page, write, esc, attr, appPill, phone, heart, crumbs, crumbJson, faqJson, faqBlock, closingCard, ARROW, url, UPDATED, UPDATED_HUMAN, ROOT, SITE, APP_STORE } from '../lib.mjs';
-import { TYPES, ARCH, DIMENSIONS, ARCHETYPES, PAIRS, POINTS, cap } from '../model.mjs';
+import { page, write, esc, attr, appPill, phone, heart, crumbs, crumbJson, faqJson, faqBlock, closingCard, ARROW, url, UPDATED, UPDATED_HUMAN, ROOT, SITE, APP_STORE, LANGS, localPath } from '../lib.mjs';
+import { TYPES, ARCH, DIMENSIONS, ARCHETYPES, PAIRS, POINTS, cap, appData } from '../model.mjs';
 import { pickerBlock } from './home.mjs';
+import { LOCALIZED as LOCALIZED_KEYS } from '../lib.mjs';
 import { OG } from './styles.mjs';
 
 const HERE = path.dirname(new URL(import.meta.url).pathname);
@@ -121,75 +122,74 @@ export function buildCompatibility() {
 }
 
 // ── Compare ──────────────────────────────────────────────────────────────────
-function compareData() {
+function compareData(S) {
+  const A = appData(S.lang);
+  const en = S.lang === 'en';
   const types = {};
   for (const dim of ['attachment', 'love', 'conflict']) {
     types[dim] = {};
     for (const k of DIMENSIONS[dim].order) {
       const t = TYPES[dim][k];
-      types[dim][k] = { label: esc(t.label), short: esc(t.short), url: t.path, family: t.family, dim: esc(DIMENSIONS[dim].name) };
+      types[dim][k] = { label: esc(A[dim][k].label), short: esc(S.short[dim][k]), url: t.path, family: t.family, dim: esc(S.dimName[dim]) };
     }
   }
   const pairs = { attachment: {}, love: {}, conflict: {} };
   for (const p of PAIRS) pairs[p.dim][p.key] = { title: esc(p.title), url: p.path };
-  const archetypes = Object.fromEntries(ARCHETYPES.order.map((k) => [k, { label: esc(ARCH[k].label), tagline: esc(ARCH[k].tagline), url: ARCH[k].path }]));
-  return JSON.stringify({ order: ARCHETYPES.order, points: POINTS, types, pairs, archetypes, dimNames: { attachment: 'Attachment', love: 'Love style', conflict: 'Conflict' } }).replace(/</g, '\\u003c');
+  const archetypes = Object.fromEntries(ARCHETYPES.order.map((k) => [k, { label: esc(A.combined[k].label), tagline: esc(A.combined[k].tagline), url: ARCH[k].path }]));
+  return JSON.stringify({ order: ARCHETYPES.order, points: POINTS, types, pairs, archetypes, dimNames: S.dimName, ui: S.compare.ui, en }).replace(/</g, '\\u003c');
 }
 
-function compareMain({ fromLink = false } = {}) {
+function compareMain(S, { fromLink = false } = {}) {
+  const C = S.compare;
+  const dir = S.lang === 'en' ? '' : S.lang.toLowerCase();
   return `
 <section class="page-hero" data-light="conflict" data-family="conflict" data-coverage="0.6" data-intensity="0.9">
   <div class="wrap split" style="align-items:center">
     <div>
-      ${fromLink ? '' : crumbs([['Home', '/'], ['Compare', '/compare/']])}
-      <p class="label">${fromLink ? 'Someone shared their LoveType' : 'Free<span class="sep">·</span>no score'}</p>
-      <h1 class="display rv rv-blur" style="font-size:clamp(44px,6.6vw,96px)">${fromLink ? 'You’ve got a code.' : 'Compare with a partner.'}<span class="dim">${fromLink ? 'Here’s who sent it.' : 'See where you click.'}</span></h1>
+      ${fromLink ? '' : crumbs([['LoveType', S.prefix], [C.crumb, localPath(S.lang, 'compare')]])}
+      <p class="label">${fromLink ? esc(C.linkLabel) : `${esc(C.label[0])}<span class="sep">·</span>${esc(C.label[1])}`}</p>
+      <h1 class="display rv rv-blur" style="font-size:clamp(44px,6.6vw,96px)">${esc(fromLink ? C.linkH[0] : C.h[0])}<span class="dim">${esc(fromLink ? C.linkH[1] : C.h[1])}</span></h1>
       <div data-compare>
-        <label class="label" for="their-code" style="display:block;margin-top:34px;color:var(--ink-3)">Their code</label>
-        <div class="code-field"><input id="their-code" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="6" placeholder="4 characters, e.g. 10E7" aria-describedby="code-help"></div>
-        <label class="label" for="my-code" style="display:block;margin-top:18px;color:var(--ink-3)">Your code (optional)</label>
-        <div class="code-field"><input id="my-code" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="6" placeholder="Yours, from the app"></div>
+        <label class="label" for="their-code" style="display:block;margin-top:34px;color:var(--ink-3)">${esc(C.theirs)}</label>
+        <div class="code-field"><input id="their-code" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="6" placeholder="${attr(C.theirsPh)}" aria-describedby="code-help"></div>
+        <label class="label" for="my-code" style="display:block;margin-top:18px;color:var(--ink-3)">${esc(C.mine)}</label>
+        <div class="code-field"><input id="my-code" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="6" placeholder="${attr(C.minePh)}"></div>
         <p class="code-msg" id="code-help" aria-live="polite"></p>
         <div class="result-card" aria-live="polite"></div>
-        <script type="application/json" id="compare-data">${compareData()}</script>
+        <script type="application/json" id="compare-data">${compareData(S)}</script>
       </div>
-      <div class="cta-row" style="margin-top:30px">${appPill('Get LoveType free', fromLink ? 'compare-link' : 'compare-page')}</div>
-      <p class="small" style="margin-top:14px">Codes are read in your browser. Nothing you type here is sent anywhere.</p>
+      <div class="cta-row" style="margin-top:30px">${appPill(S.chrome.getFree, fromLink ? 'compare-link' : 'compare-page')}</div>
+      <p class="small" style="margin-top:14px">${esc(C.privacy)}</p>
     </div>
-    <aside class="aside">${phone('compare-code', 'The LoveType compare screen with a share code', { glow: 'rgb(112 128 192 / .6)', lazy: false })}</aside>
+    <aside class="aside">${phone('compare-code', C.alt, { glow: 'rgb(112 128 192 / .6)', lazy: false, dir })}</aside>
   </div>
 </section>`;
 }
 
-const COMPARE_FAQS = [
-  { q: 'How do I get my LoveType code?', a: 'Finish all three tests in LoveType (attachment, love style and conflict style). Your four-character code then appears under Compare with a partner, with a button to share it.' },
-  { q: 'What does the code reveal?', a: 'Only your three result types. No answers, no name, no scores. Anyone with the code can see those three types, so share it with people you choose.' },
-  { q: 'Is there a compatibility score?', a: 'No, on purpose. LoveType shows where two styles tend to click, where they tend to grind, and one thing each person can try. Scores turn a pattern into a verdict.' },
-  { q: 'Does comparing cost anything?', a: 'No. Comparing with a partner is free for both of you.' },
-];
-
-export function buildCompare() {
-  const p = '/compare/';
-  const desc = 'Compare LoveTypes with a partner: enter their four-character code to see their attachment, love and conflict styles and how yours pair. Free, no score.';
-  const main = compareMain() + `
+export function buildCompare(S) {
+  const C = S.compare;
+  const p = localPath(S.lang, 'compare');
+  const en = S.lang === 'en';
+  const main = compareMain(S) + `
 <section class="section-tight" data-light="conflict" data-coverage="0.5" data-intensity="0.8">
   <div class="wrap" style="max-width:calc(900px + 2 * var(--gutter))">
-    <h2 class="statement rv">How it works<span class="dim">Three steps, two phones.</span></h2>
-    <div class="prose" style="margin-top:30px"><ol class="num"><li><strong>Both take the three tests.</strong> About eleven minutes each, free.</li><li><strong>Share your code.</strong> LoveType gives each of you four characters, like 10E7.</li><li><strong>Enter theirs.</strong> You both see where you click, where you grind and one thing each of you can try, for attachment, love and conflict.</li></ol></div>
-    ${faqBlock(COMPARE_FAQS)}
+    <h2 class="statement rv">${esc(C.howH[0])}<span class="dim">${esc(C.howH[1])}</span></h2>
+    <div class="prose" style="margin-top:30px"><ol class="num">${C.steps.map(([a, b]) => `<li><strong>${esc(a)}</strong> ${esc(b)}</li>`).join('')}</ol></div>
+    ${faqBlock(C.faqs, C.faqH)}
   </div>
 </section>`;
-  OG.push({ name: 'compare', eyebrow: 'FREE · NO SCORE', title: 'Compare with a partner', sub: 'See where you click.', family: 'conflict' });
-  write(p, page({ path: p, title: 'Compare LoveTypes With a Partner | LoveType', description: desc, og: 'compare', family: 'conflict', jsonld: [faqJson(COMPARE_FAQS), crumbJson([['Home', '/'], ['Compare', p]])], main }));
+  const og = en ? 'compare' : `compare-${S.lang.toLowerCase()}`;
+  OG.push({ name: og, eyebrow: `${C.label[0]} · ${C.label[1]}`.toUpperCase(), title: C.h[0].replace(/\.$/, ''), sub: C.h[1], family: 'conflict', lang: S.lang, foot: S.chrome.footer.tagline });
+  write(p, page({ S, path: p, alternateKey: 'compare', title: C.title, description: C.description, og, family: 'conflict', jsonld: [faqJson(C.faqs), crumbJson([['LoveType', S.prefix], [C.crumb, p]])], main }));
 
+  if (!en) return;
   // 404: a shared /compare/<code> link without the app installed lands here.
   const notFound = page({
-    path: '/404.html', title: 'LoveType', description: 'Someone shared their LoveType with you.', og: 'compare', family: 'conflict', noindex: true,
-    main: `<div data-404-compare hidden>${compareMain({ fromLink: true })}</div>
+    S, path: '/404.html', title: 'LoveType', description: 'Someone shared their LoveType with you.', og: 'compare', family: 'conflict', noindex: true,
+    main: `<div data-404-compare hidden>${compareMain(S, { fromLink: true })}</div>
 <section class="page-hero" data-404-generic data-light="profile" data-coverage="0.3" data-intensity="0.8"><div class="wrap"><p class="label">404</p><h1 class="display">This page isn’t here.<span class="dim">But you are.</span></h1><div class="cta-row" style="margin-top:36px"><a class="pill" href="/">Go to the homepage</a><a class="text-link" href="/compatibility/">Compatibility ${ARROW}</a></div></div></section>
 <script>if(/^\\/compare\\/[0-9a-z-]{4,6}\\/?$/i.test(location.pathname)){document.querySelector('[data-404-compare]').hidden=false;document.querySelector('[data-404-generic]').remove();document.title='Someone shared their LoveType';}else{document.querySelector('[data-404-compare]').remove();}</script>`,
   });
-  // 404 pages need absolute asset URLs (they serve under any path): lib already uses absolute paths.
   fs.writeFileSync(path.join(ROOT, '404.html'), notFound);
 }
 
@@ -294,32 +294,37 @@ export function buildJournal() {
 }
 
 // ── Legal ────────────────────────────────────────────────────────────────────
-export function buildLegal() {
-  const docs = [
-    { p: '/privacy/', title: 'Privacy Policy', effective: '24 October 2026', file: 'legal/privacy.html', desc: 'What LoveType keeps on your iPhone, the anonymous usage data it collects, and how purchases and partner codes work.' },
-    { p: '/terms/', title: 'Terms of Use', effective: '2 July 2026', file: 'legal/terms.html', desc: 'The terms for using LoveType: what the app is and isn’t, the one-time purchase, your content and our responsibilities.' },
-  ];
-  for (const d of docs) {
-    const items = [['Home', '/'], [d.title, d.p]];
-    const body = content(d.file).replace(/<h2 class="serif">/g, '<h2>');
+export function buildLegal(S) {
+  const G = S.legal;
+  const suffix = S.lang === 'en' ? '' : `.${S.lang}`;
+  for (const key of ['privacy', 'terms']) {
+    const d = G[key];
+    const p = localPath(S.lang, key);
+    const items = [['LoveType', S.prefix], [d.title, p]];
+    const body = content(`legal/${key}${suffix}.html`).replace(/<h2 class="serif">/g, '<h2>');
     const main = `
 <section class="page-hero" data-light="profile" data-coverage="0.3" data-intensity="0.72">
   <div class="wrap read">
     ${crumbs(items)}
-    <p class="label">Legal<span class="sep">·</span>Effective ${d.effective}</p>
-    <h1 class="statement" style="margin-top:18px">${d.title}</h1>
+    <p class="label">${esc(G.label)}<span class="sep">·</span>${esc(G.effective)} ${esc(d.effective)}</p>
+    <h1 class="statement" style="margin-top:18px">${esc(d.title)}</h1>
+    ${G.note ? `<p class="small" style="margin-top:16px">${esc(G.note)} <a class="text-link" style="min-height:0" href="/${key}/" hreflang="en">English</a></p>` : ''}
   </div>
 </section>
 <section class="section-tight" style="padding-top:0"><div class="wrap read"><article class="prose">${body}</article><div style="height:80px"></div></div></section>`;
-    write(d.p, page({ path: d.p, title: `${d.title} | LoveType`, description: d.desc, family: 'profile', jsonld: [crumbJson(items)], main }));
+    write(p, page({ S, path: p, alternateKey: key, title: `${d.title} | LoveType`, description: d.desc, family: 'profile', jsonld: [crumbJson(items)], main }));
   }
 }
 
 // ── Sitemap, robots, llms.txt, manifest ──────────────────────────────────────
-export function buildMeta(paths) {
+export function buildMeta(paths, langs = ['en']) {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${paths.map((p) => `  <url><loc>${url(p)}</loc><lastmod>${UPDATED}</lastmod></url>`).join('\n')}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${paths.map((p) => {
+  const key = Object.keys(LOCALIZED_KEYS).find((k) => langs.some((l) => localPath(l, k) === p));
+  const alt = key && langs.length > 1 ? langs.map((l) => `\n    <xhtml:link rel="alternate" hreflang="${LANGS[l].hreflang}" href="${url(localPath(l, key))}"/>`).join('') + `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${url(localPath('en', key))}"/>` : '';
+  return `  <url><loc>${url(p)}</loc><lastmod>${UPDATED}</lastmod>${alt}${alt ? '\n  ' : ''}</url>`;
+}).join('\n')}
 </urlset>
 `;
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);

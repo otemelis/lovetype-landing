@@ -24,7 +24,19 @@ def blob(size, color, radius, alpha):
     d.ellipse((x - radius, y - radius, x + radius, y + radius), fill=color[0] + (alpha,))
     return layer.filter(ImageFilter.GaussianBlur(radius * 0.55))
 
+CJK = {'ja': ('/System/Library/Fonts/ヒラギノ明朝 ProN.ttc', 0), 'zh-Hant': ('/System/Library/Fonts/Supplemental/Songti.ttc', 7)}  # Songti TC Regular
+
+def font(spec, size):
+    return ImageFont.truetype(spec[0], size, index=spec[1]) if isinstance(spec, tuple) else ImageFont.truetype(spec, size)
+
 def wrap(draw, text, font, width):
+    if not ' ' in text.strip():  # CJK: break between characters
+        lines, cur = [], ''
+        for ch in text:
+            if draw.textlength(cur + ch, font=font) <= width: cur += ch
+            else: lines.append(cur); cur = ch
+        if cur: lines.append(cur)
+        return lines
     words, lines, cur = text.split(), [], ''
     for w in words:
         t = (cur + ' ' + w).strip()
@@ -35,6 +47,8 @@ def wrap(draw, text, font, width):
 
 def render(item):
     fam = item.get('family', 'full')
+    serif = CJK.get(item.get('lang'), SERIF)
+    sans = CJK.get(item.get('lang'), SANS)
     img = Image.new('RGBA', (W, H), BG + (255,))
     glows = GLOW.get(fam, GLOW['full'])
     img.alpha_composite(blob((W, H), (glows[0], (-40, 120)), 320, 120))
@@ -52,16 +66,16 @@ def render(item):
     img.alpha_composite(heart, (W - 560 + 30, (H - 560) // 2 + 10))
     d = ImageDraw.Draw(img)
     x = 72
-    label = ImageFont.truetype(SANS, 20)
+    label = font(sans, 20)
     eyebrow = item.get('eyebrow', '')
     cx = x
     for ch in eyebrow:
         d.text((cx, 96), ch, font=label, fill=ACCENT[fam])
         cx += d.textlength(ch, font=label) + 3.2
-    title_font = ImageFont.truetype(SERIF, 76)
-    lines = wrap(d, item['title'], title_font, 640)
+    title_font = font(serif, 76 if serif == SERIF else 56)
+    lines = wrap(d, item['title'], title_font, 640 if serif == SERIF else 680)
     if len(lines) > 3:
-        title_font = ImageFont.truetype(SERIF, 60)
+        title_font = font(serif, 56 if serif == SERIF else 48)
         lines = wrap(d, item['title'], title_font, 660)
     y = 142
     lh = int(title_font.size * 1.06)
@@ -69,7 +83,7 @@ def render(item):
         d.text((x, y), ln, font=title_font, fill=(245, 238, 242))
         y += lh
     if item.get('sub'):
-        sub_font = ImageFont.truetype(SERIF, 40)
+        sub_font = font(serif, 40 if serif == SERIF else 32)
         for ln in wrap(d, item['sub'], sub_font, 620)[:2]:
             d.text((x, y + 6), ln, font=sub_font, fill=(128, 116, 124))
             y += 48
@@ -78,7 +92,7 @@ def render(item):
     for ch in 'LOVETYPE':
         d.text((cx, H - 84), ch, font=mark, fill=(245, 238, 242))
         cx += d.textlength(ch, font=mark) + 6.5
-    d.text((cx + 14, H - 84), 'Relationship test · free on iPhone', font=ImageFont.truetype(SANS, 19), fill=(138, 126, 134))
+    d.text((cx + 14, H - 84), item.get('foot', 'Relationship test · free on iPhone'), font=font(sans, 19), fill=(138, 126, 134))
     img.convert('RGB').save(os.path.join(OUT, item['name'] + '.jpg'), quality=86, optimize=True, progressive=True)
 
 if __name__ == '__main__':

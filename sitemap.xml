@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://love-type.app/</loc><lastmod>2026-10-24</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://love-type.app/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/"/>
+  </url>
   <url><loc>https://love-type.app/attachment-styles/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://love-type.app/attachment-styles/secure/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://love-type.app/attachment-styles/anxious/</loc><lastmod>2026-10-24</lastmod></url>
@@ -84,10 +92,214 @@
   <url><loc>https://love-type.app/compatibility/pursuer/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://love-type.app/compatibility/pursuer-and-withdrawer/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://love-type.app/compatibility/withdrawer/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://love-type.app/compare/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://love-type.app/compare/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/compare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/compare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/compare/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/compare/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/compare/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/compare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/compare/"/>
+  </url>
   <url><loc>https://love-type.app/dating-profile-playbook/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://love-type.app/journal/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://love-type.app/journal/attachment-style-vs-personality-type/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://love-type.app/privacy/</loc><lastmod>2026-10-24</lastmod></url>
-  <url><loc>https://love-type.app/terms/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://love-type.app/privacy/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/privacy/"/>
+  </url>
+  <url><loc>https://love-type.app/terms/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/terms/"/>
+  </url>
+  <url><loc>https://love-type.app/es/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/"/>
+  </url>
+  <url><loc>https://love-type.app/es/compare/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/compare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/compare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/compare/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/compare/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/compare/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/compare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/compare/"/>
+  </url>
+  <url><loc>https://love-type.app/es/privacy/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/privacy/"/>
+  </url>
+  <url><loc>https://love-type.app/es/terms/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/terms/"/>
+  </url>
+  <url><loc>https://love-type.app/pt-br/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/"/>
+  </url>
+  <url><loc>https://love-type.app/pt-br/compare/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/compare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/compare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/compare/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/compare/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/compare/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/compare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/compare/"/>
+  </url>
+  <url><loc>https://love-type.app/pt-br/privacy/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/privacy/"/>
+  </url>
+  <url><loc>https://love-type.app/pt-br/terms/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/terms/"/>
+  </url>
+  <url><loc>https://love-type.app/ja/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/"/>
+  </url>
+  <url><loc>https://love-type.app/ja/compare/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/compare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/compare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/compare/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/compare/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/compare/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/compare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/compare/"/>
+  </url>
+  <url><loc>https://love-type.app/ja/privacy/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/privacy/"/>
+  </url>
+  <url><loc>https://love-type.app/ja/terms/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/terms/"/>
+  </url>
+  <url><loc>https://love-type.app/zh-hant/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/"/>
+  </url>
+  <url><loc>https://love-type.app/zh-hant/compare/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/compare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/compare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/compare/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/compare/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/compare/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/compare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/compare/"/>
+  </url>
+  <url><loc>https://love-type.app/zh-hant/privacy/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/privacy/"/>
+  </url>
+  <url><loc>https://love-type.app/zh-hant/terms/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/terms/"/>
+  </url>
+  <url><loc>https://love-type.app/id/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/"/>
+  </url>
+  <url><loc>https://love-type.app/id/compare/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/compare/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/compare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/compare/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/compare/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/compare/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/compare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/compare/"/>
+  </url>
+  <url><loc>https://love-type.app/id/privacy/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/privacy/"/>
+  </url>
+  <url><loc>https://love-type.app/id/terms/</loc><lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://love-type.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://love-type.app/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://love-type.app/pt-br/terms/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://love-type.app/ja/terms/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://love-type.app/zh-hant/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://love-type.app/id/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://love-type.app/terms/"/>
+  </url>
 </urlset>

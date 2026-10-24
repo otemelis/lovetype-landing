@@ -1,5 +1,6 @@
 // LoveType site behaviour. Every block is guarded, so one module serves every page.
 import { startGlare } from './glare.js';
+import { track } from './analytics.js';
 
 document.documentElement.classList.add('js');
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -37,6 +38,11 @@ if (header) {
   });
   $$('.site-nav a').forEach((a) => a.addEventListener('click', () => document.body.classList.remove('menu-open')));
 }
+
+document.addEventListener('click', (e) => {
+  const a = e.target.closest?.('[data-lang-switch]');
+  if (a) track('language_switched', { from: document.documentElement.lang, to: a.dataset.langSwitch });
+});
 
 // Reveal on scroll.
 const rvo = new IntersectionObserver((es) => es.forEach((e) => {
@@ -96,9 +102,10 @@ if (langLine && !reduced) {
 // Copy buttons (sample lines).
 $$('[data-copy]').forEach((b) => b.addEventListener('click', async () => {
   try { await navigator.clipboard.writeText(b.dataset.copy); } catch {}
+  track('starter_line_copied', { path: location.pathname });
   const t = b.querySelector('span');
   const old = t.textContent;
-  t.textContent = 'Copied';
+  t.textContent = b.dataset.copied || 'Copied';
   window.LTLight?.nudge();
   setTimeout(() => (t.textContent = old), 1600);
 }));
@@ -139,7 +146,7 @@ if (picker) {
       b.addEventListener('click', () => {
         if (which === 'you') you = k; else them = k;
         draw();
-        if (you && them) window.LTLight?.nudge();
+        if (you && them) { window.LTLight?.nudge(); track('pair_picked', { dimension: dim, pair: [you, them].sort().join('+') }); }
       });
       row.appendChild(b);
     }
@@ -198,39 +205,41 @@ if (tool) {
     }
     return Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
   };
+  let fromUrl = null;
   const render = () => {
     const t = decodeCode(theirs.value);
     const m = mine && mine.value.trim() ? decodeCode(mine.value) : null;
     const len = theirs.value.replace(/[^0-9a-z]/gi, '').length;
     if (!t) {
       card.classList.remove('on');
-      msg.textContent = len >= 4 ? 'That code doesn’t look right. Check the four characters and try again.' : '';
+      msg.textContent = len >= 4 ? data.ui.bad : '';
       return;
     }
     msg.textContent = '';
     const a = archetype(t);
     const A = data.archetypes[a];
-    let html = `<p class="label">Their LoveType</p><h2 class="statement-s" style="margin-top:10px">${A.label}</h2><p class="body" style="margin-top:8px">${A.tagline}</p>
+    let html = `<p class="label">${data.ui.theirType}</p><h2 class="statement-s" style="margin-top:10px">${A.label}</h2><p class="body" style="margin-top:8px">${A.tagline}</p>
       <div class="dims">${['attachment', 'love', 'conflict'].map((d) => {
         const ty = data.types[d][t[d]];
-        return `<a href="${ty.url}" data-family="${ty.family}"><span class="label">${ty.dim}</span><span class="serif">${ty.label}</span><span class="small">${ty.short}</span></a>`;
+        return `<a href="${ty.url}"${data.en ? '' : ' hreflang="en"'} data-family="${ty.family}"><span class="label">${ty.dim}</span><span class="serif">${ty.label}</span><span class="small">${ty.short}</span></a>`;
       }).join('')}</div>`;
     if (m) {
-      html += `<p class="label" style="margin-top:30px;display:block">You two, dimension by dimension</p><div class="dims">${['attachment', 'love', 'conflict'].map((d) => {
+      html += `<p class="label" style="margin-top:30px;display:block">${data.ui.together}</p><div class="dims">${['attachment', 'love', 'conflict'].map((d) => {
         const key = [m[d], t[d]].sort().join('+');
         const p = data.pairs[d][key];
-        return p ? `<a href="${p.url}"><span class="label">${data.dimNames[d]}</span><span class="serif">${p.title}</span><span class="small">Read the pairing →</span></a>` : '';
+        return p ? `<a href="${p.url}"><span class="label">${data.dimNames[d]}</span><span class="serif">${p.title}</span><span class="small">${data.ui.readPair}</span></a>` : '';
       }).join('')}</div>`;
     } else if (mine && mine.value.trim().length >= 4) {
-      html += `<p class="code-msg">Your code doesn’t look right yet.</p>`;
+      html += `<p class="code-msg">${data.ui.badMine}</p>`;
     }
-    html += `<p class="small" style="margin-top:22px">The full comparison, with where you click, where you grind and one thing each of you can try, is in the app.</p>`;
+    html += `<p class="small" style="margin-top:22px">${data.ui.full}</p>`;
     card.innerHTML = html;
     card.classList.add('on');
     window.LTLight?.nudge();
+    if (!tool.dataset.tracked) { tool.dataset.tracked = '1'; track('compare_code_decoded', { source: fromUrl ? 'link' : 'typed', with_own_code: !!m }); }
   };
   theirs.addEventListener('input', render);
   mine?.addEventListener('input', render);
-  const fromUrl = new URLSearchParams(location.search).get('code') || (location.pathname.match(/^\/compare\/([0-9a-z-]{4,6})\/?$/i) || [])[1];
+  fromUrl = new URLSearchParams(location.search).get('code') || (location.pathname.match(/^\/compare\/([0-9a-z-]{4,6})\/?$/i) || [])[1];
   if (fromUrl) { theirs.value = fromUrl.toUpperCase(); render(); }
 }

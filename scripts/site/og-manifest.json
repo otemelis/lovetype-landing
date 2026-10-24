@@ -1,10 +1,111 @@
 [
  {
+  "name": "home-id",
+  "eyebrow": "TES HUBUNGAN UNTUK IPHONE",
+  "title": "Bagaimana kamu mencintai?",
+  "sub": "Tiga tes. Satu LoveType.",
+  "family": "full",
+  "lang": "id",
+  "foot": "Tes hubungan untuk iPhone"
+ },
+ {
+  "name": "home-zh-hant",
+  "eyebrow": "IPHONE 戀愛心理測驗",
+  "title": "你是怎麼愛的？",
+  "sub": "三項測驗，一個 LoveType。",
+  "family": "full",
+  "lang": "zh-Hant",
+  "foot": "iPhone 戀愛心理測驗"
+ },
+ {
+  "name": "home-ja",
+  "eyebrow": "IPHONE向け恋愛タイプ診断",
+  "title": "あなたは、どう愛する？",
+  "sub": "3つの診断で、ひとつのLoveType。",
+  "family": "full",
+  "lang": "ja",
+  "foot": "iPhone向け恋愛タイプ診断"
+ },
+ {
+  "name": "home-pt-br",
+  "eyebrow": "TESTE DE RELACIONAMENTO PARA IPHONE",
+  "title": "Como você ama?",
+  "sub": "Três testes. Um LoveType.",
+  "family": "full",
+  "lang": "pt-BR",
+  "foot": "Teste de relacionamento para iPhone"
+ },
+ {
+  "name": "home-es",
+  "eyebrow": "TEST DE PAREJA PARA IPHONE",
+  "title": "¿Cómo amas?",
+  "sub": "Tres tests. Un LoveType.",
+  "family": "full",
+  "lang": "es",
+  "foot": "Test de pareja para iPhone"
+ },
+ {
   "name": "home",
-  "eyebrow": "RELATIONSHIP TEST",
+  "eyebrow": "RELATIONSHIP TEST FOR IPHONE",
   "title": "How do you love?",
   "sub": "Three tests. One LoveType.",
-  "family": "full"
+  "family": "full",
+  "lang": "en",
+  "foot": "Relationship test for iPhone"
+ },
+ {
+  "name": "compare",
+  "eyebrow": "FREE · NO SCORE",
+  "title": "Compare with a partner",
+  "sub": "See where you click.",
+  "family": "conflict",
+  "lang": "en",
+  "foot": "Relationship test for iPhone"
+ },
+ {
+  "name": "compare-es",
+  "eyebrow": "GRATIS · SIN PUNTUACIÓN",
+  "title": "Compara con tu pareja",
+  "sub": "Descubre dónde conectan.",
+  "family": "conflict",
+  "lang": "es",
+  "foot": "Test de pareja para iPhone"
+ },
+ {
+  "name": "compare-pt-br",
+  "eyebrow": "GRÁTIS · SEM NOTA",
+  "title": "Compare com quem você ama",
+  "sub": "Vejam onde combinam.",
+  "family": "conflict",
+  "lang": "pt-BR",
+  "foot": "Teste de relacionamento para iPhone"
+ },
+ {
+  "name": "compare-ja",
+  "eyebrow": "無料 · 点数なし",
+  "title": "パートナーと比べる。",
+  "sub": "ふたりの「合う」がわかる。",
+  "family": "conflict",
+  "lang": "ja",
+  "foot": "iPhone向け恋愛タイプ診断"
+ },
+ {
+  "name": "compare-zh-hant",
+  "eyebrow": "免費 · 不打分數",
+  "title": "與伴侶對照。",
+  "sub": "看看你們哪裡契合。",
+  "family": "conflict",
+  "lang": "zh-Hant",
+  "foot": "iPhone 戀愛心理測驗"
+ },
+ {
+  "name": "compare-id",
+  "eyebrow": "GRATIS · TANPA SKOR",
+  "title": "Bandingkan dengan pasangan",
+  "sub": "Lihat di mana kalian cocok.",
+  "family": "conflict",
+  "lang": "id",
+  "foot": "Tes hubungan untuk iPhone"
  },
  {
   "name": "attachment-styles",
@@ -585,13 +686,6 @@
   "eyebrow": "CONFLICT STYLE PAIRING",
   "title": "Two Withdrawer Partners",
   "sub": "Where you click, where you grind.",
-  "family": "conflict"
- },
- {
-  "name": "compare",
-  "eyebrow": "FREE · NO SCORE",
-  "title": "Compare with a partner",
-  "sub": "See where you click.",
   "family": "conflict"
  },
  {

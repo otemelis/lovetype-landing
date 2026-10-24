@@ -27,6 +27,22 @@ python3 scripts/site/render-og.py <DMSerifDisplay.ttf> <sans.ttf>   # 1200×630 
 | `assets/js/site.js` | Menu, reveals, story stepping, pair picker, compare-code decoder |
 | `assets/og/src/heart-<family>.png` | Lit hearts for share images: open `/scripts/site/og-heart.html?f=<family>` on a local server and screenshot `.heart` with a transparent background |
 
+## Analytics
+
+`assets/js/analytics.js` sends cookieless events to the shared Supabase `track` function as
+`app_id = 'lovetype-web'` (own API key, separate from the app's; its hash is in `app_api_keys`).
+Nothing is stored on the device; each page view has its own random id. localhost traffic is
+`environment = 'dev'`. Events: `page_view`, `app_store_tap`, `compare_code_decoded`,
+`pair_picked`, `starter_line_copied`, `language_switched`. A new event name needs an
+`event_catalog` row first or it is rejected. Ready-made queries: `scripts/site/analytics.sql`.
+
+## Languages
+
+Home, compare, privacy and terms exist in en, es, pt-BR, ja, zh-Hant and id
+(`/es/`, `/pt-br/`, `/ja/`, `/zh-hant/`, `/id/`). Strings: `scripts/site/content/i18n/<lang>.mjs`;
+legal bodies: `content/legal/<page>.<lang>.html`; screens: `assets/screens/<lang>/`. All other
+pages are English and are linked with `hreflang="en"`. Translations are drafts pending native review.
+
 ## Rules
 
 - URLs end with a slash; canonicals and the sitemap use the slash form.

@@ -8,6 +8,9 @@ import { DIM as PAIR_DIM } from './content/compat-dims.mjs';
 
 const HERE = path.dirname(new URL(import.meta.url).pathname);
 export const app = JSON.parse(fs.readFileSync(path.join(HERE, 'data/app-en.json'), 'utf8'));
+const appCache = { en: app };
+/** The app's own (free) result text in one language. */
+export const appData = (lang) => (appCache[lang] ??= JSON.parse(fs.readFileSync(path.join(HERE, `data/app-${lang}.json`), 'utf8')));
 
 // Combined-archetype points, mirrored from the app (src/logic/profileSynthesis.ts).
 export const POINTS = {

@@ -36,7 +36,8 @@ for (const file of pages) {
   const desc = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '';
   if (!title) say('no title');
   if (title.length > 72) say(`title ${title.length} chars`);
-  if (desc.length < 70 || desc.length > 175) say(`description ${desc.length} chars`);
+  const cjk = /^\/(ja|zh-hant)\//.test(route) ? 2 : 1; // CJK glyphs are about twice as wide
+  if (desc.length * cjk < 70 || desc.length * cjk > 175) say(`description ${desc.length} chars`);
   titles.set(title, [...(titles.get(title) || []), route]);
   descs.set(desc, [...(descs.get(desc) || []), route]);
   const canon = (html.match(/<link rel="canonical" href="([^"]*)"/) || [])[1];

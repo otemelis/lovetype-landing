@@ -11,7 +11,21 @@ export const APP_ID = '6786477464';
 export const UPDATED = '2026-10-24';
 export const UPDATED_HUMAN = 'October 2026';
 export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../..');
-export const ASSET_V = '20261024b';
+export const ASSET_V = '20261024d';
+
+// Localized pages. Only home, compare and legal exist in every language; everything else is English.
+export const LANGS = {
+  en: { prefix: '/', hreflang: 'en', og: 'en_US', name: 'English' },
+  es: { prefix: '/es/', hreflang: 'es', og: 'es_ES', name: 'Español' },
+  'pt-BR': { prefix: '/pt-br/', hreflang: 'pt-BR', og: 'pt_BR', name: 'Português' },
+  ja: { prefix: '/ja/', hreflang: 'ja', og: 'ja_JP', name: '日本語' },
+  'zh-Hant': { prefix: '/zh-hant/', hreflang: 'zh-Hant', og: 'zh_TW', name: '繁體中文' },
+  id: { prefix: '/id/', hreflang: 'id', og: 'id_ID', name: 'Bahasa Indonesia' },
+};
+export const LOCALIZED = { home: '', compare: 'compare/', privacy: 'privacy/', terms: 'terms/' };
+export const localPath = (lang, key) => LANGS[lang].prefix + LOCALIZED[key];
+let EN = null;
+export const setDefaultStrings = (s) => { EN = s; };
 
 export const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 export const attr = (s = '') => esc(s).replace(/"/g, '&quot;');
@@ -24,11 +38,13 @@ export const LOCK = '<svg class="lock" viewBox="0 0 24 24" aria-hidden="true"><p
 export const ARROW = '<span class="arr" aria-hidden="true">→</span>';
 
 /** The one white pill. `where` tags the click for later analytics. */
-export const appPill = (label = 'Get LoveType free', where = 'page', extra = '') =>
+export const appPill = (label = EN?.chrome.getFree || 'Get LoveType free', where = 'page', extra = '') =>
   `<a class="pill" href="${APP_STORE}" data-glint data-cta="${where}" ${extra}><span class="glint" aria-hidden="true"><span class="glint-glow"><i></i></span><i class="glint-ring"></i></span>${APPLE}${esc(label)}</a>`;
 
-export const phone = (shot, alt, { w = 720, cls = '', glow = '', lazy = true } = {}) =>
-  `<div class="phone ${cls}"${glow ? ` style="--glow:${glow}"` : ''}><div class="screen"><img src="/assets/screens/${shot}-${w}.webp" srcset="/assets/screens/${shot}-420.webp 420w, /assets/screens/${shot}-720.webp 720w" sizes="(max-width: 860px) 64vw, 330px" width="720" height="1565" alt="${attr(alt)}"${lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"'}></div></div>`;
+export const phone = (shot, alt, { w = 720, cls = '', glow = '', lazy = true, dir = '' } = {}) => {
+  const b = `/assets/screens/${dir ? dir + '/' : ''}${shot}`;
+  return `<div class="phone ${cls}"${glow ? ` style="--glow:${glow}"` : ''}><div class="screen"><img src="${b}-${w}.webp" srcset="${b}-420.webp 420w, ${b}-720.webp 720w" sizes="(max-width: 860px) 64vw, 330px" width="720" height="1565" alt="${attr(alt)}"${lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"'}></div></div>`;
+};
 
 export const heart = (reveal = 0.08, cls = '') =>
   `<div class="heart ${cls}" data-reveal="${reveal}" aria-hidden="true"><canvas></canvas>${heartSvg('heart-fallback')}</div>`;
@@ -60,62 +76,81 @@ export const closingCard = (title, body, where) => `
     <div>${appPill('Get LoveType free', where)}</div>
   </aside>`;
 
-const NAV = [
-  ['Tests', '/#tests'],
-  ['LoveTypes', '/lovetypes/'],
-  ['Compatibility', '/compatibility/'],
-  ['Compare', '/compare/'],
-  ['Journal', '/journal/'],
-];
-
-function header(current) {
+function header(current, S) {
+  const C = S.chrome;
+  const en = S.lang === 'en';
+  const P = (k) => (en ? `/${k}` : `${S.prefix}${k}`);
+  const nav = [
+    [C.nav.tests, `${S.prefix}#tests`, false],
+    [C.nav.lovetypes, '/lovetypes/', !en],
+    [C.nav.compatibility, '/compatibility/', !en],
+    [C.nav.compare, P('compare/'), false],
+    [C.nav.journal, '/journal/', !en],
+  ];
   return `<header class="site-header">
   <div class="bar">
-    <a class="brand" href="/" aria-label="LoveType home">${heartSvg('brand-heart')}<span class="wordmark">LoveType</span></a>
-    <nav class="site-nav" id="site-nav" aria-label="Main">${NAV.map(([n, h]) => `<a href="${h}"${current && h !== '/#tests' && current.startsWith(h) ? ' aria-current="page"' : ''}>${n}</a>`).join('')}</nav>
+    <a class="brand" href="${S.prefix}" aria-label="${attr(C.home)}">${heartSvg('brand-heart')}<span class="wordmark">LoveType</span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">${nav.map(([n, h, x]) => `<a href="${h}"${x ? ' hreflang="en"' : ''}${current && !h.includes('#') && h !== '/' && current.startsWith(h) ? ' aria-current="page"' : ''}>${esc(n)}</a>`).join('')}</nav>
     <div class="header-cta">
-      <a class="pill pill-s" href="${APP_STORE}" data-cta="header">${APPLE}Get the app</a>
-      <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+      <a class="pill pill-s" href="${APP_STORE}" data-cta="header">${APPLE}${esc(C.getApp)}</a>
+      <button class="menu-btn" type="button" aria-label="${attr(C.menu)}" aria-expanded="false" aria-controls="site-nav"><span></span></button>
     </div>
   </div>
 </header>`;
 }
 
-function footer() {
-  const col = (title, links) => `<div class="foot-col"><h2>${title}</h2><ul>${links.map(([n, h]) => `<li><a href="${h}">${esc(n)}</a></li>`).join('')}</ul></div>`;
+function footer(S, alternateKey) {
+  const F = S.chrome.footer;
+  const en = S.lang === 'en';
+  const x = en ? '' : ' hreflang="en"';
+  const P = (k) => (en ? `/${k}` : `${S.prefix}${k}`);
+  const col = (title, links) => `<div class="foot-col"><h2>${esc(title)}</h2><ul>${links.map(([n, h, ext]) => `<li><a href="${h}"${ext ? x : ''}>${esc(n)}</a></li>`).join('')}</ul></div>`;
+  const langLinks = Object.entries(LANGS).map(([l, L]) => {
+    const href = alternateKey ? localPath(l, alternateKey) : L.prefix;
+    return `<li><a href="${href}" hreflang="${L.hreflang}" lang="${L.hreflang}" data-lang-switch="${l}"${l === S.lang ? ' aria-current="true"' : ''}>${esc(L.name)}</a></li>`;
+  }).join('');
   return `<footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand stack">
-        <a class="app" href="${APP_STORE}" data-cta="footer"><img src="/assets/app-icon-128.webp" width="52" height="52" alt="LoveType app icon" loading="lazy"><span><span class="wordmark">LoveType</span><br><span class="small">Relationship test for iPhone</span></span></a>
-        <p class="small">Three short tests for how you love: attachment, love style and conflict. Free to start, no account.</p>
+        <a class="app" href="${APP_STORE}" data-cta="footer"><img src="/assets/app-icon-128.webp" width="52" height="52" alt="${attr(F.iconAlt)}" loading="lazy"><span><span class="wordmark">LoveType</span><br><span class="small">${esc(F.tagline)}</span></span></a>
+        <p class="small">${esc(F.blurb)}</p>
       </div>
-      ${col('The tests', [['Attachment styles', '/attachment-styles/'], ['Love styles', '/love-styles/'], ['Conflict styles', '/conflict-styles/'], ['The 10 LoveTypes', '/lovetypes/']])}
-      ${col('Together', [['Compare with a partner', '/compare/'], ['Compatibility', '/compatibility/'], ['Dating-profile playbook', '/dating-profile-playbook/']])}
-      ${col('Read', [['Journal', '/journal/'], ['Attachment style vs personality', '/journal/attachment-style-vs-personality-type/'], ['InnerType, our personality app', 'https://innertype.app/']])}
-      ${col('LoveType', [['Download on the App Store', APP_STORE], ['Privacy', '/privacy/'], ['Terms', '/terms/'], ['Contact', 'mailto:privacy@love-type.app']])}
+      ${col(F.tests, [[F.attachment, '/attachment-styles/', 1], [F.love, '/love-styles/', 1], [F.conflict, '/conflict-styles/', 1], [F.lovetypes, '/lovetypes/', 1]])}
+      ${col(F.together, [[F.compare, P('compare/')], [F.compatibility, '/compatibility/', 1], [F.playbook, '/dating-profile-playbook/', 1]])}
+      ${col(F.read, [[F.journal, '/journal/', 1], [F.article, '/journal/attachment-style-vs-personality-type/', 1], [F.innertype, 'https://innertype.app/']])}
+      ${col(F.brand, [[F.download, APP_STORE], [F.privacy, P('privacy/')], [F.terms, P('terms/')], [F.contact, 'mailto:privacy@love-type.app']])}
     </div>
-    <div class="foot-bottom"><span>© 2026 LoveType</span><span>For self-reflection. Not a substitute for professional advice.</span></div>
+    <nav class="foot-langs" aria-label="${attr(F.language)}"><ul>${langLinks}</ul></nav>
+    <div class="foot-bottom"><span>© 2026 LoveType</span><span>${esc(F.disclaimer)}</span></div>
   </div>
 </footer>`;
 }
 
 /**
  * Full HTML document.
- * opts: { path, title, description, og, ogType, family, jsonld: [], main, noindex, preload: [] }
+ * opts: { S, path, alternateKey, title, description, og, ogType, family, jsonld: [], main, noindex, preload: [] }
+ * alternateKey (home|compare|privacy|terms) marks a page that exists in every language: hreflang
+ * alternates are emitted and the footer switcher links to the same page in each language.
  */
 export function page(opts) {
-  const { path: p, title, description, og = 'home', ogType = 'website', family = 'profile', jsonld = [], main, noindex = false, preload = [] } = opts;
+  const { path: p, alternateKey = null, title, description, og = 'home', ogType = 'website', family = 'profile', jsonld = [], main, noindex = false, preload = [] } = opts;
+  const S = opts.S || EN;
+  const L = LANGS[S.lang];
   const canonical = url(p);
   const ogImage = url(`/assets/og/${og}.jpg`);
+  const alternates = alternateKey && !noindex
+    ? Object.entries(LANGS).map(([, A], i) => `<link rel="alternate" hreflang="${A.hreflang}" href="${url(localPath(Object.keys(LANGS)[i], alternateKey))}">`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${url(localPath('en', alternateKey))}">`
+    : '';
   return `<!doctype html>
-<html lang="en" data-family="${family}">
+<html lang="${L.hreflang}" data-family="${family}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title>
 <meta name="description" content="${attr(description)}">
 ${noindex ? '<meta name="robots" content="noindex, follow">' : `<link rel="canonical" href="${canonical}">\n<meta name="robots" content="index, follow, max-image-preview:large">`}
+${alternates}
 <meta name="theme-color" content="#0E0910">
 <meta name="color-scheme" content="dark">
 <meta name="apple-itunes-app" content="app-id=${APP_ID}">
@@ -127,7 +162,7 @@ ${noindex ? '<meta name="robots" content="noindex, follow">' : `<link rel="canon
 <meta property="og:image" content="${ogImage}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="${L.og}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${attr(title)}">
 <meta name="twitter:description" content="${attr(description)}">
@@ -143,15 +178,15 @@ ${preload.join('\n')}
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n')}
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main">${esc(S.chrome.skip)}</a>
 <canvas class="viewport-light" aria-hidden="true"></canvas>
 <div class="glass-frame" aria-hidden="true"></div>
 <div class="page">
-${header(p)}
+${header(p, S)}
 <main id="main">
 ${main}
 </main>
-${footer()}
+${footer(S, alternateKey)}
 </div>
 </body>
 </html>
