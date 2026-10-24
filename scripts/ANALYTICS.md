@@ -43,6 +43,13 @@ Ready-made SQL: `scripts/site/analytics.sql` (daily views and tap rate, converti
 
 To rebuild a journey: group by `session_id`, order by `client_event_time` (or `properties->>'page_index'` for page views). The first `page_view` (`page_index = 1`) is the landing page; its `referrer` and `utm_*` describe where the visit came from.
 
-The website still can't be joined to app installs or app events: Apple passes nothing from the website to the app. Website → install is only visible in aggregate in App Store Connect.
+### Website → install (time matching)
+
+Apple passes nothing from the website to the app, so there is no shared ID. While traffic is low, installs can be matched by time instead:
+
+- Website side: `app_store_tap` with `os_version = 'ios'` (the tap happened on an iPhone), its timestamp, `country` (from browser language), `lang`, `path`, `cta`, `session_id`.
+- App side (`app_id = 'lovetype'`): `onboarding_started` fires once per new install, with its timestamp, `country` (device region) and `properties.language`. The app has no `app_first_open` event; `onboarding_started` is the first-launch signal.
+- A tap followed by an install 1–20 minutes later, from the same country, is a probable match. Query 9 in `scripts/site/analytics.sql` lists every install with its candidate taps from the hour before and a `candidates` count.
+- Limits: it's a guess, not attribution. People can install hours later or open the app the next day; taps from a computer (the QR code) show as `desktop`; once there are many taps per hour, candidates overlap and matches become meaningless. Treat it as an early-days signal.
 
 Journey and funnel queries: sections 7–8 of `scripts/site/analytics.sql`.

@@ -71,3 +71,20 @@ with p as (
           and (properties->>'page_index')::int <= 4 and received_at > now() - interval '30 days') e
   group by 1)
 select path_seq, count(*) as visits from p group by 1 order by 2 desc limit 30;
+
+-- 9. Probable website → install matches (works while traffic is low).
+-- Each new install (app onboarding_started) is paired with iPhone App Store taps on the website
+-- in the 60 minutes before it. A tap followed by an install a few minutes later, from the same
+-- country, is a likely match. Heuristic only: several candidates per install means "unknown".
+select i.received_at as install_time, i.country as app_country, i.properties->>'language' as app_lang,
+       w.received_at as tap_time, round(extract(epoch from i.received_at - w.received_at) / 60, 1) as minutes_after_tap,
+       w.country as web_country, w.properties->>'lang' as page_lang, w.properties->>'path' as tap_page,
+       w.properties->>'cta' as cta, w.session_id as web_visit,
+       count(*) over (partition by i.anonymous_id) as candidates
+from events i
+join events w on w.app_id = 'lovetype-web' and w.environment = 'prod' and w.event_name = 'app_store_tap'
+             and w.os_version = 'ios'
+             and w.received_at between i.received_at - interval '60 minutes' and i.received_at
+where i.app_id = 'lovetype' and i.environment = 'prod' and i.event_name = 'onboarding_started'
+  and i.received_at > now() - interval '30 days'
+order by i.received_at desc, minutes_after_tap;
