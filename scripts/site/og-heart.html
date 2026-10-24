@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:transparent}.heart{width:600px;height:600px;position:relative}.heart canvas{width:100%;height:100%;display:block}</style></head><body>
+<div class="heart" data-reveal="1"><canvas></canvas></div>
+<script type="module">
+const v=Date.now();
+const {startGlare}=await import('/assets/js/glare.js?'+v);
+const model=startGlare();
+const fam=new URLSearchParams(location.search).get('f')||'full';
+const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)/255);
+const F=window.LTLight.families[fam];
+model.colors={stops:F.spectrum.map(rgb),bloom:rgb(F.bloom),accent:rgb(F.accent)};
+model.f.light=[-0.55,-0.75];
+const {startHearts}=await import('/assets/js/heart.js?'+v);
+startHearts();
+setTimeout(()=>document.body.dataset.ready=1,2500);
+</script></body></html>

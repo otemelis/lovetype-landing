@@ -1,0 +1,618 @@
+[
+ {
+  "name": "home",
+  "eyebrow": "RELATIONSHIP TEST",
+  "title": "How do you love?",
+  "sub": "Three tests. One LoveType.",
+  "family": "full"
+ },
+ {
+  "name": "attachment-styles",
+  "eyebrow": "ATTACHMENT STYLE TEST",
+  "title": "Attachment styles",
+  "sub": "Why you pull close.",
+  "family": "attachment"
+ },
+ {
+  "name": "love-styles",
+  "eyebrow": "LOVE STYLE TEST",
+  "title": "Love styles",
+  "sub": "How you feel loved.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "conflict-styles",
+  "eyebrow": "CONFLICT STYLE TEST",
+  "title": "Conflict styles",
+  "sub": "How you handle tension.",
+  "family": "conflict"
+ },
+ {
+  "name": "attachment-styles-secure",
+  "eyebrow": "ATTACHMENT STYLE",
+  "title": "Secure attachment",
+  "sub": "The Steady Partner",
+  "family": "attachment"
+ },
+ {
+  "name": "attachment-styles-anxious",
+  "eyebrow": "ATTACHMENT STYLE",
+  "title": "Anxious attachment",
+  "sub": "The Attuned Connector",
+  "family": "attachment"
+ },
+ {
+  "name": "attachment-styles-avoidant",
+  "eyebrow": "ATTACHMENT STYLE",
+  "title": "Avoidant attachment",
+  "sub": "The Independent Protector",
+  "family": "attachment"
+ },
+ {
+  "name": "attachment-styles-fearful-avoidant",
+  "eyebrow": "ATTACHMENT STYLE",
+  "title": "Fearful-avoidant attachment",
+  "sub": "The Guarded Romantic",
+  "family": "attachment"
+ },
+ {
+  "name": "love-styles-words-of-affirmation",
+  "eyebrow": "LOVE STYLE",
+  "title": "Words of affirmation",
+  "sub": "The Word Lover",
+  "family": "loveStyle"
+ },
+ {
+  "name": "love-styles-quality-time",
+  "eyebrow": "LOVE STYLE",
+  "title": "Quality time",
+  "sub": "The Presence Lover",
+  "family": "loveStyle"
+ },
+ {
+  "name": "love-styles-physical-touch",
+  "eyebrow": "LOVE STYLE",
+  "title": "Physical touch",
+  "sub": "The Physical Anchor",
+  "family": "loveStyle"
+ },
+ {
+  "name": "love-styles-acts-of-service",
+  "eyebrow": "LOVE STYLE",
+  "title": "Acts of service",
+  "sub": "The Care Reader",
+  "family": "loveStyle"
+ },
+ {
+  "name": "love-styles-thoughtful-gifts",
+  "eyebrow": "LOVE STYLE",
+  "title": "Thoughtful gifts",
+  "sub": "The Thoughtful Romantic",
+  "family": "loveStyle"
+ },
+ {
+  "name": "love-styles-shared-experiences",
+  "eyebrow": "LOVE STYLE",
+  "title": "Shared experiences",
+  "sub": "The Memory Maker",
+  "family": "loveStyle"
+ },
+ {
+  "name": "conflict-styles-pursuer",
+  "eyebrow": "CONFLICT STYLE",
+  "title": "The Pursuer",
+  "sub": "You need resolution to feel safe — silence isn't an option.",
+  "family": "conflict"
+ },
+ {
+  "name": "conflict-styles-withdrawer",
+  "eyebrow": "CONFLICT STYLE",
+  "title": "The Withdrawer",
+  "sub": "Space is how you protect the relationship.",
+  "family": "conflict"
+ },
+ {
+  "name": "conflict-styles-fixer",
+  "eyebrow": "CONFLICT STYLE",
+  "title": "The Fixer",
+  "sub": "When something's broken, you want to fix it — including this.",
+  "family": "conflict"
+ },
+ {
+  "name": "conflict-styles-peacekeeper",
+  "eyebrow": "CONFLICT STYLE",
+  "title": "The Peacekeeper",
+  "sub": "You keep the peace — sometimes at your own expense.",
+  "family": "conflict"
+ },
+ {
+  "name": "conflict-styles-defender",
+  "eyebrow": "CONFLICT STYLE",
+  "title": "The Defender",
+  "sub": "You fight back when you feel misunderstood.",
+  "family": "conflict"
+ },
+ {
+  "name": "conflict-styles-processor",
+  "eyebrow": "CONFLICT STYLE",
+  "title": "The Processor",
+  "sub": "You think before you speak — even if it takes a while.",
+  "family": "conflict"
+ },
+ {
+  "name": "lovetypes",
+  "eyebrow": "THREE TESTS · ONE RESULT",
+  "title": "The ten LoveTypes",
+  "sub": "Which one are you?",
+  "family": "full"
+ },
+ {
+  "name": "lovetypes-quiet-builder",
+  "eyebrow": "LOVETYPE",
+  "title": "The Quiet Builder",
+  "sub": "Consistent love, shown in what you do.",
+  "family": "profile"
+ },
+ {
+  "name": "lovetypes-loyal-reassurer",
+  "eyebrow": "LOVETYPE",
+  "title": "The Loyal Reassurer",
+  "sub": "You love with your whole heart — and you need to know it's returned.",
+  "family": "attachment"
+ },
+ {
+  "name": "lovetypes-independent-romantic",
+  "eyebrow": "LOVETYPE",
+  "title": "The Independent Romantic",
+  "sub": "You choose connection — on your own terms.",
+  "family": "conflict"
+ },
+ {
+  "name": "lovetypes-guarded-heart",
+  "eyebrow": "LOVETYPE",
+  "title": "The Guarded Heart",
+  "sub": "Love is worth risking — you're learning how.",
+  "family": "attachment"
+ },
+ {
+  "name": "lovetypes-warm-nurturer",
+  "eyebrow": "LOVETYPE",
+  "title": "The Warm Nurturer",
+  "sub": "Love is what you give — freely and fully.",
+  "family": "profile"
+ },
+ {
+  "name": "lovetypes-tender-presence",
+  "eyebrow": "LOVETYPE",
+  "title": "The Tender Presence",
+  "sub": "Physical closeness is where love becomes real.",
+  "family": "attachment"
+ },
+ {
+  "name": "lovetypes-thoughtful-partner",
+  "eyebrow": "LOVETYPE",
+  "title": "The Thoughtful Partner",
+  "sub": "You love in the small things — and they add up to everything.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "lovetypes-joyful-explorer",
+  "eyebrow": "LOVETYPE",
+  "title": "The Joyful Explorer",
+  "sub": "Love is something you do together.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "lovetypes-deep-processor",
+  "eyebrow": "LOVETYPE",
+  "title": "The Deep Processor",
+  "sub": "You think before you speak — and when you speak, it matters.",
+  "family": "conflict"
+ },
+ {
+  "name": "lovetypes-passionate-advocate",
+  "eyebrow": "LOVETYPE",
+  "title": "The Passionate Advocate",
+  "sub": "You fight for connection — because love is worth it.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility",
+  "eyebrow": "52 PAIRINGS · NO SCORES",
+  "title": "Compatibility",
+  "sub": "Where you click, where you grind.",
+  "family": "profile"
+ },
+ {
+  "name": "compatibility-secure-and-anxious",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Secure and Anxious",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-anxious-and-avoidant",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Anxious and Avoidant",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-secure-and-avoidant",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Avoidant and Secure",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-secure-and-fearful-avoidant",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Fearful-Avoidant and Secure",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-anxious-and-fearful-avoidant",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Anxious and Fearful-Avoidant",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-avoidant-and-fearful-avoidant",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Avoidant and Fearful-Avoidant",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-avoidant-and-avoidant",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Two Avoidant Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-anxious-and-anxious",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Two Anxious Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-secure-and-secure",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Two Secure Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-fearful-avoidant-and-fearful-avoidant",
+  "eyebrow": "ATTACHMENT PAIRING",
+  "title": "Two Fearful-Avoidant Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "attachment"
+ },
+ {
+  "name": "compatibility-acts-of-service",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Two Acts of Service Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-acts-of-service-and-shared-experiences",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Acts of Service and Shared Experiences",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-acts-of-service-and-thoughtful-gifts",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Acts of Service and Thoughtful Gifts",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-acts-of-service-and-quality-time",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Acts of Service and Quality Time",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-acts-of-service-and-physical-touch",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Acts of Service and Physical Touch",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-acts-of-service-and-words-of-affirmation",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Acts of Service and Words of Affirmation",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-shared-experiences",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Two Shared Experiences Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-shared-experiences-and-thoughtful-gifts",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Shared Experiences and Thoughtful Gifts",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-shared-experiences-and-quality-time",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Shared Experiences and Quality Time",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-shared-experiences-and-physical-touch",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Shared Experiences and Physical Touch",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-shared-experiences-and-words-of-affirmation",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Shared Experiences and Words of Affirmation",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-thoughtful-gifts",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Two Thoughtful Gifts Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-quality-time-and-thoughtful-gifts",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Thoughtful Gifts and Quality Time",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-physical-touch-and-thoughtful-gifts",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Thoughtful Gifts and Physical Touch",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-thoughtful-gifts-and-words-of-affirmation",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Thoughtful Gifts and Words of Affirmation",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-quality-time",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Two Quality Time Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-physical-touch-and-quality-time",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Quality Time and Physical Touch",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-quality-time-and-words-of-affirmation",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Quality Time and Words of Affirmation",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-physical-touch",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Two Physical Touch Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-physical-touch-and-words-of-affirmation",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Physical Touch and Words of Affirmation",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-words-of-affirmation",
+  "eyebrow": "LOVE STYLE PAIRING",
+  "title": "Two Words of Affirmation Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "compatibility-defender",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Two Defender Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-defender-and-fixer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Defender and Fixer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-defender-and-peacekeeper",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Defender and Peacekeeper",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-defender-and-processor",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Defender and Processor",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-defender-and-pursuer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Defender and Pursuer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-defender-and-withdrawer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Defender and Withdrawer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-fixer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Two Fixer Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-fixer-and-peacekeeper",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Fixer and Peacekeeper",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-fixer-and-processor",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Fixer and Processor",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-fixer-and-pursuer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Fixer and Pursuer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-fixer-and-withdrawer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Fixer and Withdrawer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-peacekeeper",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Two Peacekeeper Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-peacekeeper-and-processor",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Peacekeeper and Processor",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-peacekeeper-and-pursuer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Peacekeeper and Pursuer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-peacekeeper-and-withdrawer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Peacekeeper and Withdrawer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-processor",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Two Processor Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-processor-and-pursuer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Processor and Pursuer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-processor-and-withdrawer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Processor and Withdrawer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-pursuer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Two Pursuer Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-pursuer-and-withdrawer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Pursuer and Withdrawer",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compatibility-withdrawer",
+  "eyebrow": "CONFLICT STYLE PAIRING",
+  "title": "Two Withdrawer Partners",
+  "sub": "Where you click, where you grind.",
+  "family": "conflict"
+ },
+ {
+  "name": "compare",
+  "eyebrow": "FREE · NO SCORE",
+  "title": "Compare with a partner",
+  "sub": "See where you click.",
+  "family": "conflict"
+ },
+ {
+  "name": "dating-profile-playbook",
+  "eyebrow": "FOR DATING",
+  "title": "Dating-profile playbook",
+  "sub": "Know what to say.",
+  "family": "loveStyle"
+ },
+ {
+  "name": "journal",
+  "eyebrow": "JOURNAL",
+  "title": "Journal",
+  "sub": "On how people love.",
+  "family": "profile"
+ },
+ {
+  "name": "journal-attachment-style-vs-personality-type",
+  "eyebrow": "JOURNAL",
+  "title": "Attachment style vs personality type",
+  "sub": "",
+  "family": "attachment"
+ }
+]

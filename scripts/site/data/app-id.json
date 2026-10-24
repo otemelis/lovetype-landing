@@ -1,0 +1,322 @@
+{
+ "attachment": {
+  "Secure": {
+   "label": "Pasangan Andalan",
+   "tagline": "Membumi, terbuka, dan selalu ada.",
+   "description": "Kamu membawa ketenangan dan konsistensi bagi orang-orang yang kamu cintai. Kamu nyaman dengan kedekatan dan tidak kehilangan dirimu dalam hubungan. Saat keadaan sulit, kamu bisa tetap hadir dan membicarakannya tanpa terjebak dalam pusaran pikiran. Bagimu, cinta terasa seperti tempat yang aman — bukan ancaman.",
+   "strength1": "Tersedia secara emosional tanpa berlebihan",
+   "strength2": "Bisa dipercaya dan mempercayai",
+   "strength3": "Menghadapi konflik dengan hati-hati",
+   "strength4": "Tidak butuh penenangan terus-menerus untuk merasa baik-baik saja",
+   "blindSpot": "Kamu mungkin meremehkan seberapa besar penenangan atau usaha yang dibutuhkan orang lain — yang terasa alami bagimu bisa terasa di luar jangkauan bagi orang dengan gaya kelekatan berbeda."
+  },
+  "Anxious": {
+   "label": "Penghubung yang Peka",
+   "tagline": "Hadir sepenuh hati, merasakan sepenuh hati.",
+   "description": "Kamu mencintai dengan seluruh dirimu. Kamu peka pada setiap perubahan nada, setiap jeda dalam percakapan — kamu menyadari hal-hal yang terlewat oleh orang lain. Kekuatan terbesarmu adalah kepekaan emosionalmu. Tantanganmu adalah belajar mempercayai apa yang kamu rasakan tanpa langsung membutuhkan konfirmasi.",
+   "strength1": "Peka secara emosional dengan cara yang sulit ditandingi orang lain",
+   "strength2": "Sangat terlibat dengan orang-orang yang kamu cintai",
+   "strength3": "Ekspresif dan jujur tentang apa yang kamu rasakan",
+   "strength4": "Setia dan hadir sepenuhnya",
+   "blindSpot": "Kebutuhanmu akan penenangan kadang bisa membuat orang menjauh — bukan karena mereka tidak peduli, tetapi karena tekanan itu bisa terasa seperti mempertanyakan konsistensi mereka."
+  },
+  "Avoidant": {
+   "label": "Pelindung yang Mandiri",
+   "tagline": "Mandiri, tertutup, dan diam-diam peduli.",
+   "description": "Kamu menghargai kemandirianmu dan sudah belajar mengurus segalanya sendiri. Kamu tidak membutuhkan seseorang — kamu memilih untuk bersama mereka, dan perbedaan itu penting bagimu. Kamu peduli dengan dalam, meski sulit menunjukkannya. Kamu punya kapasitas cinta yang nyata, yang terbuka saat kamu merasa benar-benar aman.",
+   "strength1": "Tenang di bawah tekanan",
+   "strength2": "Mandiri dan cakap",
+   "strength3": "Penuh pertimbangan dan disengaja",
+   "strength4": "Membawa stabilitas dan keteguhan",
+   "blindSpot": "Kemandirianmu bisa terbaca sebagai ketidaktersediaan emosional oleh pasangan yang membutuhkan lebih banyak kedekatan. Kamu mungkin tidak menyadari seberapa besar penarikan dirimu memengaruhi orang yang mencintaimu."
+  },
+  "FearfulAvoidant": {
+   "label": "Romantis yang Waspada",
+   "tagline": "Merindukan cinta, belajar membiarkannya masuk.",
+   "description": "Kamu merasakan tarikan koneksi yang dalam — sekaligus ketakutan terhadapnya. Cinta adalah sesuatu yang sangat kamu inginkan, dan juga terasa berbahaya. Kamu mungkin pernah terluka sebelumnya, dan pola perlindunganmu terbentuk dengan alasan yang kuat. Kamu sedang belajar bahwa keintiman sejati tidak harus berarti kehilangan dirimu atau ditinggalkan.",
+   "strength1": "Empati mendalam dan kecerdasan emosional",
+   "strength2": "Kesetiaan mendalam pada orang yang memenangkan kepercayaan sejati",
+   "strength3": "Kesadaran diri yang lahir dari pengalaman pahit",
+   "strength4": "Kemampuan menjalin ikatan yang intens dan bermakna",
+   "blindSpot": "Pola-pola yang justru dibangun untuk melindungimu — menyisakan satu kaki di luar pintu, menguji orang, mendingin saat seseorang terlalu dekat — bisa meruntuhkan koneksi yang sebenarnya kamu inginkan."
+  }
+ },
+ "love": {
+  "Words": {
+   "label": "Pecinta Kata",
+   "tagline": "Kata-kata adalah cara cinta menjadi nyata.",
+   "description": "Bahasa adalah mata uang cintamu. Kamu memberi cinta dengan mengungkapkannya — dengan lantang, lewat pesan, dalam semua cara kecil yang bisa dijangkau kata-kata. Dan kamu menerima cinta paling dalam saat seseorang mengatakan, secara spesifik, bahwa kamu berarti baginya. Diam di tempat yang seharusnya ada kata bisa terasa seperti ketiadaan.",
+   "strength1": "Ekspresif dan menguatkan",
+   "strength2": "Membuat orang lain merasa benar-benar dilihat dan didengar",
+   "strength3": "Menciptakan kejelasan emosional dalam hubungan",
+   "strength4": "Menciptakan rasa aman emosional lewat bahasa",
+   "blindSpot": "Kamu mungkin terlalu bergantung pada kata-kata dan melewatkan cinta yang ditunjukkan lewat tindakan atau kehadiran — terutama pada pasangan yang mengungkapkan dengan cara berbeda."
+  },
+  "Time": {
+   "label": "Pecinta Kehadiran",
+   "tagline": "Merasa dipilih adalah bentuk cinta yang paling dalam.",
+   "description": "Yang paling kamu dambakan adalah kehadiran — nyata, tanpa terburu-buru, dengan perhatian penuh. Ini bukan soal berapa lama seseorang menghabiskan waktu denganmu, tetapi apakah mereka benar-benar ada saat bersamamu. Pasangan yang menyingkirkan ponsel dan memilihmu sepenuhnya, meski hanya satu jam, berarti lebih dari gestur besar mana pun.",
+   "strength1": "Sangat penuh perhatian dalam hubungan",
+   "strength2": "Menghargai kualitas, bukan pertunjukan",
+   "strength3": "Menciptakan ruang untuk koneksi yang nyata",
+   "strength4": "Tidak butuh banyak untuk merasa dicintai — cukup kehadiran yang tulus",
+   "blindSpot": "Kamu mungkin merasa tidak dicintai di masa-masa sibuk, meski pasangan menunjukkan kepedulian dengan cara lain — belajar menerima cinta lewat tindakan atau kata-kata membantu menjembatani jarak itu."
+  },
+  "Touch": {
+   "label": "Jangkar Fisik",
+   "tagline": "Kedekatan fisik adalah jangkarmu.",
+   "description": "Sentuhan adalah bahasa bagimu. Tangan di punggung, pelukan panjang, duduk berdekatan — semua itu menyampaikan rasa aman dan cinta dengan cara yang sering tak sanggup dilakukan kata-kata. Kamu merasa terputus tanpa kedekatan fisik dan sangat terhubung saat memilikinya. Kasih sayang bukan pilihan — itulah caramu tahu bahwa kamu diinginkan.",
+   "strength1": "Penyayang dan hangat secara alami",
+   "strength2": "Membuat pasangan merasa diinginkan secara fisik dan aman",
+   "strength3": "Mengomunikasikan cinta lewat kehadiran dan kontak",
+   "strength4": "Peka terhadap sinyal nonverbal",
+   "blindSpot": "Pasangan yang kurang berorientasi pada sentuhan mungkin merasa tertekan — mengomunikasikan kebutuhanmu secara langsung, alih-alih berasumsi mereka sudah tahu, membuat perbedaan yang nyata."
+  },
+  "Acts": {
+   "label": "Pembaca Kepedulian",
+   "tagline": "Cinta terlihat dari apa yang dilakukan, bukan hanya apa yang dikatakan.",
+   "description": "Kamu berbicara lewat tindakan dan membacanya pada orang lain. Saat seseorang diam-diam mengurus hal sulit untukmu tanpa diminta — itulah cinta. Kamu menunjukkan kepedulian dengan melakukan: berusaha, mengambil sesuatu dari beban orang lain, hadir secara andal dalam hal-hal praktis. Kamu menyadari saat seseorang tidak menepati, karena bagimu di situlah cinta berada.",
+   "strength1": "Andal, praktis, dan diam-diam setia",
+   "strength2": "Hadir dengan cara yang berarti",
+   "strength3": "Membuat orang merasa benar-benar didukung",
+   "strength4": "Tidak butuh pengakuan — tindakannya sudah cukup",
+   "blindSpot": "Kamu mungkin mencurahkan energi untuk melakukan sesuatu bagi orang lain dan tidak menyadari saat kamu perlu dipeluk secara emosional, bukan sekadar dibantu secara praktis."
+  },
+  "Symbols": {
+   "label": "Romantis yang Penuh Perhatian",
+   "tagline": "Hal-hal kecil yang berkata, \"Aku memikirkanmu.\"",
+   "description": "Kamu memperhatikan hal-hal, dan kamu mengingatnya. Buku yang disebut seseorang tiga minggu lalu. Cara dia minum kopi. Detail kecil yang menunjukkan dia memperhatikan. Hadiah yang penuh pertimbangan dan gestur simbolis menggugahmu dengan dalam — bukan karena harganya, tetapi karena perhatian di baliknya. Bagimu, orang yang memperhatikan adalah orang yang mencintai.",
+   "strength1": "Sangat peka terhadap apa yang disukai dan dibutuhkan orang",
+   "strength2": "Menciptakan gestur yang bermakna dan personal",
+   "strength3": "Membuat orang lain merasa diingat dan benar-benar dilihat",
+   "strength4": "Menemukan romansa dalam detail",
+   "blindSpot": "Makna yang kamu lekatkan pada benda dan gestur sangat khas dirimu — pasangan yang tidak “menangkapnya” bisa merasa gagal padahal mereka hanya mengekspresikan dengan cara berbeda."
+  },
+  "Experiences": {
+   "label": "Pembuat Kenangan",
+   "tagline": "Kenangan adalah cara cinta menjadi abadi.",
+   "description": "Bagimu, cinta hidup dalam momen-momen bersama. Sebuah perjalanan, konser, sesuatu yang tak akan pernah kamu lakukan sendirian — semua itu menjadi kerangka sebuah hubungan. Kamu merasa paling dekat dengan orang saat menjalani pengalaman, bukan dalam rutinitas berdampingan sehari-hari. Kamu menginginkan seseorang yang berkata “ayo berangkat” — yang membangun hidup dari hal-hal yang layak dikenang.",
+   "strength1": "Membawa keceriaan dan petualangan dalam hubungan",
+   "strength2": "Menciptakan kenangan yang bertahan lama",
+   "strength3": "Menjaga cinta terasa hidup dan terus bergerak maju",
+   "strength4": "Secara alami menarik orang keluar dari zona nyamannya",
+   "blindSpot": "Kamu mungkin kurang menghargai momen tenang dan biasa — yang sering kali menjadi tempat hubungan terdalam dibangun."
+  }
+ },
+ "conflict": {
+  "Pursuer": {
+   "label": "Pengejar",
+   "tagline": "Kamu butuh penyelesaian agar merasa aman — diam bukan pilihan.",
+   "description": "Saat ada yang terasa salah, kamu perlu membahasnya — sekarang. Membiarkan ketegangan menggantung tanpa penyelesaian lebih menyakitkan bagimu daripada konfliknya sendiri. Kamu mengejar koneksi lewat percakapan, dan saat seseorang diam, itu bisa terasa seperti mereka menarik cintanya, bukan sekadar mengambil ruang.",
+   "strength1": "Berani secara emosional",
+   "strength2": "Tidak membiarkan masalah membusuk",
+   "strength3": "Menjaga hubungan tetap jujur dan jelas",
+   "strength4": "Berkomitmen untuk menyelesaikan masalah",
+   "blindSpot": "Mengejar terlalu keras saat pasangan butuh ruang dapat memicu penarikan diri yang lebih jauh — siklus menyakitkan di mana kalian berdua mendapat lebih sedikit dari yang dibutuhkan."
+  },
+  "Withdrawer": {
+   "label": "Penarik Diri",
+   "tagline": "Ruang adalah caramu menjaga hubungan.",
+   "description": "Saat konflik memuncak, kamu perlu mundur selangkah. Ini bukan menghindar — ini caramu mencegah dirimu mengatakan hal-hal yang akan kamu sesali. Kamu memproses secara internal, dan sering kali punya pandangan yang lebih jernih dan tenang setelah punya ruang. Masalahnya, pasangan yang butuh koneksi saat konflik bisa merasakan diammu sebagai penelantaran.",
+   "strength1": "Menghindari eskalasi",
+   "strength2": "Kembali dengan lebih jernih setelah ada ruang",
+   "strength3": "Jarang mengucapkan hal yang tak bisa ditarik kembali saat marah",
+   "strength4": "Penuh pertimbangan dan disengaja dalam memulihkan",
+   "blindSpot": "Penarikan dirimu — meski disengaja dan melindungi — bisa sangat menyakitkan bagi pasangan yang menafsirkannya sebagai penutupan diri atau penolakan."
+  },
+  "Fixer": {
+   "label": "Pemecah Masalah",
+   "tagline": "Saat ada yang rusak, kamu ingin memperbaikinya — termasuk ini.",
+   "description": "Ketegangan membuatmu ingin bergerak. Kamu terbentuk untuk mengenali masalah, mengusulkan solusi, dan sampai ke seberang secepat mungkin. Bagimu, konflik adalah masalah dengan jawaban — dan duduk bersama perasaan tanpa mengupayakan perbaikan bisa terasa tak tertahankan. Kamu peduli dengan dalam, dan memperbaiki adalah cara kepedulian itu muncul.",
+   "strength1": "Berorientasi tindakan dan efisien",
+   "strength2": "Membawa kejelasan dan arah dalam konflik",
+   "strength3": "Tidak menyerah mencari jalan keluar",
+   "strength4": "Membuat pasangan merasa masalahnya cukup penting untuk diselesaikan",
+   "blindSpot": "Terkadang orang tidak butuh solusi — mereka perlu merasa didengar dan dipahami dulu. Langsung ke perbaikan bisa tanpa sengaja menyampaikan bahwa kamu ingin ketidaknyamanan berakhir, bukan agar orang itu merasa dilihat."
+  },
+  "Peacekeeper": {
+   "label": "Penjaga Damai",
+   "tagline": "Kamu menjaga kedamaian — kadang dengan mengorbankan dirimu sendiri.",
+   "description": "Kamu akan berusaha keras menghindari konflik. Bukan karena lemah — tetapi karena keharmonisan penting bagimu, dan merusaknya terasa mahal. Kamu sering menyerap perasaanmu, setuju padahal tak sepenuhnya setuju, dan cepat minta maaf untuk memulihkan keseimbangan. Bahayanya, apa yang tak terucap tidak lenyap — ia menumpuk.",
+   "strength1": "Menenangkan dan tenang",
+   "strength2": "Jarang memperparah eskalasi konflik",
+   "strength3": "Akomodatif dan fleksibel secara alami",
+   "strength4": "Terampil memulihkan kehangatan dengan cepat",
+   "blindSpot": "Terus-menerus mengutamakan kedamaian di atas kebutuhanmu menciptakan kekesalan diam-diam yang akhirnya muncul — sering tak terduga dan dengan kekuatan lebih besar daripada jika diungkapkan lebih awal."
+  },
+  "Defender": {
+   "label": "Pembela Diri",
+   "tagline": "Kamu melawan balik saat merasa disalahpahami.",
+   "description": "Saat kamu merasa dikritik atau disalahkan secara tidak adil, langkah pertamamu adalah membela pendirianmu. Kamu akhirnya bisa mendengar masukan — tetapi tidak sebelum sempat menjelaskan dirimu. Bagimu, konflik sering kali soal benar-benar dipahami. Saat itu terasa mustahil, kamu bertahan mati-matian.",
+   "strength1": "Membela diri dengan jelas",
+   "strength2": "Tidak menyerah di bawah tekanan",
+   "strength3": "Digerakkan oleh keinginan untuk benar-benar dipahami",
+   "strength4": "Bisa sangat meyakinkan saat merasa didengar",
+   "blindSpot": "Mengawali dengan pembelaan bisa membuat pasangan sulit merasa didengar, yang sering memperparah alih-alih menyelesaikan — dan mengubah apa yang bisa menjadi percakapan menjadi debat."
+  },
+  "Processor": {
+   "label": "Pemikir",
+   "tagline": "Kamu berpikir dulu sebelum bicara — meski butuh waktu.",
+   "description": "Kamu butuh waktu sebelum bisa menanggapi konflik dengan bermakna. Ini bukan menghindar — ini caramu memastikan apa yang kamu katakan benar-benar jujur, bukan sekadar reaktif. Kamu sering punya pemahaman paling dalam dan matang tentang apa yang terjadi — hanya saja datangnya lebih lambat daripada pertengkarannya. Tantangannya, diammu saat itu bisa terasa seperti penutupan diri bagi pasangan yang butuh keterlibatan lebih cepat.",
+   "strength1": "Tanggapan yang penuh pertimbangan dan tidak reaktif",
+   "strength2": "Jarang memperparah keadaan di tengah panasnya momen",
+   "strength3": "Menawarkan kejelasan nyata setelah selesai memproses",
+   "strength4": "Tumbuh secara bermakna lewat konflik",
+   "blindSpot": "Pemrosesan yang tertunda bisa membiarkan pasangan menggantung dalam ketidakpastian — tak yakin apakah kamu baik-baik saja, marah, atau apakah hubungan itu sendiri dipertanyakan."
+  }
+ },
+ "combined": {
+  "SteadyBuilder": {
+   "label": "Pembangun yang Tenang",
+   "tagline": "Cinta yang konsisten, ditunjukkan lewat perbuatan.",
+   "description": "Kamu mencintai dengan bisa diandalkan. Kamulah orang yang hadir — bukan dengan gestur besar, melainkan dengan konsistensi, kehadiran, dan tindak lanjut. Hubungan terasa aman denganmu karena kamu tidak lari saat keadaan rumit. Kamu membangun perlahan dan dalam, dan apa yang kamu bangun cenderung bertahan.",
+   "strength1": "Stabil dan konsisten secara emosional",
+   "strength2": "Menunjukkan cinta lewat tindakan yang bisa diandalkan",
+   "strength3": "Menghadapi konflik tanpa memperparah",
+   "strength4": "Pasangan merasa benar-benar aman bersamamu",
+   "blindSpot": "Kamu bisa kurang mengungkapkan apa yang dirasakan secara emosional — pasangan mungkin bertanya-tanya apa yang kamu pikirkan atau perlu mendengar lebih banyak daripada yang biasa kamu berikan."
+  },
+  "LoyalReassurer": {
+   "label": "Penenang yang Setia",
+   "tagline": "Kamu mencintai sepenuh hati — dan perlu tahu bahwa cintamu berbalas.",
+   "description": "Hubungan adalah tempat kamu hidup sepenuhnya. Kamu sangat penuh perhatian, sangat setia, dan hadir sepenuhnya bagi orang yang kamu cintai. Kamu butuh kehadiran yang sama sebagai balasannya. Bukan karena tidak percaya diri — tetapi karena cinta, bagimu, bersifat aktif dan diungkapkan, bukan diasumsikan. Saat penenangan itu ada, kamu adalah salah satu pasangan paling luar biasa yang bisa dimiliki seseorang.",
+   "strength1": "Setia dan berdedikasi dengan sangat gigih",
+   "strength2": "Hadir dan penuh perhatian secara emosional",
+   "strength3": "Ekspresif dan jujur tentang apa yang kamu butuhkan",
+   "strength4": "Sangat peka terhadap orang-orang yang kamu cintai",
+   "blindSpot": "Mencari penenangan saat tertekan bisa menciptakan tekanan yang justru memicu jarak yang paling kamu takuti."
+  },
+  "IndependentRomantic": {
+   "label": "Romantis yang Mandiri",
+   "tagline": "Kamu memilih kedekatan — dengan caramu sendiri.",
+   "description": "Kamu bukan orang yang butuh hubungan. Kamu menginginkannya — dan perbedaan itu bermakna bagimu. Kamu membawa ketenangan, kemandirian, dan kesetiaan yang tenang. Kamu mencintai lewat ruang dan petualangan, bukan kebersamaan terus-menerus, dan kamu butuh pasangan yang menghormati bahwa kemandirianmu bukan jarak — itulah caramu tetap utuh.",
+   "strength1": "Membawa ketenangan dan stabilitas",
+   "strength2": "Tidak pernah menempel berlebihan — mencintai dengan niat",
+   "strength3": "Menjaga jati diri yang jelas dalam hubungan",
+   "strength4": "Menyediakan ruang agar kedua orang tetap menjadi diri sendiri",
+   "blindSpot": "Keterjangkauan emosionalmu bisa sulit dibaca, membuat pasangan tak yakin apakah kamu sungguh terlibat atau sekadar nyaman dengan yang lebih sedikit."
+  },
+  "GuardedHeart": {
+   "label": "Hati yang Berjaga",
+   "tagline": "Cinta layak dipertaruhkan — dan kamu sedang belajar caranya.",
+   "description": "Kamu menginginkan koneksi lebih dari yang disadari kebanyakan orang — tetapi itu terlapisi banyak perlindungan yang diraih dengan susah payah. Kamu pernah mencintai dan kehilangan, atau mencintai dan dikecewakan, dan pola-polamu kini mencerminkan riwayat itu. Kamu tidak rusak. Kamu berhati-hati. Dan saat seseorang memenangkan kepercayaan yang sejati, cinta yang kamu berikan langka dan mendalam.",
+   "strength1": "Empati mendalam dan kecerdasan emosional",
+   "strength2": "Kesetiaan yang berarti segalanya begitu diberikan",
+   "strength3": "Kapasitas luar biasa untuk kedalaman saat merasa aman",
+   "strength4": "Kesadaran diri yang lahir dari pengalaman pahit",
+   "blindSpot": "Pola perlindunganmu — mendorong menjauh, menguji, menyisakan satu kaki di luar pintu — bisa menghancurkan tepat apa yang ingin kamu lindungi."
+  },
+  "WarmNurturer": {
+   "label": "Pemberi Kehangatan",
+   "tagline": "Cinta adalah apa yang kamu beri — dengan bebas dan sepenuhnya.",
+   "description": "Kamulah orang yang merawat orang lain. Kamu menyadari saat seseorang sedang kesulitan sebelum dia mengucapkan sepatah kata. Kamu membuat segalanya lebih mudah, lebih lembut, lebih aman — bukan karena harus, tetapi karena memang begitulah caramu mencintai. Kemurahan hatimu luar biasa. Tantangannya adalah belajar menerima seterbuka kamu memberi.",
+   "strength1": "Sangat peduli dan peka terhadap orang lain",
+   "strength2": "Membuat orang merasa benar-benar dilihat dan didukung",
+   "strength3": "Membawa kehangatan ke segala yang disentuhnya",
+   "strength4": "Andal, konsisten, dan setia dalam diam",
+   "blindSpot": "Kamu memberi begitu banyak sehingga orang mungkin tidak sadar saat kamu butuh sesuatu sebagai balasan — dan kamu mungkin tidak memintanya, bahkan saat tenagamu menipis."
+  },
+  "TenderPresence": {
+   "label": "Kehadiran yang Lembut",
+   "tagline": "Kedekatan fisik adalah tempat cinta menjadi nyata.",
+   "description": "Sentuhan, kedekatan, dan kehadiran penuh adalah bahasa cintamu. Kamu merasa paling terhubung saat seseorang benar-benar ada secara fisik — tidak teralihkan, tidak setengah di tempat lain, tetapi sungguh bersamamu. Kamu secara alami penyayang, dan kehangatan fisik menyampaikan cinta dengan cara yang sering tak sanggup dilakukan kata-kata.",
+   "strength1": "Sangat penyayang dan terhubung",
+   "strength2": "Membuat pasangan merasa diinginkan dan dilihat secara fisik",
+   "strength3": "Hangat secara alami dan peka terhadap isyarat fisik",
+   "strength4": "Menciptakan rasa aman lewat kedekatan",
+   "blindSpot": "Pasangan yang kurang berorientasi pada sentuhan mungkin merasa tertekan — apa yang terasa alami bagimu bisa terasa melelahkan bagi seseorang dengan batasan fisik yang lebih ketat."
+  },
+  "ThoughtfulPartner": {
+   "label": "Pasangan yang Perhatian",
+   "tagline": "Kamu mencintai lewat hal-hal kecil — dan semuanya terkumpul menjadi segalanya.",
+   "description": "Kamu salah satu dari sedikit orang yang benar-benar memperhatikan. Kamu menyadari hal-hal kecil — apa yang disebut seseorang sambil lalu, apa yang tak dia katakan tetapi jelas dia maksud, apa yang akan membuat harinya sedikit lebih mudah. Kamu mengungkapkan cinta lewat tindakan yang penuh pertimbangan dan mengingat, dan kamu merasa paling dicintai saat seseorang melakukan hal yang sama untukmu.",
+   "strength1": "Penuh perhatian dan jeli dalam hubungan",
+   "strength2": "Menciptakan pengalaman yang sangat personal dan bermakna",
+   "strength3": "Mengingat apa yang penting bagi orang yang dicintai",
+   "strength4": "Teguh dan reflektif di bawah tekanan",
+   "blindSpot": "Kamu mungkin terlalu memikirkan seperti apa cinta seharusnya, alih-alih sekadar berada di dalamnya — dan pasangan kadang berharap kamu lebih spontan."
+  },
+  "AdventureBond": {
+   "label": "Penjelajah yang Ceria",
+   "tagline": "Cinta adalah sesuatu yang dilakukan bersama.",
+   "description": "Bagimu, cinta hidup dalam pengalaman. Bukan hanya yang besar — setiap kali kalian melakukan sesuatu bersama yang sedikit mengeluarkanmu dari rutinitas harian, kamu merasa lebih terhubung. Kamu membawa keceriaan, inisiatif, dan rasa akan kemungkinan bagi orang yang kamu cintai. Hidup bersamamu adalah sesuatu yang layak dijalani.",
+   "strength1": "Membawa keceriaan dan energi dalam hubungan",
+   "strength2": "Menciptakan kenangan yang bertahan lama",
+   "strength3": "Menjaga cinta terasa hidup dan meluas",
+   "strength4": "Secara alami menarik orang keluar dari zona nyamannya",
+   "blindSpot": "Kamu mungkin lebih menghargai hal baru daripada kedalaman — momen biasa yang tenang, tempat keintiman sejati sering berada, kadang terasa kurang penting dibanding pengalaman berikutnya."
+  },
+  "DeepProcessor": {
+   "label": "Pemikir Mendalam",
+   "tagline": "Kamu berpikir sebelum bicara — dan saat bicara, kata-katamu berarti.",
+   "description": "Kamu memahami dirimu dengan dalam — tetapi sering kali tidak secara langsung. Kamu perlu duduk bersama emosimu sebelum bisa mengungkapkannya, dan pemahamanmu tentang apa yang terjadi dalam hubungan biasanya datang berjam-jam atau berhari-hari setelah momennya. Saat akhirnya kamu bicara, itu layak didengarkan. Tantangannya adalah sampai ke sana tanpa membuat orang menggantung dalam ketidakpastian.",
+   "strength1": "Komunikator yang penuh pertimbangan dan tidak reaktif",
+   "strength2": "Pengenalan diri yang dalam seiring waktu",
+   "strength3": "Tidak memperparah konflik saat itu juga",
+   "strength4": "Menawarkan kejelasan nyata begitu siap",
+   "blindSpot": "Jeda antara merasakan sesuatu dan mampu mengatakannya bisa membuat pasangan merasa terkucil atau tak yakin di mana posisinya."
+  },
+  "PassionateAdvocate": {
+   "label": "Pejuang yang Bersemangat",
+   "tagline": "Kamu memperjuangkan kedekatan — karena cinta layak diperjuangkan.",
+   "description": "Kamu bukan orang yang pergi diam-diam. Saat sesuatu penting bagimu — dan orang-orang yang kamu cintai sangat penting — kamu memperjuangkannya dengan seluruh dirimu. Bagimu, konflik adalah jalan menuju kejelasan, bukan ancaman. Kamu lebih memilih menuntaskan hal sulit daripada membiarkannya hanyut tanpa penyelesaian. Intensitasmu adalah cintamu.",
+   "strength1": "Sangat berkomitmen pada hubungan",
+   "strength2": "Tidak menyerah saat keadaan sulit",
+   "strength3": "Hadir secara emosional dan sepenuhnya terlibat",
+   "strength4": "Menghargai kejujuran di atas keheningan yang nyaman",
+   "blindSpot": "Intensitasmu — terutama saat konflik — bisa membebani pasangan yang perlu mundur dulu sebelum bisa terhubung kembali."
+  }
+ },
+ "playbook": {
+  "SteadyBuilder": {
+   "leadWith": "Tunjukkan, jangan umumkan. Daya tarikmu ada pada bukti, bukan kata sifat — biarkan detail bagaimana kamu benar-benar hidup yang bekerja.",
+   "point": "Rutinitas atau komitmen yang sudah kamu jaga bertahun-tahun. Itu menandakan keandalan jauh lebih baik daripada kata itu sendiri.",
+   "example": "Pendakian yang sama tiap Minggu selama enam tahun, hujan atau tidak. Mencari seseorang yang layak untuk kuperlambat langkahnya."
+  },
+  "LoyalReassurer": {
+   "leadWith": "Mulailah dari betapa hadirnya kamu — itulah anugerahmu. Hanya saja bingkai itu sebagai pengabdian, bukan daftar syarat.",
+   "point": "Bahwa kamu sepenuhnya total begitu kamu terlibat. Orang yang tepat akan menganggapnya memikat — katakan dengan jelas.",
+   "example": "Saat bersama seseorang, aku benar-benar bersamanya. Ponsel disingkirkan, sepenuhnya di sini."
+  },
+  "IndependentRomantic": {
+   "leadWith": "Katakan terus terang bahwa kamu mencari pasangan, bukan peleburan. Siapa pun yang merasa terganggu akan menyingkir sendiri — dan itulah tujuannya.",
+   "point": "Kegemaran yang sepenuhnya milikmu. Itu menandakan kamu akan membawa hidup yang utuh ke dalam hubungan, bukan ruang kosong.",
+   "example": "Aku menghilang ke kamar gelap fotografi hampir tiap akhir pekan dan kembali sebagai teman yang lebih menyenangkan."
+  },
+  "GuardedHeart": {
+   "leadWith": "Kamu tidak berutang riwayatmu pada profil kencan. Mulailah dari apa yang sedang kamu tuju, bukan dari apa yang sedang kamu pulihkan.",
+   "point": "Sesuatu yang kamu antusiasi secara terbuka. Antusiasme melunakkan hati dan menunjukkan kamu tidak tertutup.",
+   "example": "Tanyakan padaku soal terumbu karang. Aku tak akan berhenti."
+  },
+  "WarmNurturer": {
+   "leadWith": "Tunjukkan kehangatanmu — itulah seluruh daya tarikmu — tapi pastikan profilmu juga menyatakan bahwa kamu ingin dirawat, bukan hanya merawat.",
+   "point": "Bagaimana kamu menunjukkan kepedulian, dengan contoh spesifik. Lebih menarik daripada “penyayang” sebagai kata sifat.",
+   "example": "Kamu cuma sekali menyebut suka camilan tertentu, dan lain kali camilan itu sudah ada di tasku. Begitulah caraku."
+  },
+  "TenderPresence": {
+   "leadWith": "Kehangatan fisik adalah caramu terhubung — katakan langsung, tapi tetap soal kedekatan dan kehadiran, bukan sekadar chemistry.",
+   "point": "Bahwa kasih sayang fisik adalah bahasa cintamu, dibingkai sebagai kedekatan sehari-hari.",
+   "example": "Aku tipe orang yang tangannya di punggung, duduk dempet di sofa. Kasih sayang tidak kujatah."
+  },
+  "ThoughtfulPartner": {
+   "leadWith": "Keunggulanmu adalah perhatian pada detail — jadi buat profilnya sendiri spesifik. Profil yang samar sangat merugikanmu.",
+   "point": "Hal kecil yang presisi yang kamu perhatikan atau ingat. Itu menunjukkan sifatnya, bukan sekadar mengklaimnya.",
+   "example": "Aku akan mengingat nama anjing masa kecilmu dan menyebutnya lagi setahun kemudian."
+  },
+  "AdventureBond": {
+   "leadWith": "Mulailah dengan momentum dan rencana konkret — tapi beri sinyal bahwa kamu juga bisa menikmati Selasa yang tenang, kalau tidak kamu hanya akan menarik orang yang juga tak bisa diam.",
+   "point": "Hal konkret yang ingin kamu lakukan bersama seseorang — bukan “suka jalan-jalan”, tapi rencana sungguhan.",
+   "example": "Aku punya daftar 30 warung makan di seluruh provinsi dan baru 11 yang kudatangi. Ayo selesaikan 19 sisanya bersamaku."
+  },
+  "DeepProcessor": {
+   "leadWith": "Katakan bahwa kamu berkomunikasi dengan lambat dan penuh pertimbangan. Itu filter kecocokan yang nyata, dan orang yang tepat akan membacanya sebagai kedalaman.",
+   "point": "Bahwa pemikiran terbaikmu datang belakangan — dan sepadan dengan penantiannya.",
+   "example": "Aku jarang punya jawaban sempurna saat itu juga. Beri aku sehari dan aku akan kembali dengan sesuatu yang sungguhan."
+  },
+  "PassionateAdvocate": {
+   "leadWith": "Akui intensitasmu — itu kualitas terbaikmu — dan padukan dengan satu baris yang menunjukkan kamu juga bisa membiarkan orang lain bernapas.",
+   "point": "Bahwa kamu sepenuhnya berinvestasi begitu berkomitmen — dinyatakan sebagai pengabdian, bukan panas.",
+   "example": "Aku tidak main setengah-setengah. Kalau aku ikut, aku ikut, dan kamu tak akan pernah bertanya-tanya di mana posisimu."
+  }
+ }
+}

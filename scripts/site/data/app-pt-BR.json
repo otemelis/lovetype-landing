@@ -1,0 +1,322 @@
+{
+ "attachment": {
+  "Secure": {
+   "label": "O Alicerce",
+   "tagline": "Com os pés no chão, coração aberto e sempre por perto.",
+   "description": "Você traz calma e constância para as pessoas que ama. Lida bem com a proximidade e não se perde nos relacionamentos. Quando as coisas ficam difíceis, consegue continuar presente e conversar sem entrar em espiral. O amor, para você, é um lugar seguro — não uma ameaça.",
+   "strength1": "Disponibilidade emocional sem exageros",
+   "strength2": "Capacidade de confiar e de inspirar confiança",
+   "strength3": "Cuidado ao lidar com conflitos",
+   "strength4": "Não precisa de reafirmação constante para ficar bem",
+   "blindSpot": "Você pode subestimar quanta reafirmação ou esforço os outros precisam — o que é natural para você pode parecer fora de alcance para quem tem outro estilo de apego."
+  },
+  "Anxious": {
+   "label": "O Coração Sintonizado",
+   "tagline": "Presença profunda, sentir profundo.",
+   "description": "Você ama com o seu ser inteiro. Percebe cada mudança de tom, cada pausa na conversa — repara em coisas que os outros deixam passar. Sua maior força é a sintonia emocional. Seu desafio é aprender a confiar no que sente sem precisar, de imediato, de uma confirmação.",
+   "strength1": "Percepção emocional que poucos alcançam",
+   "strength2": "Envolvimento profundo com quem você ama",
+   "strength3": "Expressão sincera do que sente",
+   "strength4": "Lealdade e presença por inteiro",
+   "blindSpot": "Sua necessidade de reafirmação pode, às vezes, afastar as pessoas — não porque elas não se importem, mas porque a pressão pode soar como uma dúvida sobre a constância delas."
+  },
+  "Avoidant": {
+   "label": "A Fortaleza Independente",
+   "tagline": "Faz por si, guarda para si, cuida em silêncio.",
+   "description": "Você valoriza a sua independência e aprendeu a resolver as coisas por conta própria. Você não precisa de alguém — você escolhe estar com a pessoa, e essa diferença importa para você. Você se importa profundamente, mesmo quando é difícil demonstrar. Há em você uma capacidade real de amar, que se abre quando você sente segurança de verdade.",
+   "strength1": "Calma sob pressão",
+   "strength2": "Autossuficiência e competência",
+   "strength3": "Ponderação e deliberação",
+   "strength4": "Traz estabilidade e os pés no chão",
+   "blindSpot": "Sua autossuficiência pode ser lida como indisponibilidade emocional por quem precisa de mais proximidade. Você pode não perceber o quanto o seu afastamento afeta quem ama você."
+  },
+  "FearfulAvoidant": {
+   "label": "A Ponte Levadiça",
+   "tagline": "Quer o amor e está aprendendo a deixá-lo entrar.",
+   "description": "Você sente a atração por uma conexão profunda — e, ao mesmo tempo, o medo dela. O amor é algo que você deseja intensamente e que também parece perigoso. Provavelmente você já se machucou antes, e seus padrões de proteção foram construídos por um bom motivo. Você está aprendendo que intimidade de verdade não precisa significar se perder nem ser abandonado.",
+   "strength1": "Empatia profunda e inteligência emocional",
+   "strength2": "Lealdade profunda com quem conquista a sua confiança de verdade",
+   "strength3": "Autoconhecimento que nasce de experiências difíceis",
+   "strength4": "Capacidade para vínculos intensos e significativos",
+   "blindSpot": "Os mesmos padrões criados para proteger você — manter um pé fora da porta, testar as pessoas, esfriar quando alguém chega perto demais — podem desmontar as conexões que você realmente quer."
+  }
+ },
+ "love": {
+  "Words": {
+   "label": "A Voz do Afeto",
+   "tagline": "É pelas palavras que o amor se torna real.",
+   "description": "A linguagem é a sua moeda de amor. Você dá amor expressando-o — em voz alta, em mensagens, em todos os pequenos jeitos com que as palavras podem tocar. E recebe amor com mais profundidade quando alguém diz, de forma específica, que você é importante. O silêncio onde deveria haver palavras pode soar como ausência.",
+   "strength1": "Expressividade e capacidade de valorizar",
+   "strength2": "Faz os outros se sentirem realmente vistos e ouvidos",
+   "strength3": "Cria clareza emocional nos relacionamentos",
+   "strength4": "Cria segurança emocional por meio da linguagem",
+   "blindSpot": "Você pode depender demais das palavras e deixar passar o amor que se mostra em ações ou em presença — sobretudo com quem se expressa de outro jeito."
+  },
+  "Time": {
+   "label": "A Presença Inteira",
+   "tagline": "Ser a escolha de alguém é o amor mais profundo.",
+   "description": "O que você mais deseja é presença — real, sem pressa, com atenção total. Não é sobre quanto tempo alguém passa com você, mas sobre estar de fato ali enquanto está. Alguém que larga o celular e escolhe você por inteiro, mesmo por uma hora, significa mais do que qualquer grande gesto.",
+   "strength1": "Atenção profunda nos relacionamentos",
+   "strength2": "Valoriza a qualidade, não a performance",
+   "strength3": "Abre espaço para uma conexão de verdade",
+   "strength4": "Precisa de pouco para sentir o amor — só de presença genuína",
+   "blindSpot": "Você pode se sentir sem amor em fases corridas, mesmo quando quem está com você demonstra cuidado de outras formas — aprender a receber amor por meio de ações ou palavras ajuda a diminuir essa distância."
+  },
+  "Touch": {
+   "label": "A Âncora do Toque",
+   "tagline": "A conexão física é a sua âncora.",
+   "description": "O toque é uma linguagem para você. Uma mão nas costas, um abraço longo, sentar junto — essas coisas comunicam segurança e amor de um jeito que as palavras muitas vezes não alcançam. Sem proximidade física, você sente a conexão se perder; com ela, sente uma conexão profunda. O afeto não é opcional — é assim que você sabe que tem lugar na vida de alguém.",
+   "strength1": "Afeto e calor naturais",
+   "strength2": "Faz quem está com você sentir desejo e segurança",
+   "strength3": "Comunica amor por meio da presença e do contato",
+   "strength4": "Sintonia com sinais não verbais",
+   "blindSpot": "Quem é menos ligado ao toque pode sentir pressão — comunicar a sua necessidade diretamente, em vez de supor que a pessoa já sabe, faz uma diferença real."
+  },
+  "Acts": {
+   "label": "O Cuidado em Ação",
+   "tagline": "O amor aparece no que se faz, não só no que se diz.",
+   "description": "Você fala em ações e as lê nos outros. Quando alguém resolve em silêncio algo difícil para você, sem que peça — isso é amor. Você mostra que se importa fazendo: se esforçando, tirando algo do prato de alguém, estando presente de forma confiável nas coisas práticas. Você repara quando alguém não cumpre, porque, para você, é ali que o amor mora.",
+   "strength1": "Confiabilidade, praticidade e dedicação silenciosa",
+   "strength2": "Aparece do jeito que importa",
+   "strength3": "Faz as pessoas se sentirem realmente apoiadas",
+   "strength4": "Não precisa de reconhecimento — o ato já basta",
+   "blindSpot": "Você pode gastar toda a energia fazendo pelos outros e não perceber quando precisa de acolhimento emocional, não só de ajuda prática."
+  },
+  "Symbols": {
+   "label": "O Romance nos Detalhes",
+   "tagline": "Pequenas coisas que dizem: “pensei em você”.",
+   "description": "Você repara nas coisas e se lembra delas. O livro que alguém mencionou três semanas atrás. O jeito como a pessoa toma o café. O pequeno detalhe que mostra que ela estava prestando atenção. Presentes cuidadosos e gestos simbólicos emocionam você profundamente — não pelo preço, mas pela atenção que existe por trás. Para você, quem repara é quem ama.",
+   "strength1": "Atenção profunda ao que as pessoas amam e precisam",
+   "strength2": "Cria gestos pessoais e cheios de significado",
+   "strength3": "Faz os outros se sentirem lembrados e realmente vistos",
+   "strength4": "Encontra romance nos detalhes",
+   "blindSpot": "O significado que você dá a objetos e gestos é muito seu — quem não “entende” pode sentir que está falhando quando só está se expressando de outro jeito."
+  },
+  "Experiences": {
+   "label": "Os Momentos que Ficam",
+   "tagline": "É pelas memórias que o amor fica para sempre.",
+   "description": "O amor, para você, vive nos momentos compartilhados. Uma viagem, um show, algo que você nunca teria feito por conta própria — isso vira a estrutura de um relacionamento. Você se sente mais perto das pessoas durante as experiências, não na rotina lado a lado. Você quer alguém que diga “bora” — que construa uma vida feita de coisas que valem a pena lembrar.",
+   "strength1": "Traz alegria e aventura para os relacionamentos",
+   "strength2": "Cria memórias duradouras",
+   "strength3": "Mantém o amor vivo e em movimento",
+   "strength4": "Tira as pessoas da zona de conforto com naturalidade",
+   "blindSpot": "Você pode subestimar os momentos calmos e comuns — que costumam ser onde os relacionamentos mais profundos são construídos."
+  }
+ },
+ "conflict": {
+  "Pursuer": {
+   "label": "A Busca por Resolução",
+   "tagline": "Você precisa de uma resolução para se sentir em segurança — silêncio não é opção.",
+   "description": "Quando algo parece errado, você precisa tratar do assunto — agora. Deixar a tensão sem solução dói mais do que o próprio conflito. Você busca a conexão por meio da conversa, e, quando alguém se cala, pode parecer que a pessoa está retirando o amor, e não apenas tomando um espaço.",
+   "strength1": "Coragem emocional",
+   "strength2": "Não deixa os problemas apodrecerem",
+   "strength3": "Mantém os relacionamentos honestos e claros",
+   "strength4": "Compromisso com resolver as coisas",
+   "blindSpot": "Insistir demais quando a outra pessoa precisa de espaço pode gerar ainda mais afastamento — um ciclo doloroso em que os dois recebem menos do que precisam."
+  },
+  "Withdrawer": {
+   "label": "O Recolhimento",
+   "tagline": "Espaço é o seu jeito de proteger a relação.",
+   "description": "Quando o conflito sobe, você precisa dar um passo atrás. Isso não é evitar — é como você impede a si mesmo de dizer coisas de que vai se arrepender. Você processa por dentro e muitas vezes chega a percepções mais claras e calmas depois de ter espaço. O problema é que quem precisa de conexão durante o conflito pode viver o seu silêncio como abandono.",
+   "strength1": "Evita a escalada",
+   "strength2": "Volta com mais clareza depois do espaço",
+   "strength3": "Raramente diz na raiva coisas que não dá para desdizer",
+   "strength4": "Ponderação e intenção na hora de reparar",
+   "blindSpot": "Seu afastamento — mesmo quando intencional e protetor — pode ser muito doloroso para quem o interpreta como fechamento ou rejeição."
+  },
+  "Fixer": {
+   "label": "A Mão na Massa",
+   "tagline": "Quando algo quebra, você quer consertar — inclusive isto.",
+   "description": "A tensão faz você querer se mexer. Você é do tipo que identifica o problema, propõe uma solução e chega ao outro lado o mais rápido possível. O conflito, para você, é um problema com resposta — e ficar no sentimento sem trabalhar por uma solução pode ser insuportável. Você se importa profundamente, e consertar é a forma como esse cuidado aparece.",
+   "strength1": "Ação e eficiência",
+   "strength2": "Traz clareza e direção para o conflito",
+   "strength3": "Não desiste de encontrar um caminho",
+   "strength4": "Faz a outra pessoa sentir que o problema importa o bastante para ser resolvido",
+   "blindSpot": "Às vezes as pessoas não precisam de uma solução — precisam antes se sentir ouvidas e compreendidas. Correr para o conserto pode, sem querer, comunicar que você quer que o desconforto acabe, e não que a pessoa se sinta vista."
+  },
+  "Peacekeeper": {
+   "label": "A Paz em Primeiro Lugar",
+   "tagline": "Você mantém a paz — às vezes à sua própria custa.",
+   "description": "Você faz de tudo para evitar o conflito. Não por fraqueza — mas porque a harmonia importa para você, e rompê-la parece caro. Muitas vezes você absorve o que sente, concorda mesmo sem concordar totalmente e pede desculpas rápido para restaurar o equilíbrio. O perigo é que o que fica não dito não desaparece — se acumula.",
+   "strength1": "Calma e capacidade de desescalar",
+   "strength2": "Raramente contribui para a escalada de um conflito",
+   "strength3": "Acolhimento e flexibilidade naturais",
+   "strength4": "Habilidade para restaurar o calor rapidamente",
+   "blindSpot": "Priorizar sempre a paz em vez das suas necessidades cria um ressentimento silencioso que, cedo ou tarde, vem à tona — muitas vezes de forma inesperada e com mais força do que teria se fosse dito antes."
+  },
+  "Defender": {
+   "label": "O Escudo",
+   "tagline": "Você se defende quando sente que não te entendem.",
+   "description": "Quando você recebe uma crítica ou uma culpa que parece injusta, seu primeiro movimento é defender o seu lado. Você consegue ouvir um feedback depois — mas não antes de ter a chance de se explicar. O conflito, para você, muitas vezes é sobre se fazer compreender de verdade. Quando isso parece impossível, você se fortifica.",
+   "strength1": "Clareza ao se posicionar",
+   "strength2": "Não cede sob pressão",
+   "strength3": "Motivação que vem de se fazer compreender de verdade",
+   "strength4": "Persuasão real quando há escuta de verdade",
+   "blindSpot": "Começar pela defesa pode dificultar que a outra pessoa se sinta ouvida, o que muitas vezes escala em vez de resolver — e transforma o que poderia ser uma conversa em um debate."
+  },
+  "Processor": {
+   "label": "O Tempo de Pensar",
+   "tagline": "Você pensa antes de falar — mesmo que leve um tempo.",
+   "description": "Você precisa de tempo antes de conseguir responder a um conflito com sentido. Isso não é evitar — é o seu jeito de garantir que o que você diz seja de fato verdadeiro, e não só reativo. Muitas vezes você tem as percepções mais profundas e ponderadas sobre o que aconteceu — elas só chegam depois da discussão. O desafio é que o seu silêncio no momento pode parecer fechamento para quem precisa de um envolvimento mais imediato.",
+   "strength1": "Respostas ponderadas e sem reatividade",
+   "strength2": "Raramente escala no calor do momento",
+   "strength3": "Oferece clareza real depois de processar",
+   "strength4": "Cresce de verdade com os conflitos",
+   "blindSpot": "O processamento adiado pode deixar quem está com você em suspenso — sem saber se você está bem, se está com raiva ou se o próprio relacionamento está em jogo."
+  }
+ },
+ "combined": {
+  "SteadyBuilder": {
+   "label": "A Construção Silenciosa",
+   "tagline": "Amor constante, mostrado no que você faz.",
+   "description": "Você ama com confiabilidade. É a pessoa que aparece — não com grandes gestos, mas com constância, presença e cumprimento do que diz. Os relacionamentos ficam seguros com você porque você não foge quando as coisas se complicam. Você constrói devagar e com profundidade, e o que constrói costuma durar.",
+   "strength1": "Estabilidade e constância emocional",
+   "strength2": "Mostra amor por meio de ações confiáveis",
+   "strength3": "Lida com conflitos sem escalar",
+   "strength4": "Quem está com você sente segurança de verdade",
+   "blindSpot": "Você pode expressar pouco o que sente emocionalmente — quem está com você pode se perguntar o que você pensa ou precisar ouvir mais do que você naturalmente diz."
+  },
+  "LoyalReassurer": {
+   "label": "A Lealdade Sensível",
+   "tagline": "Você ama de coração inteiro — e precisa saber que esse amor é retribuído.",
+   "description": "Os relacionamentos são onde você ganha vida. Você tem atenção, lealdade intensa e presença por inteiro para as pessoas que ama. E precisa da mesma presença de volta. Não por insegurança — mas porque o amor, para você, é ativo e expresso, não presumido. Quando essa reafirmação existe, você é uma das pessoas mais extraordinárias que alguém pode ter ao lado.",
+   "strength1": "Lealdade e dedicação ferozes",
+   "strength2": "Presença emocional e atenção",
+   "strength3": "Clareza e honestidade sobre o que você precisa",
+   "strength4": "Sintonia profunda com quem você ama",
+   "blindSpot": "Buscar reafirmação sob estresse pode criar uma pressão que provoca justamente a distância que você mais teme."
+  },
+  "IndependentRomantic": {
+   "label": "A Independência Romântica",
+   "tagline": "Você escolhe a conexão — nos seus próprios termos.",
+   "description": "Você não é alguém que precisa de um relacionamento. Você quer um — e essa diferença tem significado para você. Você traz calma, autossuficiência e uma lealdade discreta. Você ama em espaços e aventuras, e não numa união constante, e precisa de alguém que respeite que a sua independência não é distância — é como você preserva a sua integridade.",
+   "strength1": "Traz calma e estabilidade",
+   "strength2": "Nunca sufoca — ama com intenção",
+   "strength3": "Mantém uma noção clara de si dentro dos relacionamentos",
+   "strength4": "Abre espaço para que as duas pessoas continuem sendo indivíduos",
+   "blindSpot": "Sua disponibilidade emocional pode ser difícil de ler, deixando quem está com você em dúvida se o seu envolvimento é profundo ou se você simplesmente se contenta com menos."
+  },
+  "GuardedHeart": {
+   "label": "O Coração em Guarda",
+   "tagline": "Vale a pena arriscar no amor — você está aprendendo como.",
+   "description": "Você quer conexão mais do que a maioria das pessoas imagina — mas ela está sob camadas de uma proteção conquistada a duras penas. Você amou e perdeu, ou amou e se decepcionou, e seus padrões agora refletem essa história. Não há nada de quebrado em você. Há cuidado. E, quando alguém conquista confiança de verdade, o amor que você oferece é raro e profundo.",
+   "strength1": "Empatia profunda e inteligência emocional",
+   "strength2": "Uma lealdade que significa tudo depois de dada",
+   "strength3": "Capacidade extraordinária de profundidade quando há segurança",
+   "strength4": "Autoconhecimento que nasce de experiências difíceis",
+   "blindSpot": "Seus padrões de proteção — afastar, testar, manter um pé fora da porta — podem destruir exatamente o que você tenta proteger."
+  },
+  "WarmNurturer": {
+   "label": "O Abrigo",
+   "tagline": "Amor é o que você dá — livre e por inteiro.",
+   "description": "Você é a pessoa que cuida das pessoas. Percebe quando alguém está passando por dificuldade antes de a pessoa dizer uma palavra. Torna as coisas mais fáceis, mais suaves, mais seguras — não porque precisa, mas porque é assim que você ama. Sua generosidade é notável. O desafio é aprender a receber com a mesma abertura com que você dá.",
+   "strength1": "Cuidado profundo e sintonia com os outros",
+   "strength2": "Faz as pessoas se sentirem realmente vistas e apoiadas",
+   "strength3": "Leva calor a tudo em que toca",
+   "strength4": "Confiabilidade, constância e dedicação silenciosa",
+   "blindSpot": "Você dá tanto que as pessoas podem não perceber quando você precisa de algo em troca — e você pode não pedir, mesmo quando está no limite."
+  },
+  "TenderPresence": {
+   "label": "A Proximidade Terna",
+   "tagline": "A proximidade física é onde o amor se torna real.",
+   "description": "Toque, proximidade e presença total são a sua linguagem do amor. Você sente mais conexão quando alguém está fisicamente ali — sem distração, sem estar com a cabeça em outro lugar, mas realmente com você. Você tem um afeto natural, e o calor físico comunica amor de jeitos que as palavras muitas vezes não alcançam.",
+   "strength1": "Afeto profundo e conexão",
+   "strength2": "Faz quem está com você sentir desejo e ser visto de verdade",
+   "strength3": "Calor natural e sintonia com os sinais físicos",
+   "strength4": "Cria segurança por meio da proximidade",
+   "blindSpot": "Quem é menos ligado ao toque pode sentir pressão — o que é natural para você pode parecer excessivo para alguém com limites físicos mais rígidos."
+  },
+  "ThoughtfulPartner": {
+   "label": "A Parceria Atenta",
+   "tagline": "Você ama nas pequenas coisas — e elas somam tudo.",
+   "description": "Você é uma dessas pessoas raras que prestam atenção. Repara nas pequenas coisas — o que alguém mencionou de passagem, o que não disse mas claramente quis dizer, o que tornaria o dia da pessoa um pouco mais leve. Você expressa amor por meio de atos cuidadosos e de lembrar, e sente o amor com mais força quando alguém faz o mesmo por você.",
+   "strength1": "Atenção e observação nos relacionamentos",
+   "strength2": "Cria experiências profundamente pessoais e significativas",
+   "strength3": "Lembra o que importa para quem ama",
+   "strength4": "Firmeza e reflexão sob pressão",
+   "blindSpot": "Você pode pensar demais em como o amor deveria ser, em vez de simplesmente estar nele — e quem está com você às vezes gostaria de mais espontaneidade da sua parte."
+  },
+  "AdventureBond": {
+   "label": "A Alegria de Explorar",
+   "tagline": "Amor é algo que se faz junto.",
+   "description": "Para você, o amor vive nas experiências. Não só nas grandes — sempre que vocês fazem algo juntos que tira um pouco da rotina, você sente mais conexão. Você traz alegria, iniciativa e uma sensação de possibilidade para as pessoas que ama. A vida com você é algo que vale a pena viver.",
+   "strength1": "Traz alegria e energia para os relacionamentos",
+   "strength2": "Cria memórias duradouras",
+   "strength3": "Mantém o amor vivo e em expansão",
+   "strength4": "Tira as pessoas da zona de conforto com naturalidade",
+   "blindSpot": "Você pode valorizar a novidade mais do que a profundidade — os momentos quietos e comuns, onde a intimidade de verdade costuma morar, às vezes parecem menos importantes do que a próxima experiência."
+  },
+  "DeepProcessor": {
+   "label": "A Reflexão Profunda",
+   "tagline": "Você pensa antes de falar — e, quando fala, importa.",
+   "description": "Você entende a fundo o que se passa dentro de si — mas muitas vezes não em tempo real. Precisa ficar com as emoções antes de conseguir articulá-las, e as suas percepções sobre o que aconteceu num relacionamento costumam chegar horas ou dias depois do momento em si. Quando finalmente fala, vale a pena ouvir. O desafio é chegar lá sem deixar as pessoas na incerteza.",
+   "strength1": "Comunicação ponderada e sem reatividade",
+   "strength2": "Autoconhecimento profundo ao longo do tempo",
+   "strength3": "Não escala o conflito no calor do momento",
+   "strength4": "Oferece clareza real quando chega a hora",
+   "blindSpot": "O intervalo entre sentir algo e conseguir dizê-lo pode deixar quem está com você se sentindo excluído ou sem saber em que pé está."
+  },
+  "PassionateAdvocate": {
+   "label": "A Luta pela Conexão",
+   "tagline": "Você luta pela conexão — porque o amor vale a pena.",
+   "description": "Você não é alguém que vai embora em silêncio. Quando algo importa para você — e as pessoas que você ama importam enormemente —, você defende isso com o seu ser inteiro. O conflito, para você, é o caminho para a clareza, não a ameaça. Você prefere atravessar algo difícil a deixar as coisas à deriva, sem solução. Sua intensidade é o seu amor.",
+   "strength1": "Compromisso profundo com o relacionamento",
+   "strength2": "Não desiste quando as coisas ficam difíceis",
+   "strength3": "Presença emocional e entrega total",
+   "strength4": "Valoriza a honestidade mais do que o silêncio confortável",
+   "blindSpot": "Sua intensidade — sobretudo durante o conflito — pode sobrecarregar quem precisa recuar antes de se reconectar."
+  }
+ },
+ "playbook": {
+  "SteadyBuilder": {
+   "leadWith": "Mostre, não anuncie. Seu charme está nas evidências, não nos adjetivos — deixe que os detalhes de como você realmente vive façam o trabalho.",
+   "point": "Uma rotina ou um compromisso que você mantém há anos. Ele transmite confiabilidade muito melhor do que a palavra jamais conseguiria.",
+   "example": "A mesma trilha de domingo há seis anos, faça chuva ou faça sol. Procuro alguém para quem valha a pena desacelerar."
+  },
+  "LoyalReassurer": {
+   "leadWith": "Comece pelo quanto você é presente — esse é o seu dom. Só apresente isso como dedicação, não como uma lista de exigências.",
+   "point": "Que você se entrega por inteiro quando está dentro. A pessoa certa acha isso magnético — diga com clareza.",
+   "example": "Quando estou com alguém, estou de verdade com essa pessoa. Celular de lado, presente por inteiro."
+  },
+  "IndependentRomantic": {
+   "leadWith": "Deixe claro que você quer um par, não uma fusão. Quem se incomodaria com isso se elimina sozinho — e é essa a ideia.",
+   "point": "Uma paixão que é só sua. Mostra que você levará uma vida inteira para o relacionamento, não um vazio.",
+   "example": "Sumo no laboratório de revelação quase todo fim de semana e volto uma companhia melhor por causa disso."
+  },
+  "GuardedHeart": {
+   "leadWith": "Você não deve seu histórico a um perfil de namoro. Comece por aquilo em direção ao que você caminha, não pelo que está superando.",
+   "point": "Algo pelo que você se anima abertamente. O entusiasmo desarma e mostra que você mantém a porta aberta.",
+   "example": "Me pergunte sobre as piscinas naturais do litoral. Eu não paro."
+  },
+  "WarmNurturer": {
+   "leadWith": "Mostre o calor — é todo o seu encanto —, mas deixe claro no perfil que você também quer receber cuidado, não só dar.",
+   "point": "Como você demonstra cuidado, com um exemplo específico. Vale mais do que “carinhoso” como adjetivo.",
+   "example": "Você comenta uma vez que ama certo lanche e, da próxima vez, ele está na minha bolsa. É assim que eu funciono."
+  },
+  "TenderPresence": {
+   "leadWith": "O calor físico é o seu jeito de se conectar — diga isso diretamente, mas fale de proximidade e presença, não só de química.",
+   "point": "Que o afeto é a sua linguagem do amor, apresentado como proximidade do dia a dia.",
+   "example": "Sou do tipo mão nas costas, sentar juntinho no sofá. Carinho comigo não é racionado."
+  },
+  "ThoughtfulPartner": {
+   "leadWith": "Seu diferencial é a atenção aos detalhes — então deixe o próprio perfil específico. Perfis vagos subestimam você demais.",
+   "point": "Uma coisa minúscula e precisa que você percebe ou lembra. Ela demonstra o traço em vez de apenas afirmá-lo.",
+   "example": "Vou lembrar o nome do cachorro da sua infância e tocar no assunto um ano depois."
+  },
+  "AdventureBond": {
+   "leadWith": "Comece pelo movimento e por um plano concreto — mas sinalize que você também aguenta uma terça-feira tranquila, senão vai atrair só quem também não consegue ficar parado.",
+   "point": "Uma coisa concreta que você quer fazer com alguém — não “amo viajar”, um plano de verdade.",
+   "example": "Tenho uma lista de 30 botecos pelo estado e já fiz 11. Vem fazer os outros 19 comigo."
+  },
+  "DeepProcessor": {
+   "leadWith": "Diga que você se comunica de forma lenta e ponderada. É um filtro de compatibilidade de verdade, e a pessoa certa lê isso como profundidade.",
+   "point": "Que o seu melhor raciocínio chega tarde — e vale a espera.",
+   "example": "Raramente tenho a resposta perfeita na hora. Me dê um dia e eu volto com algo de verdade."
+  },
+  "PassionateAdvocate": {
+   "leadWith": "Assuma a intensidade — é a sua melhor qualidade — e combine com uma frase que mostre que você também deixa a outra pessoa respirar.",
+   "point": "Que você se envolve por inteiro quando se compromete — dito como dedicação, não como fogo.",
+   "example": "Não faço morno. Se estou dentro, estou dentro, e você nunca vai ficar na dúvida sobre onde está."
+  }
+ }
+}

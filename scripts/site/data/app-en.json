@@ -1,0 +1,322 @@
+{
+ "attachment": {
+  "Secure": {
+   "label": "The Steady Partner",
+   "tagline": "Grounded, open, and consistently there.",
+   "description": "You bring calm and consistency to the people you love. You're comfortable with closeness and don't lose yourself in relationships. When things get hard, you can stay present and talk things through without spiraling. Love, for you, feels like a safe place — not a threat.",
+   "strength1": "Emotionally available without overdoing it",
+   "strength2": "Trusting and trustworthy",
+   "strength3": "Handles conflict with care",
+   "strength4": "Doesn't need constant reassurance to feel okay",
+   "blindSpot": "You may underestimate how much reassurance or effort others need — what feels natural to you can feel out of reach for someone with a different attachment style."
+  },
+  "Anxious": {
+   "label": "The Attuned Connector",
+   "tagline": "Deeply present, deeply feeling.",
+   "description": "You love with your whole self. You're tuned in to every shift in tone, every pause in conversation — you notice things others miss. Your greatest strength is your emotional attunement. Your challenge is learning to trust what you feel without immediately needing it confirmed.",
+   "strength1": "Emotionally perceptive in ways others can't match",
+   "strength2": "Deeply invested in the people you love",
+   "strength3": "Expressive and honest about what you feel",
+   "strength4": "Loyal and fully present",
+   "blindSpot": "Your need for reassurance can sometimes push people away — not because they don't care, but because the pressure can feel like it questions their consistency."
+  },
+  "Avoidant": {
+   "label": "The Independent Protector",
+   "tagline": "Self-reliant, private, and quietly caring.",
+   "description": "You value your independence and have learned to handle things on your own. You don't need someone — you choose to be with them, and that distinction matters to you. You care deeply, even when it's hard to show. You have real capacity for love, which becomes available when you feel genuinely safe.",
+   "strength1": "Calm under pressure",
+   "strength2": "Self-sufficient and capable",
+   "strength3": "Thoughtful and deliberate",
+   "strength4": "Brings stability and groundedness",
+   "blindSpot": "Your self-reliance can read as emotional unavailability to partners who need more closeness. You may not realize how much your withdrawal affects the people who love you."
+  },
+  "FearfulAvoidant": {
+   "label": "The Guarded Romantic",
+   "tagline": "Longing for love, learning to let it in.",
+   "description": "You feel the pull of deep connection — and the fear of it at the same time. Love is something you want profoundly, and something that also feels dangerous. You've likely been hurt before, and your protective patterns were built for good reason. You're learning that real intimacy doesn't have to mean losing yourself or getting abandoned.",
+   "strength1": "Deep empathy and emotional intelligence",
+   "strength2": "Profound loyalty to people who earn real trust",
+   "strength3": "Self-awareness that comes from hard experience",
+   "strength4": "Capacity for intense and meaningful bonds",
+   "blindSpot": "The very patterns built to protect you — keeping one foot out the door, testing people, going cold when someone gets too close — can dismantle the connections you actually want."
+  }
+ },
+ "love": {
+  "Words": {
+   "label": "The Word Lover",
+   "tagline": "Words are how love becomes real.",
+   "description": "Language is your love currency. You give love by expressing it — out loud, in messages, in all the small ways words can land. And you receive love most deeply when someone tells you, specifically, that you matter to them. Silence where words should be can feel like absence.",
+   "strength1": "Expressive and affirming",
+   "strength2": "Makes others feel truly seen and heard",
+   "strength3": "Creates emotional clarity in relationships",
+   "strength4": "Creates emotional safety through language",
+   "blindSpot": "You may over-rely on words and miss the love that's being shown through actions or presence — especially with partners who express differently."
+  },
+  "Time": {
+   "label": "The Presence Lover",
+   "tagline": "Being chosen is the deepest love.",
+   "description": "What you crave most is presence — real, unhurried, undivided attention. It's not about how much time someone spends with you, but whether they're truly there when they are. A partner who puts the phone down and chooses you fully, even for an hour, means more than grand gestures ever could.",
+   "strength1": "Deeply attentive in relationships",
+   "strength2": "Values quality over performance",
+   "strength3": "Creates space for real connection",
+   "strength4": "Doesn't need much to feel loved — just genuine presence",
+   "blindSpot": "You may feel unloved during busy seasons, even when a partner is showing care in other ways — learning to receive love through action or words helps bridge that gap."
+  },
+  "Touch": {
+   "label": "The Physical Anchor",
+   "tagline": "Physical connection is your anchor.",
+   "description": "Touch is language for you. A hand on the back, a long hug, sitting close — these things communicate safety and love in a way words often can't. You feel disconnected without physical closeness and deeply connected when you have it. Affection isn't optional — it's how you know you're wanted.",
+   "strength1": "Naturally affectionate and warm",
+   "strength2": "Makes partners feel physically wanted and safe",
+   "strength3": "Communicates love through presence and contact",
+   "strength4": "Attuned to non-verbal signals",
+   "blindSpot": "Partners who are less touch-oriented may feel pressure — learning to communicate your need directly, rather than assuming they know, makes a real difference."
+  },
+  "Acts": {
+   "label": "The Care Reader",
+   "tagline": "Love shows in what people do, not just what they say.",
+   "description": "You speak in actions and you read them in others. When someone quietly handles something difficult for you without being asked — that's love. You show you care by doing: making the effort, taking something off someone's plate, being reliably there in practical ways. You notice when someone doesn't follow through, because for you, that's where love lives.",
+   "strength1": "Reliable, practical, and quietly devoted",
+   "strength2": "Shows up in ways that matter",
+   "strength3": "Makes people feel genuinely supported",
+   "strength4": "Doesn't need recognition — the act is enough",
+   "blindSpot": "You may pour energy into doing for others and not recognize when you need to be held emotionally, not just helped practically."
+  },
+  "Symbols": {
+   "label": "The Thoughtful Romantic",
+   "tagline": "Small things that say \"I was thinking of you.\"",
+   "description": "You notice things, and you remember them. The book someone mentioned three weeks ago. The way they take their coffee. The small detail that tells you they were paying attention. Thoughtful gifts and symbolic gestures move you profoundly — not because of cost, but because of the attention behind them. For you, someone who notices is someone who loves.",
+   "strength1": "Deeply attentive to what people love and need",
+   "strength2": "Creates meaningful, personal gestures",
+   "strength3": "Makes others feel remembered and truly seen",
+   "strength4": "Finds romance in the details",
+   "blindSpot": "The meaning you attach to objects and gestures is very specific to you — partners who don't 'get it' can feel like they're failing when they're simply expressing differently."
+  },
+  "Experiences": {
+   "label": "The Memory Maker",
+   "tagline": "Memories are how love becomes permanent.",
+   "description": "Love, for you, lives in shared moments. A trip, a concert, something you'd never have done alone — these become the architecture of a relationship. You feel closest to people during experiences, not in side-by-side daily routine. You want someone who says 'let's go' — who builds a life made of things worth remembering.",
+   "strength1": "Brings joy and adventure into relationships",
+   "strength2": "Creates lasting memories",
+   "strength3": "Keeps love feeling alive and forward-moving",
+   "strength4": "Naturally pulls people out of their comfort zone",
+   "blindSpot": "You may undervalue the quiet, ordinary moments — which are often where the deepest relationships are built."
+  }
+ },
+ "conflict": {
+  "Pursuer": {
+   "label": "The Pursuer",
+   "tagline": "You need resolution to feel safe — silence isn't an option.",
+   "description": "When something feels wrong, you need to address it — now. Letting tension sit unresolved is more painful to you than the conflict itself. You pursue connection through conversation, and when someone goes quiet, it can feel like they're withdrawing their love, not just taking space.",
+   "strength1": "Emotionally brave",
+   "strength2": "Doesn't let problems fester",
+   "strength3": "Keeps relationships honest and clear",
+   "strength4": "Committed to working things out",
+   "blindSpot": "Pursuing too hard when a partner needs space can trigger more withdrawal — a painful cycle where you both get less of what you need."
+  },
+  "Withdrawer": {
+   "label": "The Withdrawer",
+   "tagline": "Space is how you protect the relationship.",
+   "description": "When conflict rises, you need to step back. This isn't avoidance — it's how you prevent yourself from saying things you'll regret. You process internally, and you often have clearer, calmer insights once you've had space. The problem is that partners who need connection through conflict can experience your silence as abandonment.",
+   "strength1": "Avoids escalation",
+   "strength2": "Returns with more clarity after space",
+   "strength3": "Rarely says things in anger you can't take back",
+   "strength4": "Thoughtful and intentional in repair",
+   "blindSpot": "Your withdrawal — even when intentional and protective — can be deeply painful for partners who interpret it as shutdown or rejection."
+  },
+  "Fixer": {
+   "label": "The Fixer",
+   "tagline": "When something's broken, you want to fix it — including this.",
+   "description": "Tension makes you want to move. You're wired to identify the issue, propose a solution, and get to the other side as quickly as possible. Conflict, to you, is a problem with an answer — and sitting in the feeling without working toward a fix can feel unbearable. You care deeply, and fixing is how that care shows up.",
+   "strength1": "Action-oriented and efficient",
+   "strength2": "Brings clarity and direction to conflict",
+   "strength3": "Doesn't give up on finding a way through",
+   "strength4": "Makes partners feel like the problem matters enough to solve",
+   "blindSpot": "Sometimes people don't need a solution — they need to feel heard and understood first. Jumping to fixes can accidentally communicate that you want the discomfort to end rather than the person to feel seen."
+  },
+  "Peacekeeper": {
+   "label": "The Peacekeeper",
+   "tagline": "You keep the peace — sometimes at your own expense.",
+   "description": "You will work very hard to avoid conflict. Not because you're weak — but because harmony matters to you, and disrupting it feels costly. You'll often absorb what you're feeling, agree when you don't entirely agree, and apologize quickly to restore equilibrium. The danger is that what goes unspoken doesn't disappear — it accumulates.",
+   "strength1": "De-escalating and calm",
+   "strength2": "Rarely contributes to conflict escalation",
+   "strength3": "Naturally accommodating and flexible",
+   "strength4": "Skilled at restoring warmth quickly",
+   "blindSpot": "Consistently prioritizing peace over your own needs creates quiet resentment that eventually surfaces — often unexpectedly and with more force than if it had been expressed earlier."
+  },
+  "Defender": {
+   "label": "The Defender",
+   "tagline": "You fight back when you feel misunderstood.",
+   "description": "When you feel criticized or unfairly blamed, your first move is to defend your case. You can hear feedback eventually — but not until you've had the chance to explain yourself. Conflict, for you, is often about being truly understood. When that feels impossible, you dig in.",
+   "strength1": "Stands up for themselves clearly",
+   "strength2": "Doesn't capitulate under pressure",
+   "strength3": "Motivated by being genuinely understood",
+   "strength4": "Can be genuinely persuasive when they feel heard",
+   "blindSpot": "Leading with defense can make it hard for a partner to feel heard, which often escalates rather than resolves — and turns what could be a conversation into a debate."
+  },
+  "Processor": {
+   "label": "The Processor",
+   "tagline": "You think before you speak — even if it takes a while.",
+   "description": "You need time before you can respond to conflict meaningfully. This isn't avoidance — it's your way of making sure what you say is actually true, not just reactive. You often have the deepest and most thoughtful insights about what happened — they just arrive later than the argument. The challenge is that your silence in the moment can feel like shutdown to a partner who needs more immediate engagement.",
+   "strength1": "Thoughtful, non-reactive responses",
+   "strength2": "Rarely escalates in the heat of the moment",
+   "strength3": "Offers real clarity once they've processed",
+   "strength4": "Grows meaningfully through conflict",
+   "blindSpot": "Delayed processing can leave partners hanging in uncertainty — unsure if you're okay, if you're angry, or if the relationship itself is in question."
+  }
+ },
+ "combined": {
+  "SteadyBuilder": {
+   "label": "The Quiet Builder",
+   "tagline": "Consistent love, shown in what you do.",
+   "description": "You love reliably. You're the person who shows up — not with grand gestures but with consistency, presence, and follow-through. Relationships feel safe with you because you don't run when things get complicated. You build slowly and deeply, and what you build tends to last.",
+   "strength1": "Emotionally stable and consistent",
+   "strength2": "Shows love through reliable action",
+   "strength3": "Handles conflict without escalating",
+   "strength4": "Partners feel genuinely safe with you",
+   "blindSpot": "You can underexpress what you feel emotionally — partners may wonder what you're thinking or need to hear more than you naturally give."
+  },
+  "LoyalReassurer": {
+   "label": "The Loyal Reassurer",
+   "tagline": "You love with your whole heart — and you need to know it's returned.",
+   "description": "Relationships are where you come alive. You're deeply attentive, intensely loyal, and fully present in the people you love. You need the same presence back. Not because you're insecure — but because love, for you, is active and expressed, not assumed. When that reassurance is there, you're one of the most extraordinary partners someone can have.",
+   "strength1": "Fiercely loyal and devoted",
+   "strength2": "Emotionally present and attentive",
+   "strength3": "Expressive and honest about what you need",
+   "strength4": "Deeply attuned to the people you love",
+   "blindSpot": "Seeking reassurance under stress can create pressure that triggers the very distance you fear most."
+  },
+  "IndependentRomantic": {
+   "label": "The Independent Romantic",
+   "tagline": "You choose connection — on your own terms.",
+   "description": "You're not someone who needs a relationship. You want one — and that distinction is meaningful to you. You bring calm, self-sufficiency, and a quiet kind of loyalty. You love in spaces and adventures rather than in constant togetherness, and you need a partner who respects that your independence isn't distance — it's how you stay whole.",
+   "strength1": "Brings calm and stability",
+   "strength2": "Never clingy — loves with intention",
+   "strength3": "Keeps a clear sense of self within relationships",
+   "strength4": "Creates space for both people to remain individuals",
+   "blindSpot": "Your emotional availability can be hard to read, leaving partners uncertain whether you're deeply engaged or simply comfortable with less."
+  },
+  "GuardedHeart": {
+   "label": "The Guarded Heart",
+   "tagline": "Love is worth risking — you're learning how.",
+   "description": "You want connection more than most people realize — but it's layered under a lot of hard-earned protection. You've loved and lost, or loved and been let down, and your patterns now reflect that history. You're not broken. You're careful. And when someone earns real trust, the love you offer is rare and profound.",
+   "strength1": "Deep empathy and emotional intelligence",
+   "strength2": "Loyalty that means everything once given",
+   "strength3": "Extraordinary capacity for depth when safe",
+   "strength4": "Self-awareness that comes from hard experience",
+   "blindSpot": "Your protective patterns — pushing away, testing, keeping one foot out the door — can destroy exactly what you're trying to protect."
+  },
+  "WarmNurturer": {
+   "label": "The Warm Nurturer",
+   "tagline": "Love is what you give — freely and fully.",
+   "description": "You are the person who takes care of people. You notice when someone is struggling before they say a word. You make things easier, softer, safer — not because you have to, but because it's genuinely how you love. Your generosity is remarkable. The challenge is learning to receive as openly as you give.",
+   "strength1": "Deeply caring and attuned to others",
+   "strength2": "Makes people feel genuinely seen and supported",
+   "strength3": "Brings warmth to everything they touch",
+   "strength4": "Reliable, consistent, quietly devoted",
+   "blindSpot": "You give so much that people may not realize when you need something in return — and you may not ask for it, even when you're running low."
+  },
+  "TenderPresence": {
+   "label": "The Tender Presence",
+   "tagline": "Physical closeness is where love becomes real.",
+   "description": "Touch, closeness, and full presence are your love language. You feel most connected when someone is physically there — not distracted, not halfway elsewhere, but really with you. You're naturally affectionate, and physical warmth communicates love in ways that words often can't.",
+   "strength1": "Deeply affectionate and connected",
+   "strength2": "Makes partners feel physically wanted and seen",
+   "strength3": "Naturally warm and attuned to physical cues",
+   "strength4": "Creates safety through closeness",
+   "blindSpot": "Partners who are less touch-oriented may feel pressure — what feels natural to you can feel overwhelming to someone with more physical boundaries."
+  },
+  "ThoughtfulPartner": {
+   "label": "The Thoughtful Partner",
+   "tagline": "You love in the small things — and they add up to everything.",
+   "description": "You're one of those rare people who pays attention. You notice the small things — what someone mentioned offhand, what they didn't say but clearly meant, what would make their day a little easier. You express love through thoughtful acts and remembering, and you feel most loved when someone does the same for you.",
+   "strength1": "Attentive and observant in relationships",
+   "strength2": "Creates deeply personal, meaningful experiences",
+   "strength3": "Remembers what matters to the people they love",
+   "strength4": "Steady and reflective under pressure",
+   "blindSpot": "You may over-think what love should look like rather than simply being in it — and partners can sometimes wish you'd be more spontaneous."
+  },
+  "AdventureBond": {
+   "label": "The Joyful Explorer",
+   "tagline": "Love is something you do together.",
+   "description": "For you, love lives in experiences. Not just the big ones — any time you do something together that takes you slightly out of daily routine, you feel more connected. You bring joy, initiative, and a sense of possibility to the people you love. Life with you is something worth being in.",
+   "strength1": "Brings joy and energy into relationships",
+   "strength2": "Creates lasting memories",
+   "strength3": "Keeps love feeling alive and expansive",
+   "strength4": "Naturally pulls people out of their comfort zone",
+   "blindSpot": "You may value novelty over depth — the ordinary, quiet moments where real intimacy often lives can sometimes feel less important than the next experience."
+  },
+  "DeepProcessor": {
+   "label": "The Deep Processor",
+   "tagline": "You think before you speak — and when you speak, it matters.",
+   "description": "You're someone who understands yourself deeply — but often not in real time. You need to sit with your emotions before you can articulate them, and your insights about what happened in a relationship usually arrive hours or days after the moment itself. When you finally speak, it's worth listening to. The challenge is getting there without leaving people in uncertainty.",
+   "strength1": "Thoughtful, non-reactive communicator",
+   "strength2": "Deep self-knowledge over time",
+   "strength3": "Doesn't escalate conflict in the moment",
+   "strength4": "Offers real clarity once ready",
+   "blindSpot": "The delay between feeling something and being able to say it can leave partners feeling shut out or unsure of where they stand."
+  },
+  "PassionateAdvocate": {
+   "label": "The Passionate Advocate",
+   "tagline": "You fight for connection — because love is worth it.",
+   "description": "You are not someone who walks away quietly. When something matters to you — and the people you love matter enormously — you advocate for it with your whole self. Conflict, for you, is the path to clarity, not the threat. You'd rather work through something hard than let it drift unresolved. Your intensity is your love.",
+   "strength1": "Deeply committed to the relationship",
+   "strength2": "Doesn't give up when things get hard",
+   "strength3": "Emotionally present and fully invested",
+   "strength4": "Values honesty over comfortable silence",
+   "blindSpot": "Your intensity — during conflict especially — can overwhelm partners who need to retreat before they can reconnect."
+  }
+ },
+ "playbook": {
+  "SteadyBuilder": {
+   "leadWith": "Show, don't announce. Your appeal is evidence, not adjectives — let the specifics of how you actually live do the work.",
+   "point": "A routine or commitment you've kept for years. It signals reliability far better than the word ever could.",
+   "example": "Same Sunday hike for six years, rain or not. Looking for someone worth slowing it down for."
+  },
+  "LoyalReassurer": {
+   "leadWith": "Lead with how present you are — that's the gift. Just frame it as devotion, not as a list of requirements.",
+   "point": "That you're all-in once you're in. The right person finds that magnetic — say it plainly.",
+   "example": "When I'm with someone, I'm actually with them. Phone down, fully here."
+  },
+  "IndependentRomantic": {
+   "leadWith": "Be upfront that you want a partner, not a merger. Anyone who'd chafe at that screens themselves out — which is the point.",
+   "point": "A pursuit that's fully your own. It signals you'll bring a whole life to a relationship, not a vacancy.",
+   "example": "I disappear into the darkroom most weekends and come back better company for it."
+  },
+  "GuardedHeart": {
+   "leadWith": "You don't owe a dating profile your history. Lead with what you're moving toward, not what you're recovering from.",
+   "point": "Something you're openly enthusiastic about. Enthusiasm is disarming and shows you're not closed off.",
+   "example": "Ask me about tide pools. I will not stop."
+  },
+  "WarmNurturer": {
+   "leadWith": "Show the warmth — it's your whole appeal — but make sure the profile also says you want to be cared for, not only to give.",
+   "point": "How you show care, with a specific example. More attractive than 'caring' as an adjective.",
+   "example": "You mention once that you love a certain snack, and it's in my bag next time. That's just how I run."
+  },
+  "TenderPresence": {
+   "leadWith": "Physical warmth is how you connect — say so directly, but keep it about closeness and presence, not just chemistry.",
+   "point": "That affection is your love language, framed as everyday closeness.",
+   "example": "I'm a hand-on-the-back, sit-close-on-the-couch person. Affection isn't rationed."
+  },
+  "ThoughtfulPartner": {
+   "leadWith": "Your edge is attention to detail — so make the profile itself specific. Vague profiles undersell you badly.",
+   "point": "A tiny, precise thing you notice or remember. It demonstrates the trait instead of claiming it.",
+   "example": "I'll remember the name of your childhood dog and bring it up a year later."
+  },
+  "AdventureBond": {
+   "leadWith": "Lead with momentum and a concrete plan — but signal you can also do a quiet Tuesday, or you'll only attract people who can't sit still either.",
+   "point": "A concrete thing you want to do with someone — not 'love to travel,' an actual plan.",
+   "example": "I have a list of 30 diners across the state and I've done 11. Come do the other 19 with me."
+  },
+  "DeepProcessor": {
+   "leadWith": "Name that you're a slow, considered communicator. It's a real compatibility filter, and the right person reads it as depth.",
+   "point": "That your best thinking arrives late — and is worth the wait.",
+   "example": "I rarely have the perfect response in the moment. Give me a day and I'll come back with something real."
+  },
+  "PassionateAdvocate": {
+   "leadWith": "Own the intensity — it's your best quality — and pair it with a line that shows you can also let someone breathe.",
+   "point": "That you're fully invested once you commit — stated as devotion, not heat.",
+   "example": "I don't do lukewarm. If I'm in, I'm in, and you'll never wonder where you stand."
+  }
+ }
+}

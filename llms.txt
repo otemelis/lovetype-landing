@@ -1,0 +1,49 @@
+# LoveType
+
+> LoveType is an iPhone app (free to start, no account) with three short relationship tests: Attachment Style (24 questions, about 4 minutes), Love Style (18 questions, about 3 minutes) and Conflict Style (24 questions, about 4 minutes). The three results combine into one of ten LoveTypes. Version 1.2 adds partner comparison with a four-character share code (free, no compatibility score), a dating-profile playbook and a Love Manual. Available in English, Spanish, Brazilian Portuguese, Japanese, Traditional Chinese and Indonesian. A one-time purchase unlocks the full guide; there is no subscription. Answers stay on the device. LoveType is for self-reflection, not diagnosis or therapy.
+
+App Store: https://apps.apple.com/app/id6786477464
+
+## Styles
+- [Attachment styles](https://love-type.app/attachment-styles/): Attachment style describes how a person seeks closeness, trust and safety with a partner.
+- [Secure (The Steady Partner)](https://love-type.app/attachment-styles/secure/)
+- [Anxious (The Attuned Connector)](https://love-type.app/attachment-styles/anxious/)
+- [Avoidant (The Independent Protector)](https://love-type.app/attachment-styles/avoidant/)
+- [Fearful-avoidant (The Guarded Romantic)](https://love-type.app/attachment-styles/fearful-avoidant/)
+- [Love styles](https://love-type.app/love-styles/): A love style (often called a love language) is the way a person most naturally gives affection and most clearly recognises it.
+- [Words of affirmation (The Word Lover)](https://love-type.app/love-styles/words-of-affirmation/)
+- [Quality time (The Presence Lover)](https://love-type.app/love-styles/quality-time/)
+- [Physical touch (The Physical Anchor)](https://love-type.app/love-styles/physical-touch/)
+- [Acts of service (The Care Reader)](https://love-type.app/love-styles/acts-of-service/)
+- [Thoughtful gifts (The Thoughtful Romantic)](https://love-type.app/love-styles/thoughtful-gifts/)
+- [Shared experiences (The Memory Maker)](https://love-type.app/love-styles/shared-experiences/)
+- [Conflict styles](https://love-type.app/conflict-styles/): A conflict style is what a person tends to do when a disagreement with a partner gets difficult.
+- [Pursuer (The Pursuer)](https://love-type.app/conflict-styles/pursuer/)
+- [Withdrawer (The Withdrawer)](https://love-type.app/conflict-styles/withdrawer/)
+- [Fixer (The Fixer)](https://love-type.app/conflict-styles/fixer/)
+- [Peacekeeper (The Peacekeeper)](https://love-type.app/conflict-styles/peacekeeper/)
+- [Defender (The Defender)](https://love-type.app/conflict-styles/defender/)
+- [Processor (The Processor)](https://love-type.app/conflict-styles/processor/)
+
+## LoveTypes
+- [The 10 LoveTypes](https://love-type.app/lovetypes/)
+- [The Quiet Builder](https://love-type.app/lovetypes/quiet-builder/): Consistent love, shown in what you do.
+- [The Loyal Reassurer](https://love-type.app/lovetypes/loyal-reassurer/): You love with your whole heart — and you need to know it's returned.
+- [The Independent Romantic](https://love-type.app/lovetypes/independent-romantic/): You choose connection — on your own terms.
+- [The Guarded Heart](https://love-type.app/lovetypes/guarded-heart/): Love is worth risking — you're learning how.
+- [The Warm Nurturer](https://love-type.app/lovetypes/warm-nurturer/): Love is what you give — freely and fully.
+- [The Tender Presence](https://love-type.app/lovetypes/tender-presence/): Physical closeness is where love becomes real.
+- [The Thoughtful Partner](https://love-type.app/lovetypes/thoughtful-partner/): You love in the small things — and they add up to everything.
+- [The Joyful Explorer](https://love-type.app/lovetypes/joyful-explorer/): Love is something you do together.
+- [The Deep Processor](https://love-type.app/lovetypes/deep-processor/): You think before you speak — and when you speak, it matters.
+- [The Passionate Advocate](https://love-type.app/lovetypes/passionate-advocate/): You fight for connection — because love is worth it.
+
+## Together
+- [Compatibility (52 pairings)](https://love-type.app/compatibility/): where two styles connect, where friction shows up, what helps
+- [Compare with a partner](https://love-type.app/compare/)
+- [Dating-profile playbook](https://love-type.app/dating-profile-playbook/)
+
+## Optional
+- [Journal](https://love-type.app/journal/)
+- [Privacy Policy](https://love-type.app/privacy/)
+- [Terms of Use](https://love-type.app/terms/)

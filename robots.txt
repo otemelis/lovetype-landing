@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /scripts/
 
 Sitemap: https://love-type.app/sitemap.xml

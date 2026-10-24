@@ -1,0 +1,322 @@
+{
+ "attachment": {
+  "Secure": {
+   "label": "El Compañero Estable",
+   "tagline": "Con los pies en la tierra, abierto y siempre presente.",
+   "description": "Aportas calma y estabilidad a las personas que amas. Te sientes cómodo con la cercanía y no te pierdes a ti mismo en las relaciones. Cuando las cosas se complican, puedes mantenerte presente y hablar las cosas sin descontrolarte. Para ti, el amor se siente como un lugar seguro — no como una amenaza.",
+   "strength1": "Disponible emocionalmente sin excederse",
+   "strength2": "Confiable y digno de confianza",
+   "strength3": "Maneja los conflictos con cuidado",
+   "strength4": "No necesita reafirmación constante para sentirse bien",
+   "blindSpot": "Puede que subestimes cuánta reafirmación o esfuerzo necesitan los demás — lo que para ti es natural puede sentirse inalcanzable para alguien con un estilo de apego diferente."
+  },
+  "Anxious": {
+   "label": "El Conector Atento",
+   "tagline": "Profundamente presente, profundamente sensible.",
+   "description": "Amas con todo tu ser. Estás en sintonía con cada cambio de tono, cada pausa en una conversación — notas cosas que otros pasan por alto. Tu mayor fortaleza es tu sintonía emocional. Tu reto es aprender a confiar en lo que sientes sin necesitar confirmarlo de inmediato.",
+   "strength1": "Perceptivo emocionalmente como pocos",
+   "strength2": "Profundamente comprometido con las personas que amas",
+   "strength3": "Expresivo y honesto sobre lo que sientes",
+   "strength4": "Leal y completamente presente",
+   "blindSpot": "Tu necesidad de reafirmación a veces puede alejar a las personas — no porque no les importes, sino porque la presión puede sentirse como si cuestionaras su constancia."
+  },
+  "Avoidant": {
+   "label": "El Protector Independiente",
+   "tagline": "Autosuficiente, reservado y cariñoso a su manera.",
+   "description": "Valoras tu independencia y has aprendido a resolver las cosas por tu cuenta. No necesitas a alguien — eliges estar con esa persona, y esa distinción es importante para ti. Te importa profundamente, aunque a veces sea difícil demostrarlo. Tienes una verdadera capacidad de amar, que sale a la luz cuando te sientes genuinamente seguro.",
+   "strength1": "Calma bajo presión",
+   "strength2": "Autosuficiente y capaz",
+   "strength3": "Reflexivo y deliberado",
+   "strength4": "Aporta estabilidad y equilibrio",
+   "blindSpot": "Tu autosuficiencia puede leerse como falta de disponibilidad emocional para parejas que necesitan más cercanía. Puede que no te des cuenta de cuánto afecta tu retraimiento a quienes te aman."
+  },
+  "FearfulAvoidant": {
+   "label": "El Romántico Cauteloso",
+   "tagline": "Anhela el amor, aprendiendo a dejarlo entrar.",
+   "description": "Sientes la atracción de una conexión profunda — y, al mismo tiempo, el miedo que provoca. El amor es algo que deseas profundamente, y también algo que se siente peligroso. Es probable que hayas sido herido antes, y tus patrones de protección se formaron por buenas razones. Estás aprendiendo que la intimidad real no tiene por qué significar perderte a ti mismo o ser abandonado.",
+   "strength1": "Empatía profunda e inteligencia emocional",
+   "strength2": "Lealtad profunda hacia quienes se ganan tu confianza real",
+   "strength3": "Autoconocimiento nacido de experiencias difíciles",
+   "strength4": "Capacidad para vínculos intensos y significativos",
+   "blindSpot": "Los mismos patrones que construiste para protegerte — mantener un pie afuera, poner a prueba a las personas, enfriarte cuando alguien se acerca demasiado — pueden destruir justamente las conexiones que en verdad quieres."
+  }
+ },
+ "love": {
+  "Words": {
+   "label": "El Amante de las Palabras",
+   "tagline": "Las palabras son cómo el amor se vuelve real.",
+   "description": "El lenguaje es tu moneda de amor. Das amor expresándolo — en voz alta, en mensajes, en todas las pequeñas formas en que las palabras pueden llegar. Y recibes el amor con más profundidad cuando alguien te dice, específicamente, que le importas. El silencio donde deberían estar las palabras puede sentirse como ausencia.",
+   "strength1": "Expresivo y afirmativo",
+   "strength2": "Hace que los demás se sientan verdaderamente vistos y escuchados",
+   "strength3": "Crea claridad emocional en las relaciones",
+   "strength4": "Genera seguridad emocional a través del lenguaje",
+   "blindSpot": "Puede que dependas demasiado de las palabras y no notes el amor que se expresa a través de acciones o presencia — especialmente con parejas que se expresan de otra manera."
+  },
+  "Time": {
+   "label": "El Amante de la Presencia",
+   "tagline": "Ser elegido es el amor más profundo.",
+   "description": "Lo que más anhelas es presencia — atención real, sin prisa, sin dividir. No se trata de cuánto tiempo pasa alguien contigo, sino de si de verdad está ahí cuando lo hace. Una pareja que suelta el teléfono y te elige por completo, aunque sea por una hora, significa más que cualquier gesto grandioso.",
+   "strength1": "Profundamente atento en las relaciones",
+   "strength2": "Valora la calidad por encima de la actuación",
+   "strength3": "Crea espacio para una conexión real",
+   "strength4": "No necesita mucho para sentirse amado — solo presencia genuina",
+   "blindSpot": "Puede que te sientas poco amado en temporadas ocupadas, incluso cuando tu pareja muestra cariño de otras formas — aprender a recibir amor a través de acciones o palabras ayuda a cerrar esa brecha."
+  },
+  "Touch": {
+   "label": "El Ancla Física",
+   "tagline": "La conexión física es tu ancla.",
+   "description": "El tacto es tu idioma. Una mano en la espalda, un abrazo largo, sentarse cerca — estas cosas comunican seguridad y amor de una manera que las palabras muchas veces no logran. Te sientes desconectado sin cercanía física y profundamente conectado cuando la tienes. El cariño no es opcional — es cómo sabes que te desean.",
+   "strength1": "Naturalmente cariñoso y cálido",
+   "strength2": "Hace que su pareja se sienta físicamente deseada y segura",
+   "strength3": "Comunica el amor a través de la presencia y el contacto",
+   "strength4": "Sintonizado con las señales no verbales",
+   "blindSpot": "Las parejas menos orientadas al contacto físico pueden sentir presión — aprender a comunicar tu necesidad directamente, en lugar de asumir que la conocen, marca una verdadera diferencia."
+  },
+  "Acts": {
+   "label": "El Lector de Cuidados",
+   "tagline": "El amor se demuestra en lo que se hace, no solo en lo que se dice.",
+   "description": "Hablas en acciones y las lees en los demás. Cuando alguien resuelve calladamente algo difícil para ti sin que se lo pidas — eso es amor. Demuestras que te importa haciendo: esforzándote, quitándole peso a alguien de encima, estando presente de forma práctica y confiable. Notas cuando alguien no cumple lo que dijo, porque para ti ahí es donde vive el amor.",
+   "strength1": "Confiable, práctico y silenciosamente entregado",
+   "strength2": "Se presenta de formas que realmente importan",
+   "strength3": "Hace que las personas se sientan genuinamente apoyadas",
+   "strength4": "No necesita reconocimiento — el acto en sí es suficiente",
+   "blindSpot": "Puede que dediques mucha energía a hacer cosas por los demás y no reconozcas cuándo necesitas ser sostenido emocionalmente, no solo ayudado en lo práctico."
+  },
+  "Symbols": {
+   "label": "El Romántico Detallista",
+   "tagline": "Los pequeños detalles que dicen \"estaba pensando en ti\".",
+   "description": "Te fijas en las cosas, y las recuerdas. El libro que alguien mencionó hace tres semanas. Cómo toma su café. El pequeño detalle que revela que estabas prestando atención. Los regalos pensados y los gestos simbólicos te conmueven profundamente — no por su costo, sino por la atención detrás de ellos. Para ti, quien nota es quien ama.",
+   "strength1": "Profundamente atento a lo que las personas aman y necesitan",
+   "strength2": "Crea gestos significativos y personales",
+   "strength3": "Hace que los demás se sientan recordados y verdaderamente vistos",
+   "strength4": "Encuentra romance en los detalles",
+   "blindSpot": "El significado que le das a los objetos y gestos es muy particular tuyo — las parejas que no lo 'captan' pueden sentir que están fallando cuando en realidad solo se expresan de otra manera."
+  },
+  "Experiences": {
+   "label": "El Creador de Recuerdos",
+   "tagline": "Los recuerdos son cómo el amor se vuelve permanente.",
+   "description": "Para ti, el amor vive en los momentos compartidos. Un viaje, un concierto, algo que nunca habrías hecho solo — estas cosas se convierten en la estructura de una relación. Te sientes más cerca de las personas durante las experiencias, no en la rutina diaria uno al lado del otro. Quieres a alguien que diga 'vamos' — que construya una vida hecha de cosas que vale la pena recordar.",
+   "strength1": "Aporta alegría y aventura a las relaciones",
+   "strength2": "Crea recuerdos duraderos",
+   "strength3": "Mantiene el amor sintiéndose vivo y en movimiento",
+   "strength4": "Naturalmente saca a las personas de su zona de confort",
+   "blindSpot": "Puede que subestimes los momentos tranquilos y cotidianos — que a menudo son donde se construyen las relaciones más profundas."
+  }
+ },
+ "conflict": {
+  "Pursuer": {
+   "label": "El Perseguidor",
+   "tagline": "Necesitas resolución para sentirte seguro — el silencio no es una opción.",
+   "description": "Cuando algo se siente mal, necesitas abordarlo — ahora. Dejar que la tensión quede sin resolver te resulta más doloroso que el conflicto en sí. Buscas la conexión a través de la conversación, y cuando alguien se queda callado, puede sentirse como si estuviera retirando su amor, no solo tomando espacio.",
+   "strength1": "Emocionalmente valiente",
+   "strength2": "No deja que los problemas se pudran",
+   "strength3": "Mantiene las relaciones honestas y claras",
+   "strength4": "Comprometido con resolver las cosas",
+   "blindSpot": "Perseguir con demasiada intensidad cuando una pareja necesita espacio puede provocar más retraimiento — un ciclo doloroso en el que ambos terminan recibiendo menos de lo que necesitan."
+  },
+  "Withdrawer": {
+   "label": "El Retraído",
+   "tagline": "El espacio es tu forma de proteger la relación.",
+   "description": "Cuando surge el conflicto, necesitas dar un paso atrás. Esto no es evitación — es tu manera de evitar decir cosas de las que luego te arrepentirás. Procesas internamente, y a menudo tienes percepciones más claras y calmadas una vez que has tenido espacio. El problema es que las parejas que necesitan conectar a través del conflicto pueden experimentar tu silencio como abandono.",
+   "strength1": "Evita la escalada",
+   "strength2": "Regresa con más claridad después del espacio",
+   "strength3": "Rara vez dice, con enojo, cosas que no pueda retractar",
+   "strength4": "Reflexivo e intencional al reparar",
+   "blindSpot": "Tu retraimiento — incluso cuando es intencional y protector — puede resultar profundamente doloroso para parejas que lo interpretan como cierre o rechazo."
+  },
+  "Fixer": {
+   "label": "El Solucionador",
+   "tagline": "Cuando algo está roto, quieres arreglarlo — incluyendo esto.",
+   "description": "La tensión te hace querer actuar. Estás hecho para identificar el problema, proponer una solución y llegar al otro lado lo más rápido posible. El conflicto, para ti, es un problema con una respuesta — y quedarte en el sentimiento sin avanzar hacia una solución puede resultar insoportable. Te importa profundamente, y arreglar las cosas es cómo se manifiesta ese cuidado.",
+   "strength1": "Orientado a la acción y eficiente",
+   "strength2": "Aporta claridad y dirección al conflicto",
+   "strength3": "No se rinde en buscar una salida",
+   "strength4": "Hace que su pareja sienta que el problema importa lo suficiente como para resolverlo",
+   "blindSpot": "A veces las personas no necesitan una solución — necesitan sentirse escuchadas y comprendidas primero. Saltar directamente a arreglar las cosas puede comunicar, sin querer, que quieres que termine la incomodidad más que hacer sentir vista a la otra persona."
+  },
+  "Peacekeeper": {
+   "label": "El Pacificador",
+   "tagline": "Mantienes la paz — a veces a tu propia costa.",
+   "description": "Te esfuerzas mucho por evitar el conflicto. No porque seas débil — sino porque la armonía te importa, y alterarla se siente costoso. Muchas veces guardas lo que sientes, aceptas algo con lo que no estás del todo de acuerdo, y te disculpas rápido para restaurar el equilibrio. El peligro es que lo que no se dice no desaparece — se acumula.",
+   "strength1": "Calmante y sereno",
+   "strength2": "Rara vez contribuye a escalar el conflicto",
+   "strength3": "Naturalmente flexible y complaciente",
+   "strength4": "Hábil para restaurar la calidez rápidamente",
+   "blindSpot": "Priorizar la paz por encima de tus propias necesidades de forma constante crea un resentimiento silencioso que termina saliendo a la superficie — a menudo de forma inesperada y con más fuerza de la que hubiera tenido si se hubiera expresado antes."
+  },
+  "Defender": {
+   "label": "El Defensor",
+   "tagline": "Contraatacas cuando te sientes incomprendido.",
+   "description": "Cuando te sientes criticado o culpado injustamente, tu primer movimiento es defender tu postura. Puedes escuchar la retroalimentación eventualmente — pero no hasta que hayas tenido la oportunidad de explicarte. El conflicto, para ti, muchas veces se trata de ser realmente comprendido. Cuando eso se siente imposible, te aferras a tu posición.",
+   "strength1": "Defiende sus posturas con claridad",
+   "strength2": "No cede bajo presión",
+   "strength3": "Motivado por ser genuinamente comprendido",
+   "strength4": "Puede ser realmente persuasivo cuando se siente escuchado",
+   "blindSpot": "Empezar defendiéndote puede dificultar que tu pareja se sienta escuchada, lo que a menudo escala en lugar de resolver — y convierte lo que podría ser una conversación en un debate."
+  },
+  "Processor": {
+   "label": "El Procesador",
+   "tagline": "Piensas antes de hablar — aunque te tome un tiempo.",
+   "description": "Necesitas tiempo antes de poder responder a un conflicto de forma significativa. Esto no es evitación — es tu manera de asegurarte de que lo que dices sea realmente verdadero, y no solo una reacción. A menudo tienes las reflexiones más profundas y cuidadosas sobre lo que pasó — solo que llegan después de la discusión. El reto es que tu silencio en el momento puede sentirse como un cierre para una pareja que necesita una respuesta más inmediata.",
+   "strength1": "Respuestas reflexivas y no reactivas",
+   "strength2": "Rara vez escala en el calor del momento",
+   "strength3": "Ofrece claridad real una vez que ha procesado",
+   "strength4": "Crece de forma significativa a través del conflicto",
+   "blindSpot": "El procesamiento retrasado puede dejar a tu pareja en la incertidumbre — sin saber si estás bien, si estás molesto, o si la relación misma está en duda."
+  }
+ },
+ "combined": {
+  "SteadyBuilder": {
+   "label": "El Constructor Silencioso",
+   "tagline": "Amor constante, demostrado en lo que haces.",
+   "description": "Amas de forma confiable. Eres la persona que se presenta — no con gestos grandiosos, sino con constancia, presencia y cumplimiento. Las relaciones se sienten seguras contigo porque no huyes cuando las cosas se complican. Construyes despacio y en profundidad, y lo que construyes tiende a durar.",
+   "strength1": "Emocionalmente estable y constante",
+   "strength2": "Demuestra amor a través de acciones confiables",
+   "strength3": "Maneja el conflicto sin escalar",
+   "strength4": "Su pareja se siente genuinamente segura contigo",
+   "blindSpot": "Puede que expreses poco lo que sientes emocionalmente — tu pareja puede preguntarse qué piensas o necesitar escuchar más de lo que naturalmente das."
+  },
+  "LoyalReassurer": {
+   "label": "El Reafirmador Leal",
+   "tagline": "Amas con todo el corazón — y necesitas saber que es correspondido.",
+   "description": "Las relaciones son donde cobras vida. Eres profundamente atento, intensamente leal, y estás completamente presente con las personas que amas. Necesitas esa misma presencia de vuelta. No porque seas inseguro — sino porque, para ti, el amor es activo y se expresa, no se asume. Cuando esa confirmación está presente, eres una de las parejas más extraordinarias que alguien puede tener.",
+   "strength1": "Ferozmente leal y entregado",
+   "strength2": "Emocionalmente presente y atento",
+   "strength3": "Expresivo y honesto sobre lo que necesitas",
+   "strength4": "Profundamente sintonizado con las personas que amas",
+   "blindSpot": "Buscar reafirmación bajo estrés puede crear una presión que provoca justo la distancia que más temes."
+  },
+  "IndependentRomantic": {
+   "label": "El Romántico Independiente",
+   "tagline": "Eliges la conexión — en tus propios términos.",
+   "description": "No eres alguien que necesita una relación. La quieres — y esa distinción es significativa para ti. Aportas calma, autosuficiencia y un tipo de lealtad silenciosa. Amas en espacios y aventuras más que en una cercanía constante, y necesitas una pareja que respete que tu independencia no es distancia — es cómo te mantienes entero.",
+   "strength1": "Aporta calma y estabilidad",
+   "strength2": "Nunca es dependiente — ama con intención",
+   "strength3": "Mantiene un sentido claro de sí mismo dentro de las relaciones",
+   "strength4": "Crea espacio para que ambas personas sigan siendo individuos",
+   "blindSpot": "Tu disponibilidad emocional puede ser difícil de interpretar, dejando a tu pareja incierta sobre si estás profundamente comprometido o simplemente cómodo con menos."
+  },
+  "GuardedHeart": {
+   "label": "El Corazón Cauteloso",
+   "tagline": "El amor vale la pena arriesgarlo — estás aprendiendo cómo.",
+   "description": "Quieres conexión más de lo que la mayoría de las personas se da cuenta — pero está protegida bajo capas de protección bien ganada. Has amado y perdido, o has amado y sido decepcionado, y tus patrones ahora reflejan esa historia. No estás roto. Eres cuidadoso. Y cuando alguien se gana tu confianza real, el amor que ofreces es raro y profundo.",
+   "strength1": "Empatía profunda e inteligencia emocional",
+   "strength2": "Lealtad que lo significa todo una vez que se otorga",
+   "strength3": "Capacidad extraordinaria de profundidad cuando te sientes seguro",
+   "strength4": "Autoconocimiento nacido de experiencias difíciles",
+   "blindSpot": "Tus patrones de protección — alejarte, poner a prueba, mantener un pie afuera — pueden destruir justamente lo que intentas proteger."
+  },
+  "WarmNurturer": {
+   "label": "El Cuidador Cálido",
+   "tagline": "El amor es lo que das — libre y plenamente.",
+   "description": "Eres la persona que cuida a los demás. Notas cuando alguien está pasando por un mal momento antes de que diga una palabra. Haces que las cosas sean más fáciles, más suaves, más seguras — no porque tengas que hacerlo, sino porque es genuinamente tu forma de amar. Tu generosidad es notable. El reto es aprender a recibir con la misma apertura con la que das.",
+   "strength1": "Profundamente cariñoso y sintonizado con los demás",
+   "strength2": "Hace que las personas se sientan genuinamente vistas y apoyadas",
+   "strength3": "Aporta calidez a todo lo que toca",
+   "strength4": "Confiable, constante, silenciosamente entregado",
+   "blindSpot": "Das tanto que las personas pueden no darse cuenta de cuándo necesitas algo a cambio — y puede que tú tampoco lo pidas, incluso cuando te estás quedando sin energía."
+  },
+  "TenderPresence": {
+   "label": "La Presencia Tierna",
+   "tagline": "La cercanía física es donde el amor se vuelve real.",
+   "description": "El tacto, la cercanía y la presencia plena son tu lenguaje de amor. Te sientes más conectado cuando alguien está físicamente ahí — no distraído, no a medias en otro lugar, sino realmente contigo. Eres naturalmente cariñoso, y la calidez física comunica amor de maneras que las palabras muchas veces no logran.",
+   "strength1": "Profundamente cariñoso y conectado",
+   "strength2": "Hace que su pareja se sienta físicamente deseada y vista",
+   "strength3": "Naturalmente cálido y sintonizado con las señales físicas",
+   "strength4": "Crea seguridad a través de la cercanía",
+   "blindSpot": "Las parejas menos orientadas al contacto físico pueden sentir presión — lo que para ti es natural puede sentirse abrumador para alguien con más límites físicos."
+  },
+  "ThoughtfulPartner": {
+   "label": "La Pareja Detallista",
+   "tagline": "Amas en los pequeños detalles — y se suman a todo.",
+   "description": "Eres de esas personas raras que prestan atención. Notas los pequeños detalles — lo que alguien mencionó al pasar, lo que no dijo pero claramente quiso decir, lo que le haría el día un poco más fácil. Expresas el amor a través de gestos pensados y recordando cosas, y te sientes más amado cuando alguien hace lo mismo por ti.",
+   "strength1": "Atento y observador en las relaciones",
+   "strength2": "Crea experiencias profundamente personales y significativas",
+   "strength3": "Recuerda lo que le importa a las personas que ama",
+   "strength4": "Firme y reflexivo bajo presión",
+   "blindSpot": "Puede que pienses demasiado en cómo debería verse el amor en lugar de simplemente estar en él — y a veces tu pareja puede desear que fueras más espontáneo."
+  },
+  "AdventureBond": {
+   "label": "El Explorador Alegre",
+   "tagline": "El amor es algo que se hace juntos.",
+   "description": "Para ti, el amor vive en las experiencias. No solo en las grandes — cualquier momento en que hagas algo junto a alguien que te saque un poco de la rutina diaria te hace sentir más conectado. Aportas alegría, iniciativa y un sentido de posibilidad a las personas que amas. La vida contigo vale la pena vivirla.",
+   "strength1": "Aporta alegría y energía a las relaciones",
+   "strength2": "Crea recuerdos duraderos",
+   "strength3": "Mantiene el amor sintiéndose vivo y en expansión",
+   "strength4": "Naturalmente saca a las personas de su zona de confort",
+   "blindSpot": "Puede que valores la novedad por encima de la profundidad — los momentos ordinarios y tranquilos, donde a menudo vive la intimidad real, pueden sentirse menos importantes que la próxima experiencia."
+  },
+  "DeepProcessor": {
+   "label": "El Procesador Profundo",
+   "tagline": "Piensas antes de hablar — y cuando hablas, importa.",
+   "description": "Eres alguien que se conoce profundamente a sí mismo — pero muchas veces no en tiempo real. Necesitas sentarte con tus emociones antes de poder expresarlas, y tus reflexiones sobre lo que pasó en una relación suelen llegar horas o días después del momento en sí. Cuando finalmente hablas, vale la pena escuchar. El reto es llegar ahí sin dejar a las personas en la incertidumbre.",
+   "strength1": "Comunicador reflexivo y no reactivo",
+   "strength2": "Profundo autoconocimiento con el tiempo",
+   "strength3": "No escala el conflicto en el momento",
+   "strength4": "Ofrece claridad real una vez que está listo",
+   "blindSpot": "El retraso entre sentir algo y poder decirlo puede dejar a tu pareja sintiéndose excluida o insegura sobre dónde está parada."
+  },
+  "PassionateAdvocate": {
+   "label": "El Luchador Apasionado",
+   "tagline": "Luchas por la conexión — porque el amor vale la pena.",
+   "description": "No eres alguien que se va en silencio. Cuando algo te importa — y las personas que amas te importan enormemente — lo defiendes con todo tu ser. El conflicto, para ti, es el camino hacia la claridad, no la amenaza. Prefieres trabajar en algo difícil antes que dejarlo a la deriva sin resolver. Tu intensidad es tu amor.",
+   "strength1": "Profundamente comprometido con la relación",
+   "strength2": "No se rinde cuando las cosas se ponen difíciles",
+   "strength3": "Emocionalmente presente y completamente entregado",
+   "strength4": "Valora la honestidad por encima del silencio cómodo",
+   "blindSpot": "Tu intensidad — sobre todo durante los conflictos — puede abrumar a parejas que necesitan retirarse antes de poder reconectar."
+  }
+ },
+ "playbook": {
+  "SteadyBuilder": {
+   "leadWith": "Muestra, no anuncies. Lo que te hace atractivo son los hechos, no los adjetivos — deja que los detalles concretos de cómo vives hablen por ti.",
+   "point": "Una rutina o un compromiso que has mantenido durante años. Transmite fiabilidad mucho mejor que la propia palabra.",
+   "example": "El mismo sendero cada domingo desde hace seis años, llueva o truene. Busco a alguien por quien valga la pena ir más despacio."
+  },
+  "LoyalReassurer": {
+   "leadWith": "Empieza por lo presente que estás — ese es el regalo. Solo enmárcalo como devoción, no como una lista de exigencias.",
+   "point": "Que te entregas del todo cuando te entregas. A la persona adecuada eso le resulta magnético — dilo con claridad.",
+   "example": "Cuando estoy con alguien, estoy de verdad. El móvil guardado, aquí del todo."
+  },
+  "IndependentRomantic": {
+   "leadWith": "Deja claro desde el principio que quieres pareja, no una fusión. Quien no encaje con eso se descartará solo — que es justo el objetivo.",
+   "point": "Una afición que es del todo tuya. Indica que llevarás una vida entera a la relación, no un hueco vacío.",
+   "example": "Los fines de semana desaparezco en el cuarto oscuro y vuelvo siendo mejor compañía."
+  },
+  "GuardedHeart": {
+   "leadWith": "No le debes tu historia a un perfil de citas. Empieza por hacia dónde vas, no por lo que estás superando.",
+   "point": "Algo que te entusiasma abiertamente. El entusiasmo desarma y demuestra que no estás cerrado.",
+   "example": "Pregúntame por las pozas de marea. No pararé."
+  },
+  "WarmNurturer": {
+   "leadWith": "Muestra la calidez — es todo tu atractivo — pero asegúrate de que el perfil también diga que quieres que te cuiden, no solo cuidar.",
+   "point": "Cómo demuestras que alguien te importa, con un ejemplo concreto. Más atractivo que 'atento' como adjetivo.",
+   "example": "Mencionas una vez que te gusta cierto snack y la próxima vez lo llevo en la mochila. Funciono así."
+  },
+  "TenderPresence": {
+   "leadWith": "El contacto físico es tu forma de conectar — dilo con claridad, pero que sea sobre cercanía y presencia, no solo química.",
+   "point": "Que el cariño es tu lenguaje del amor, planteado como cercanía cotidiana.",
+   "example": "Soy de mano en la espalda, de sentarme pegado en el sofá. El cariño no se raciona."
+  },
+  "ThoughtfulPartner": {
+   "leadWith": "Tu punto fuerte es la atención al detalle — así que haz que el perfil también sea concreto. Los perfiles vagos te venden muy por debajo.",
+   "point": "Una cosa diminuta y precisa que notas o recuerdas. Demuestra el rasgo en lugar de afirmarlo.",
+   "example": "Me acordaré del nombre del perro de tu infancia y lo sacaré un año después."
+  },
+  "AdventureBond": {
+   "leadWith": "Empieza con impulso y un plan concreto — pero deja claro que también sabes tener un martes tranquilo, o solo atraerás a gente que tampoco sabe parar.",
+   "point": "Algo concreto que quieres hacer con alguien — no 'me encanta viajar', un plan de verdad.",
+   "example": "Tengo una lista de 30 restaurantes de carretera del país y he hecho 11. Ven a hacer los otros 19 conmigo."
+  },
+  "DeepProcessor": {
+   "leadWith": "Di que eres alguien que comunica despacio y con calma. Es un filtro de compatibilidad real, y la persona adecuada lo leerá como profundidad.",
+   "point": "Que tus mejores ideas llegan tarde — y valen la espera.",
+   "example": "Casi nunca tengo la respuesta perfecta en el momento. Dame un día y vuelvo con algo de verdad."
+  },
+  "PassionateAdvocate": {
+   "leadWith": "Asume la intensidad — es tu mejor cualidad — y acompáñala de una frase que muestre que también sabes dar aire a alguien.",
+   "point": "Que te implicas del todo cuando te comprometes — dicho como devoción, no como fuego.",
+   "example": "No hago las cosas a medias. Si estoy, estoy, y nunca vas a dudar de dónde estás."
+  }
+ }
+}

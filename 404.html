@@ -1,77 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-family="conflict">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>LoveType</title>
-<meta name="robots" content="noindex">
+<meta name="description" content="Someone shared their LoveType with you.">
+<meta name="robots" content="noindex, follow">
 <meta name="theme-color" content="#0E0910">
-<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<meta name="color-scheme" content="dark">
+<meta name="apple-itunes-app" content="app-id=6786477464">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LoveType">
+<meta property="og:url" content="https://love-type.app/404.html">
+<meta property="og:title" content="LoveType">
+<meta property="og:description" content="Someone shared their LoveType with you.">
+<meta property="og:image" content="https://love-type.app/assets/og/compare.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LoveType">
+<meta name="twitter:description" content="Someone shared their LoveType with you.">
+<meta name="twitter:image" content="https://love-type.app/assets/og/compare.jpg">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  :root {
-    --bg:#0E0910; --text:#F5EEF2; --text2:#A08898; --text3:#6B5060;
-    --champagne:#C9A96E; --champagne-lt:#E0C080; --blush:#E8C8D8;
-    --bord:rgba(255,220,240,0.09); --surf:rgba(255,240,250,0.055);
-  }
-  body {
-    background: var(--bg); color: var(--text);
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6; -webkit-font-smoothing: antialiased;
-    min-height: 100vh; display: flex; align-items: center; justify-content: center;
-    padding: 32px;
-  }
-  .serif { font-family: 'DM Serif Display', Georgia, serif; }
-  .box { max-width: 460px; text-align: center; }
-  .mark { width: 44px; height: 44px; margin: 0 auto 26px; }
-  h1 { font-size: 30px; letter-spacing: -0.5px; margin-bottom: 12px; color: var(--blush); }
-  p { color: var(--text2); font-size: 16px; margin-bottom: 26px; }
-  .code {
-    display: inline-block; font-family: 'DM Serif Display', Georgia, serif;
-    font-size: 26px; letter-spacing: 6px; color: var(--text); padding-left: 6px;
-    border: 1px solid var(--bord); border-radius: 12px; padding: 10px 18px 10px 24px;
-    background: var(--surf); margin-bottom: 26px;
-  }
-  .btn {
-    display: inline-flex; align-items: center; gap: 9px;
-    padding: 14px 24px; border-radius: 13px;
-    background: linear-gradient(135deg, var(--champagne-lt), var(--champagne));
-    color: #14100A; font-size: 15px; font-weight: 600; text-decoration: none;
-  }
-  .muted { display: block; margin-top: 22px; font-size: 14px; }
-  .muted a { color: var(--text3); }
-</style>
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/dm-serif-display.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/site.css?v=20261024b">
+<script type="module" src="/assets/js/site.js?v=20261024b"></script>
+
 </head>
 <body>
-  <div class="box">
-    <svg class="mark" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-      <circle cx="13" cy="13" r="11.5" stroke="#C07090" stroke-width="1.1" opacity="0.85"/>
-      <circle cx="13" cy="13" r="7.6" stroke="#A080C0" stroke-width="1.1" opacity="0.85"/>
-      <circle cx="13" cy="13" r="4" stroke="#7080C0" stroke-width="1.1" opacity="0.85"/>
-      <circle cx="13" cy="13" r="1.8" fill="#C9A96E"/>
-    </svg>
-    <div id="content">
-      <h1 class="serif">Page not found</h1>
-      <p>That link doesn't lead anywhere. Try the <a href="/" style="color:var(--champagne-lt)">home page</a> or explore <a href="/compatibility" style="color:var(--champagne-lt)">how the styles pair up</a>.</p>
+<a class="skip" href="#main">Skip to content</a>
+<canvas class="viewport-light" aria-hidden="true"></canvas>
+<div class="glass-frame" aria-hidden="true"></div>
+<div class="page">
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="/" aria-label="LoveType home"><svg class="brand-heart" viewBox="2 3 20 18.4" aria-hidden="true"><path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><span class="wordmark">LoveType</span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Main"><a href="/#tests">Tests</a><a href="/lovetypes/">LoveTypes</a><a href="/compatibility/">Compatibility</a><a href="/compare/">Compare</a><a href="/journal/">Journal</a></nav>
+    <div class="header-cta">
+      <a class="pill pill-s" href="https://apps.apple.com/app/id6786477464" data-cta="header"><svg viewBox="0 0 384 512" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>Get the app</a>
+      <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span></button>
     </div>
   </div>
-  <script>
-    (function () {
-      var m = location.pathname.match(/^\/compare\/([A-Za-z0-9]{2,12})\/?$/);
-      if (!m) return;
-      var code = m[1].toUpperCase();
-      document.getElementById('content').innerHTML =
-        '<h1 class="serif">Someone shared their LoveType</h1>' +
-        '<p>Open the LoveType app and enter this code to see how your relationship styles fit — where you click, where you grind, and one thing each of you can try.</p>' +
-        '<div class="code">' + code + '</div><br>' +
-        '<a class="btn" href="https://apps.apple.com/us/app/lovetype-relationship-test/id6786477464">Get LoveType</a>' +
-        '<span class="muted"><a href="/">love-type.app</a></span>';
-      document.title = 'Compare on LoveType — code ' + code;
-    })();
-  </script>
+</header>
+<main id="main">
+<div data-404-compare hidden>
+<section class="page-hero" data-light="conflict" data-family="conflict" data-coverage="0.6" data-intensity="0.9">
+  <div class="wrap split" style="align-items:center">
+    <div>
+      
+      <p class="label">Someone shared their LoveType</p>
+      <h1 class="display rv rv-blur" style="font-size:clamp(44px,6.6vw,96px)">You’ve got a code.<span class="dim">Here’s who sent it.</span></h1>
+      <div data-compare>
+        <label class="label" for="their-code" style="display:block;margin-top:34px;color:var(--ink-3)">Their code</label>
+        <div class="code-field"><input id="their-code" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="6" placeholder="4 characters, e.g. 10E7" aria-describedby="code-help"></div>
+        <label class="label" for="my-code" style="display:block;margin-top:18px;color:var(--ink-3)">Your code (optional)</label>
+        <div class="code-field"><input id="my-code" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="6" placeholder="Yours, from the app"></div>
+        <p class="code-msg" id="code-help" aria-live="polite"></p>
+        <div class="result-card" aria-live="polite"></div>
+        <script type="application/json" id="compare-data">{"order":["SteadyBuilder","LoyalReassurer","IndependentRomantic","GuardedHeart","WarmNurturer","TenderPresence","ThoughtfulPartner","AdventureBond","DeepProcessor","PassionateAdvocate"],"points":{"attachment":{"Secure":{"SteadyBuilder":3,"WarmNurturer":2,"ThoughtfulPartner":2,"AdventureBond":1},"Anxious":{"LoyalReassurer":3,"TenderPresence":2,"PassionateAdvocate":2,"DeepProcessor":1},"Avoidant":{"IndependentRomantic":3,"ThoughtfulPartner":2,"DeepProcessor":2,"SteadyBuilder":1},"FearfulAvoidant":{"GuardedHeart":3,"PassionateAdvocate":2,"DeepProcessor":2,"LoyalReassurer":1}},"love":{"Words":{"LoyalReassurer":2,"GuardedHeart":1,"PassionateAdvocate":2},"Time":{"SteadyBuilder":2,"TenderPresence":1,"WarmNurturer":1,"AdventureBond":1},"Touch":{"TenderPresence":3,"PassionateAdvocate":2},"Acts":{"WarmNurturer":3,"SteadyBuilder":2,"IndependentRomantic":1},"Symbols":{"ThoughtfulPartner":3,"GuardedHeart":2},"Experiences":{"AdventureBond":3,"IndependentRomantic":2}},"conflict":{"Pursuer":{"LoyalReassurer":2,"PassionateAdvocate":2,"TenderPresence":1},"Withdrawer":{"IndependentRomantic":2,"DeepProcessor":1,"GuardedHeart":1},"Fixer":{"WarmNurturer":2,"SteadyBuilder":1},"Peacekeeper":{"SteadyBuilder":1,"WarmNurturer":1,"ThoughtfulPartner":1},"Defender":{"GuardedHeart":2,"PassionateAdvocate":1},"Processor":{"DeepProcessor":3,"ThoughtfulPartner":2,"IndependentRomantic":1}}},"types":{"attachment":{"Secure":{"label":"The Steady Partner","short":"Secure","url":"/attachment-styles/secure/","family":"attachment","dim":"Attachment style"},"Anxious":{"label":"The Attuned Connector","short":"Anxious","url":"/attachment-styles/anxious/","family":"attachment","dim":"Attachment style"},"Avoidant":{"label":"The Independent Protector","short":"Avoidant","url":"/attachment-styles/avoidant/","family":"attachment","dim":"Attachment style"},"FearfulAvoidant":{"label":"The Guarded Romantic","short":"Fearful-avoidant","url":"/attachment-styles/fearful-avoidant/","family":"attachment","dim":"Attachment style"}},"love":{"Words":{"label":"The Word Lover","short":"Words of affirmation","url":"/love-styles/words-of-affirmation/","family":"loveStyle","dim":"Love style"},"Time":{"label":"The Presence Lover","short":"Quality time","url":"/love-styles/quality-time/","family":"loveStyle","dim":"Love style"},"Touch":{"label":"The Physical Anchor","short":"Physical touch","url":"/love-styles/physical-touch/","family":"loveStyle","dim":"Love style"},"Acts":{"label":"The Care Reader","short":"Acts of service","url":"/love-styles/acts-of-service/","family":"loveStyle","dim":"Love style"},"Symbols":{"label":"The Thoughtful Romantic","short":"Thoughtful gifts","url":"/love-styles/thoughtful-gifts/","family":"loveStyle","dim":"Love style"},"Experiences":{"label":"The Memory Maker","short":"Shared experiences","url":"/love-styles/shared-experiences/","family":"loveStyle","dim":"Love style"}},"conflict":{"Pursuer":{"label":"The Pursuer","short":"Pursuer","url":"/conflict-styles/pursuer/","family":"conflict","dim":"Conflict style"},"Withdrawer":{"label":"The Withdrawer","short":"Withdrawer","url":"/conflict-styles/withdrawer/","family":"conflict","dim":"Conflict style"},"Fixer":{"label":"The Fixer","short":"Fixer","url":"/conflict-styles/fixer/","family":"conflict","dim":"Conflict style"},"Peacekeeper":{"label":"The Peacekeeper","short":"Peacekeeper","url":"/conflict-styles/peacekeeper/","family":"conflict","dim":"Conflict style"},"Defender":{"label":"The Defender","short":"Defender","url":"/conflict-styles/defender/","family":"conflict","dim":"Conflict style"},"Processor":{"label":"The Processor","short":"Processor","url":"/conflict-styles/processor/","family":"conflict","dim":"Conflict style"}}},"pairs":{"attachment":{"Anxious+Secure":{"title":"Secure and Anxious","url":"/compatibility/secure-and-anxious/"},"Anxious+Avoidant":{"title":"Anxious and Avoidant","url":"/compatibility/anxious-and-avoidant/"},"Avoidant+Secure":{"title":"Avoidant and Secure","url":"/compatibility/secure-and-avoidant/"},"FearfulAvoidant+Secure":{"title":"Fearful-Avoidant and Secure","url":"/compatibility/secure-and-fearful-avoidant/"},"Anxious+FearfulAvoidant":{"title":"Anxious and Fearful-Avoidant","url":"/compatibility/anxious-and-fearful-avoidant/"},"Avoidant+FearfulAvoidant":{"title":"Avoidant and Fearful-Avoidant","url":"/compatibility/avoidant-and-fearful-avoidant/"},"Avoidant+Avoidant":{"title":"Two Avoidant Partners","url":"/compatibility/avoidant-and-avoidant/"},"Anxious+Anxious":{"title":"Two Anxious Partners","url":"/compatibility/anxious-and-anxious/"},"Secure+Secure":{"title":"Two Secure Partners","url":"/compatibility/secure-and-secure/"},"FearfulAvoidant+FearfulAvoidant":{"title":"Two Fearful-Avoidant Partners","url":"/compatibility/fearful-avoidant-and-fearful-avoidant/"}},"love":{"Acts+Acts":{"title":"Two Acts of Service Partners","url":"/compatibility/acts-of-service/"},"Acts+Experiences":{"title":"Acts of Service and Shared Experiences","url":"/compatibility/acts-of-service-and-shared-experiences/"},"Acts+Symbols":{"title":"Acts of Service and Thoughtful Gifts","url":"/compatibility/acts-of-service-and-thoughtful-gifts/"},"Acts+Time":{"title":"Acts of Service and Quality Time","url":"/compatibility/acts-of-service-and-quality-time/"},"Acts+Touch":{"title":"Acts of Service and Physical Touch","url":"/compatibility/acts-of-service-and-physical-touch/"},"Acts+Words":{"title":"Acts of Service and Words of Affirmation","url":"/compatibility/acts-of-service-and-words-of-affirmation/"},"Experiences+Experiences":{"title":"Two Shared Experiences Partners","url":"/compatibility/shared-experiences/"},"Experiences+Symbols":{"title":"Shared Experiences and Thoughtful Gifts","url":"/compatibility/shared-experiences-and-thoughtful-gifts/"},"Experiences+Time":{"title":"Shared Experiences and Quality Time","url":"/compatibility/shared-experiences-and-quality-time/"},"Experiences+Touch":{"title":"Shared Experiences and Physical Touch","url":"/compatibility/shared-experiences-and-physical-touch/"},"Experiences+Words":{"title":"Shared Experiences and Words of Affirmation","url":"/compatibility/shared-experiences-and-words-of-affirmation/"},"Symbols+Symbols":{"title":"Two Thoughtful Gifts Partners","url":"/compatibility/thoughtful-gifts/"},"Symbols+Time":{"title":"Thoughtful Gifts and Quality Time","url":"/compatibility/quality-time-and-thoughtful-gifts/"},"Symbols+Touch":{"title":"Thoughtful Gifts and Physical Touch","url":"/compatibility/physical-touch-and-thoughtful-gifts/"},"Symbols+Words":{"title":"Thoughtful Gifts and Words of Affirmation","url":"/compatibility/thoughtful-gifts-and-words-of-affirmation/"},"Time+Time":{"title":"Two Quality Time Partners","url":"/compatibility/quality-time/"},"Time+Touch":{"title":"Quality Time and Physical Touch","url":"/compatibility/physical-touch-and-quality-time/"},"Time+Words":{"title":"Quality Time and Words of Affirmation","url":"/compatibility/quality-time-and-words-of-affirmation/"},"Touch+Touch":{"title":"Two Physical Touch Partners","url":"/compatibility/physical-touch/"},"Touch+Words":{"title":"Physical Touch and Words of Affirmation","url":"/compatibility/physical-touch-and-words-of-affirmation/"},"Words+Words":{"title":"Two Words of Affirmation Partners","url":"/compatibility/words-of-affirmation/"}},"conflict":{"Defender+Defender":{"title":"Two Defender Partners","url":"/compatibility/defender/"},"Defender+Fixer":{"title":"Defender and Fixer","url":"/compatibility/defender-and-fixer/"},"Defender+Peacekeeper":{"title":"Defender and Peacekeeper","url":"/compatibility/defender-and-peacekeeper/"},"Defender+Processor":{"title":"Defender and Processor","url":"/compatibility/defender-and-processor/"},"Defender+Pursuer":{"title":"Defender and Pursuer","url":"/compatibility/defender-and-pursuer/"},"Defender+Withdrawer":{"title":"Defender and Withdrawer","url":"/compatibility/defender-and-withdrawer/"},"Fixer+Fixer":{"title":"Two Fixer Partners","url":"/compatibility/fixer/"},"Fixer+Peacekeeper":{"title":"Fixer and Peacekeeper","url":"/compatibility/fixer-and-peacekeeper/"},"Fixer+Processor":{"title":"Fixer and Processor","url":"/compatibility/fixer-and-processor/"},"Fixer+Pursuer":{"title":"Fixer and Pursuer","url":"/compatibility/fixer-and-pursuer/"},"Fixer+Withdrawer":{"title":"Fixer and Withdrawer","url":"/compatibility/fixer-and-withdrawer/"},"Peacekeeper+Peacekeeper":{"title":"Two Peacekeeper Partners","url":"/compatibility/peacekeeper/"},"Peacekeeper+Processor":{"title":"Peacekeeper and Processor","url":"/compatibility/peacekeeper-and-processor/"},"Peacekeeper+Pursuer":{"title":"Peacekeeper and Pursuer","url":"/compatibility/peacekeeper-and-pursuer/"},"Peacekeeper+Withdrawer":{"title":"Peacekeeper and Withdrawer","url":"/compatibility/peacekeeper-and-withdrawer/"},"Processor+Processor":{"title":"Two Processor Partners","url":"/compatibility/processor/"},"Processor+Pursuer":{"title":"Processor and Pursuer","url":"/compatibility/processor-and-pursuer/"},"Processor+Withdrawer":{"title":"Processor and Withdrawer","url":"/compatibility/processor-and-withdrawer/"},"Pursuer+Pursuer":{"title":"Two Pursuer Partners","url":"/compatibility/pursuer/"},"Pursuer+Withdrawer":{"title":"Pursuer and Withdrawer","url":"/compatibility/pursuer-and-withdrawer/"},"Withdrawer+Withdrawer":{"title":"Two Withdrawer Partners","url":"/compatibility/withdrawer/"}}},"archetypes":{"SteadyBuilder":{"label":"The Quiet Builder","tagline":"Consistent love, shown in what you do.","url":"/lovetypes/quiet-builder/"},"LoyalReassurer":{"label":"The Loyal Reassurer","tagline":"You love with your whole heart — and you need to know it's returned.","url":"/lovetypes/loyal-reassurer/"},"IndependentRomantic":{"label":"The Independent Romantic","tagline":"You choose connection — on your own terms.","url":"/lovetypes/independent-romantic/"},"GuardedHeart":{"label":"The Guarded Heart","tagline":"Love is worth risking — you're learning how.","url":"/lovetypes/guarded-heart/"},"WarmNurturer":{"label":"The Warm Nurturer","tagline":"Love is what you give — freely and fully.","url":"/lovetypes/warm-nurturer/"},"TenderPresence":{"label":"The Tender Presence","tagline":"Physical closeness is where love becomes real.","url":"/lovetypes/tender-presence/"},"ThoughtfulPartner":{"label":"The Thoughtful Partner","tagline":"You love in the small things — and they add up to everything.","url":"/lovetypes/thoughtful-partner/"},"AdventureBond":{"label":"The Joyful Explorer","tagline":"Love is something you do together.","url":"/lovetypes/joyful-explorer/"},"DeepProcessor":{"label":"The Deep Processor","tagline":"You think before you speak — and when you speak, it matters.","url":"/lovetypes/deep-processor/"},"PassionateAdvocate":{"label":"The Passionate Advocate","tagline":"You fight for connection — because love is worth it.","url":"/lovetypes/passionate-advocate/"}},"dimNames":{"attachment":"Attachment","love":"Love style","conflict":"Conflict"}}</script>
+      </div>
+      <div class="cta-row" style="margin-top:30px"><a class="pill" href="https://apps.apple.com/app/id6786477464" data-glint data-cta="compare-link" ><span class="glint" aria-hidden="true"><span class="glint-glow"><i></i></span><i class="glint-ring"></i></span><svg viewBox="0 0 384 512" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>Get LoveType free</a></div>
+      <p class="small" style="margin-top:14px">Codes are read in your browser. Nothing you type here is sent anywhere.</p>
+    </div>
+    <aside class="aside"><div class="phone " style="--glow:rgb(112 128 192 / .6)"><div class="screen"><img src="/assets/screens/compare-code-720.webp" srcset="/assets/screens/compare-code-420.webp 420w, /assets/screens/compare-code-720.webp 720w" sizes="(max-width: 860px) 64vw, 330px" width="720" height="1565" alt="The LoveType compare screen with a share code" fetchpriority="high"></div></div></aside>
+  </div>
+</section></div>
+<section class="page-hero" data-404-generic data-light="profile" data-coverage="0.3" data-intensity="0.8"><div class="wrap"><p class="label">404</p><h1 class="display">This page isn’t here.<span class="dim">But you are.</span></h1><div class="cta-row" style="margin-top:36px"><a class="pill" href="/">Go to the homepage</a><a class="text-link" href="/compatibility/">Compatibility <span class="arr" aria-hidden="true">→</span></a></div></div></section>
+<script>if(/^\/compare\/[0-9a-z-]{4,6}\/?$/i.test(location.pathname)){document.querySelector('[data-404-compare]').hidden=false;document.querySelector('[data-404-generic]').remove();document.title='Someone shared their LoveType';}else{document.querySelector('[data-404-compare]').remove();}</script>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand stack">
+        <a class="app" href="https://apps.apple.com/app/id6786477464" data-cta="footer"><img src="/assets/app-icon-128.webp" width="52" height="52" alt="LoveType app icon" loading="lazy"><span><span class="wordmark">LoveType</span><br><span class="small">Relationship test for iPhone</span></span></a>
+        <p class="small">Three short tests for how you love: attachment, love style and conflict. Free to start, no account.</p>
+      </div>
+      <div class="foot-col"><h2>The tests</h2><ul><li><a href="/attachment-styles/">Attachment styles</a></li><li><a href="/love-styles/">Love styles</a></li><li><a href="/conflict-styles/">Conflict styles</a></li><li><a href="/lovetypes/">The 10 LoveTypes</a></li></ul></div>
+      <div class="foot-col"><h2>Together</h2><ul><li><a href="/compare/">Compare with a partner</a></li><li><a href="/compatibility/">Compatibility</a></li><li><a href="/dating-profile-playbook/">Dating-profile playbook</a></li></ul></div>
+      <div class="foot-col"><h2>Read</h2><ul><li><a href="/journal/">Journal</a></li><li><a href="/journal/attachment-style-vs-personality-type/">Attachment style vs personality</a></li><li><a href="https://innertype.app/">InnerType, our personality app</a></li></ul></div>
+      <div class="foot-col"><h2>LoveType</h2><ul><li><a href="https://apps.apple.com/app/id6786477464">Download on the App Store</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li><li><a href="mailto:privacy@love-type.app">Contact</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 LoveType</span><span>For self-reflection. Not a substitute for professional advice.</span></div>
+  </div>
+</footer>
+</div>
 </body>
 </html>

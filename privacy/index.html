@@ -1,147 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-family="profile">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — LoveType</title>
-<meta name="description" content="LoveType's privacy policy: what anonymous usage data we collect, why your quiz answers never leave your device, and how in-app purchases are handled.">
-<link rel="canonical" href="https://love-type.app/privacy">
-<meta name="robots" content="index, follow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy | LoveType</title>
+<meta name="description" content="What LoveType keeps on your iPhone, the anonymous usage data it collects, and how purchases and partner codes work.">
+<link rel="canonical" href="https://love-type.app/privacy/">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#0E0910">
-
+<meta name="color-scheme" content="dark">
+<meta name="apple-itunes-app" content="app-id=6786477464">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://love-type.app/privacy">
-<meta property="og:title" content="Privacy Policy — LoveType">
-<meta property="og:description" content="What LoveType collects, where it goes, and what stays on your device.">
-<meta property="og:image" content="https://love-type.app/assets/og-image.png">
-
-<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<meta property="og:site_name" content="LoveType">
+<meta property="og:url" content="https://love-type.app/privacy/">
+<meta property="og:title" content="Privacy Policy | LoveType">
+<meta property="og:description" content="What LoveType keeps on your iPhone, the anonymous usage data it collects, and how purchases and partner codes work.">
+<meta property="og:image" content="https://love-type.app/assets/og/home.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacy Policy | LoveType">
+<meta name="twitter:description" content="What LoveType keeps on your iPhone, the anonymous usage data it collects, and how purchases and partner codes work.">
+<meta name="twitter:image" content="https://love-type.app/assets/og/home.jpg">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/dm-serif-display.woff2" as="font" type="font/woff2" crossorigin>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  :root {
-    --bg: #0E0910; --bg2: #160E1E; --text: #F5EEF2; --text2: #A08898; --text3: #6B5060;
-    --rose: #C07090; --rose-lt: #DDA0B8; --violet: #A080C0; --blue-vlt: #7080C0;
-    --champagne: #C9A96E; --champagne-lt: #E0C080; --blush: #E8C8D8;
-    --surf: rgba(255,240,250,0.055); --bord: rgba(255,220,240,0.09); --bord-s: rgba(255,220,240,0.16);
-  }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--bg); color: var(--text);
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6; -webkit-font-smoothing: antialiased;
-  }
-  .serif { font-family: 'DM Serif Display', Georgia, serif; }
-  a { color: var(--rose-lt); text-decoration: underline; text-underline-offset: 2px; }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 0 28px; }
-
-  .site-nav {
-    position: sticky; top: 0; z-index: 100;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 18px 32px;
-    background: rgba(14,9,16,0.92); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
-    border-bottom: 1px solid var(--bord);
-  }
-  .nav-brand { display: flex; align-items: center; gap: 9px; text-decoration: none; }
-  .nav-logo { font-size: 20px; letter-spacing: -0.2px; color: var(--blush); }
-  .nav-back { font-size: 14px; color: var(--text2); text-decoration: none; }
-  .nav-back:hover { color: var(--text); }
-
-  main { padding: 72px 0 100px; }
-  .doc-head { margin-bottom: 48px; }
-  .doc-eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--champagne); display: block; margin-bottom: 18px; }
-  h1 { font-size: clamp(32px, 5vw, 46px); letter-spacing: -0.7px; line-height: 1.1; margin-bottom: 14px; }
-  .effective { font-size: 14px; color: var(--text3); }
-  .intro { font-size: 17px; color: var(--text2); line-height: 1.75; margin-top: 24px; }
-
-  article h2 { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--blush); margin: 44px 0 12px; letter-spacing: -0.2px; }
-  article h2:first-of-type { margin-top: 12px; }
-  article p { font-size: 16px; color: var(--text2); line-height: 1.8; margin-bottom: 14px; }
-  article ul { margin: 10px 0 14px 20px; }
-  article li { font-size: 16px; color: var(--text2); line-height: 1.8; margin-bottom: 6px; }
-  article strong { color: var(--text); font-weight: 600; }
-
-  footer { border-top: 1px solid var(--bord); padding: 40px 0; }
-  .foot-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 13px; color: var(--text3); }
-  .foot-row a { color: var(--text2); text-decoration: none; }
-  .foot-row a:hover { color: var(--text); }
-
-  @media (max-width: 560px) {
-    .wrap { padding: 0 22px; }
-    main { padding: 56px 0 72px; }
-  }
-</style>
+<link rel="stylesheet" href="/assets/site.css?v=20261024b">
+<script type="module" src="/assets/js/site.js?v=20261024b"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://love-type.app/"},{"@type":"ListItem","position":2,"name":"Privacy Policy","item":"https://love-type.app/privacy/"}]}</script>
 </head>
 <body>
-
-<nav class="site-nav">
-  <a href="/" class="nav-brand" aria-label="LoveType home">
-    <svg width="22" height="22" viewBox="0 0 26 26" fill="none" aria-hidden="true">
-      <circle cx="13" cy="13" r="11.5" stroke="#C07090" stroke-width="1.1" opacity="0.85"/>
-      <circle cx="13" cy="13" r="7.6" stroke="#A080C0" stroke-width="1.1" opacity="0.85"/>
-      <circle cx="13" cy="13" r="4" stroke="#7080C0" stroke-width="1.1" opacity="0.85"/>
-      <circle cx="13" cy="13" r="1.8" fill="#C9A96E"/>
-    </svg>
-    <span class="serif nav-logo">LoveType</span>
-  </a>
-  <a href="/" class="nav-back">← Back home</a>
-</nav>
-
-<main>
-  <div class="wrap">
-    <div class="doc-head">
-      <span class="doc-eyebrow">Legal</span>
-      <h1 class="serif">Privacy Policy</h1>
-      <p class="effective">Effective: 2 July 2026</p>
-      <p class="intro">LoveType is a relationship self-reflection app. This policy explains what information we collect, how it's used, and what stays on your device.</p>
+<a class="skip" href="#main">Skip to content</a>
+<canvas class="viewport-light" aria-hidden="true"></canvas>
+<div class="glass-frame" aria-hidden="true"></div>
+<div class="page">
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="/" aria-label="LoveType home"><svg class="brand-heart" viewBox="2 3 20 18.4" aria-hidden="true"><path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><span class="wordmark">LoveType</span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Main"><a href="/#tests">Tests</a><a href="/lovetypes/">LoveTypes</a><a href="/compatibility/">Compatibility</a><a href="/compare/">Compare</a><a href="/journal/">Journal</a></nav>
+    <div class="header-cta">
+      <a class="pill pill-s" href="https://apps.apple.com/app/id6786477464" data-cta="header"><svg viewBox="0 0 384 512" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>Get the app</a>
+      <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span></button>
     </div>
-
-    <article>
-      <h2>What we collect</h2>
-      <p>We collect anonymous usage events (for example: a test was started, a test was completed, the paywall was viewed) linked to a random device ID that is generated on your device. We never collect your name, email address, phone number, or your quiz answers.</p>
-
-      <h2>Where it goes</h2>
-      <p>Anonymous usage events are stored on secure servers (via Supabase) to help us understand how the app is used and to improve it over time. If you voluntarily submit feedback through the app, that feedback is stored securely and is never shared with third parties or used for advertising.</p>
-
-      <h2>Your answers</h2>
-      <p>Your quiz answers and results are stored only on your device, in the app's private local storage. They are never transmitted to our servers.</p>
-
-      <h2>In-app purchases</h2>
-      <p>We use RevenueCat to manage the app's one-time premium unlock. Apple handles all payment information directly — we never see or store your payment details.</p>
-
-      <h2>Third-party services</h2>
-      <ul>
-        <li><strong>RevenueCat</strong> — manages in-app purchases and purchase status</li>
-        <li><strong>Supabase</strong> — stores anonymous usage analytics and optional feedback</li>
-      </ul>
-
-      <h2>Your rights</h2>
-      <p>You can delete all local data at any time from Settings → Reset all test results. Because we don't collect identifiable data, we have no way to locate or delete a specific person's anonymous ID from our servers on request — there is nothing in our data that identifies you.</p>
-
-      <h2>Children</h2>
-      <p>LoveType is not directed at children and is not intended for users under 13.</p>
-
-      <h2>Changes to this policy</h2>
-      <p>If this policy changes, we'll update the effective date above. Continued use of the app after a change means you accept the updated policy.</p>
-
-      <h2>Contact</h2>
-      <p>For privacy questions, contact <a href="mailto:privacy@love-type.app">privacy@love-type.app</a>.</p>
-    </article>
   </div>
-</main>
+</header>
+<main id="main">
 
-<footer>
-  <div class="wrap foot-row">
-    <span>© 2026 LoveType. All rights reserved.</span>
-    <span><a href="/">Home</a> · <a href="/terms">Terms of Use</a></span>
+<section class="page-hero" data-light="profile" data-coverage="0.3" data-intensity="0.72">
+  <div class="wrap read">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span aria-current="page">Privacy Policy</span></nav>
+    <p class="label">Legal<span class="sep">·</span>Effective 24 October 2026</p>
+    <h1 class="statement" style="margin-top:18px">Privacy Policy</h1>
+  </div>
+</section>
+<section class="section-tight" style="padding-top:0"><div class="wrap read"><article class="prose"><p class="lead">LoveType is a relationship self-reflection app. This policy explains what stays on your iPhone, the little that doesn’t, and why.</p>
+
+<h2>The short version</h2>
+<ul class="dash">
+  <li>No account. We never ask for your name, email address or phone number.</li>
+  <li>Your answers stay on your iPhone and are never sent to us.</li>
+  <li>We collect anonymous usage events to understand how the app is used, including which result type you received.</li>
+  <li>We don’t sell data, show ads or track you across other apps and websites.</li>
+</ul>
+
+<h2>What stays on your device</h2>
+<p>Your answers to every test, your results, your LoveType profile and any first name you choose to enter are stored only in the app’s private storage on your iPhone. You can delete all of it at any time in Settings → Reset all test results, or by deleting the app.</p>
+
+<h2>What we collect</h2>
+<p>When you use LoveType, the app records anonymous usage events, for example that a test was started or completed, which result type you received (such as “The Peacekeeper”), that a screen was viewed, or that a purchase was completed. Each event carries:</p>
+<ul class="dash">
+  <li>a random installation ID created on your device, and a random session ID;</li>
+  <li>the app version, the iOS version and the platform;</li>
+  <li>the app language and the region set on your device (country level only);</li>
+  <li>the time of the event.</li>
+</ul>
+<p>Events never include your answers, your name, your email, your contacts or your precise location. The installation ID is not linked to your Apple ID or to any other identity, and it is reset if you delete the app.</p>
+
+<h2>Partner comparison</h2>
+<p>If you use Compare with a partner, the app shows you a four-character code. The code contains only your three result types (attachment, love and conflict style) and nothing else. It is shared only if you share it, and comparing happens on each person’s own phone. On love-type.app, a code you type into the compare page is read in your browser and is not sent to us.</p>
+
+<h2>Feedback</h2>
+<p>If you choose to send feedback through the app, the text you write is stored with your rating and result type so we can read it. Please don’t include personal details.</p>
+
+<h2>Purchases</h2>
+<p>The full LoveType Guide is a one-time in-app purchase. Apple handles all payments; we never see your payment details. We use RevenueCat to confirm the purchase and restore it on your devices, using an anonymous ID created by RevenueCat.</p>
+
+<h2>Service providers</h2>
+<ul class="dash">
+  <li><strong>Supabase</strong> stores anonymous usage events and optional feedback on our behalf.</li>
+  <li><strong>RevenueCat</strong> manages purchase status and restores.</li>
+  <li><strong>Apple</strong> processes payments and, if you opt in to sharing with developers, provides crash reports and anonymous App Store analytics.</li>
+</ul>
+<p>We don’t sell or rent data to anyone, and we don’t use it for advertising.</p>
+
+<h2>This website</h2>
+<p>love-type.app is a static website hosted on GitHub Pages. It sets no cookies and runs no analytics or advertising scripts. GitHub may process standard server logs, such as IP addresses, to deliver and protect the site.</p>
+
+<h2>Your choices and rights</h2>
+<p>You can delete everything stored on your device from Settings in the app. Because the events we collect are anonymous and not linked to you, we can’t find a specific person’s events on request; there is nothing in them that identifies you. For any privacy question or request, contact us at the address below.</p>
+
+<h2>Children</h2>
+<p>LoveType is not directed at children and is not intended for anyone under 13.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, we’ll update the effective date at the top of this page.</p>
+
+<h2>Contact</h2>
+<p>Privacy questions: <a href="mailto:privacy@love-type.app">privacy@love-type.app</a></p>
+</article><div style="height:80px"></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand stack">
+        <a class="app" href="https://apps.apple.com/app/id6786477464" data-cta="footer"><img src="/assets/app-icon-128.webp" width="52" height="52" alt="LoveType app icon" loading="lazy"><span><span class="wordmark">LoveType</span><br><span class="small">Relationship test for iPhone</span></span></a>
+        <p class="small">Three short tests for how you love: attachment, love style and conflict. Free to start, no account.</p>
+      </div>
+      <div class="foot-col"><h2>The tests</h2><ul><li><a href="/attachment-styles/">Attachment styles</a></li><li><a href="/love-styles/">Love styles</a></li><li><a href="/conflict-styles/">Conflict styles</a></li><li><a href="/lovetypes/">The 10 LoveTypes</a></li></ul></div>
+      <div class="foot-col"><h2>Together</h2><ul><li><a href="/compare/">Compare with a partner</a></li><li><a href="/compatibility/">Compatibility</a></li><li><a href="/dating-profile-playbook/">Dating-profile playbook</a></li></ul></div>
+      <div class="foot-col"><h2>Read</h2><ul><li><a href="/journal/">Journal</a></li><li><a href="/journal/attachment-style-vs-personality-type/">Attachment style vs personality</a></li><li><a href="https://innertype.app/">InnerType, our personality app</a></li></ul></div>
+      <div class="foot-col"><h2>LoveType</h2><ul><li><a href="https://apps.apple.com/app/id6786477464">Download on the App Store</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li><li><a href="mailto:privacy@love-type.app">Contact</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 LoveType</span><span>For self-reflection. Not a substitute for professional advice.</span></div>
   </div>
 </footer>
-
+</div>
 </body>
 </html>
